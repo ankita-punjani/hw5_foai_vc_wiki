@@ -1,0 +1,143 @@
+{
+  "mode": "ask",
+  "execution": "local",
+  "env": {
+    "timestamp": "2026-09-26T15:01:59",
+    "execution": "local",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
+    "device": "arm64 · macOS 15.6.1",
+    "network": "offline (no route to internet)"
+  },
+  "question": "How is an angel investor different from a venture capitalist?",
+  "retrieval": {
+    "top_k": 6,
+    "seconds": 0.001687765121459961,
+    "hits": [
+      {
+        "id": "breakintovc-book:300",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Glossary",
+        "score": 12.524,
+        "coverage": 0.933,
+        "matched_terms": [
+          "angel",
+          "investor",
+          "different",
+          "venture",
+          "capitalist"
+        ],
+        "text": "Valuation Divergence\n\nPopularized by the late angel investor, Luis Villalobos, the phenomena of a venture’s value increasing and its early stage private shares increasing at a much lower rate. Early stage investors will experience a cash-on-cash ROI decrease or valuation divergence of as much as 3-5x.\n\nVenture Capital Method\n\nDetermining what a firm thinks a company will be worth at exit (anticipated post-money valuation) through market conditions and industry multiples, then dividing this number by the anticipated return on investment (ROI) to arrive at a current post-money valuation. After subtracting the investment amount requested, the investor can arrive at an appropriate pre-money valuation.\n\nVenture Capitalists\n\nA group of investors who receive their money from several different sources who do not share in direct ownership of the portfolio companies. Venture capitalists invest in early- to mid-stage private companies in order to earn large returns on the investment.\n\nVenture Debt"
+      },
+      {
+        "id": "breakintovc-book:024",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 2: Early Stage Investing › Venture Capital and Angel Investing",
+        "score": 12.303,
+        "coverage": 0.714,
+        "matched_terms": [
+          "angel",
+          "investor",
+          "venture",
+          "capitalist"
+        ],
+        "text": "You will notice throughout the book that I use the term venture capital quite loosely. This reflects how the term is used in the industry as well. However, there is a structural difference between venture capital and angel investing, and I’d like to clear this up before moving forward.\n\nAngel investors are individuals investing their own money. If Mercedes struck out on her own and left CynMerc Ventures, she would be considered an angel investor if she continued to invest in early stage companies. The big difference here is angels invest their own money while venture capitalists primarily invest other people’s money. Traditionally, angel investors are also one of the earliest investors, often before a sellable product exists (hence, “angel”)."
+      },
+      {
+        "id": "breakintovc-book:007",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Introduction",
+        "score": 9.826,
+        "coverage": 0.669,
+        "matched_terms": [
+          "investor",
+          "different",
+          "venture",
+          "capitalist"
+        ],
+        "text": "I was scrounging through the internet, scraping articles and blog posts from across the web and trying to work these ideas into strong pitches that would impress investors.\n\nEventually, I came up with a blueprint to learn how to talk to VCs and land an offer at a top venture capital firm. This book is that blueprint.\n\nI’ll teach you about the different types of investors out there and why every venture capitalist doesn’t invest in every deal. Put your dusty old 400-page accounting textbook back on the shelf, I’ll guide you through all the accounting and finance you’ll ever need to know in order to understand the industry and really start thinking like an investor.\n\nBy the end of this book you’ll know how to talk about companies that excite you, pitch companies to venture capitalists and evaluate businesses through the lens of an investor."
+      },
+      {
+        "id": "haas-venture-valuation:012",
+        "source_note": "Haas Venture Valuation Slides",
+        "file": "raw/Haas VCPE 295B - Venture Valuation.pdf",
+        "locator": "pp. 40–44",
+        "score": 9.801,
+        "coverage": 0.782,
+        "matched_terms": [
+          "vc",
+          "angel",
+          "investor",
+          "venture",
+          "capitalist"
+        ],
+        "text": "Equity \nInvestment\nLiquidity \nEvent Charity=-\n\n6) Type of Investor Varies Perception of \nValue\n• Are they a \nhomogeneous group?\n• At least \n– Three flavors\n– Three sizes\n– Lots of variety\n• Same valuation \nmethods apply to all?\n• Angel Investors\n– Individuals\n– Investing their own $\n• Institutional VCs\n– Financial investors\n• e.g. the traditional VC\n– Investing other peoples’ \nmoney\n• Strategic Investors\n– “Corporates” \nWho are the “Venture \nCapitalists”?\n\nMethods of VC Valuation\n? ?\n? ?\nStage of Growth\nProjection \nReflection\nInvestment\nType\nLate\nVC\nTraditional\nEarly\n51\nComparables\nScenario Analysis\nVenture Capital \nMethod\n\nVC Method\nThe Venture Capital Method\nMethod frequently encountered in venture, buyout \nand related fields\nInvestor return expectations drive Company valuations\nDerives amount of ownership required.\n\nVC Method\nUsing the Venture Capital Method\n4 essential activities:\n1) Figure out how much $ is needed today\n2) Estimate final “enterprise value” if all goes well.\n[Comparables]\n3) Use high discount rate for investor’s return \nexpectation (investor’s necessary IRR)\n4) Adjust for later rounds of financing"
+      },
+      {
+        "id": "breakintovc-book:262",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Brandon Greer › Do you think venture capitalists are looking for any particular type of person? For instance, someone with product, business development, finance or entrepreneurial experience? … Are there any common mistakes people make when recruiting for venture capital?",
+        "score": 7.795,
+        "coverage": 0.606,
+        "matched_terms": [
+          "vc",
+          "different",
+          "venture",
+          "capitalist"
+        ],
+        "text": "[Do you think venture capitalists are looking for any particular type of person? For instance, someone with product, business development, finance or entrepreneurial experience?]\nI can only really speak to OpenView, but every junior VC on the team has a vastly different background, which I predict is by design. We all think differently and that’s why it’s best to be yourself when you are recruiting in VC, because your personality may balance another and your skillset may compensate where there is a missing link.\n\n[Are there any common mistakes people make when recruiting for venture capital?]\nOf course! You’ll notice a theme in my interview, but in many cases, these mistakes stem from people not being themselves. No person out of college can be expected to know the full industry landscape of vertical software or that of machine learning-enabled chat bots. Perhaps you are an expert, but if you’re not, it’s ok to convey interest over expertise.62"
+      },
+      {
+        "id": "breakintovc-book:176",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 12: Returns and Valuation",
+        "score": 7.674,
+        "coverage": 0.463,
+        "matched_terms": [
+          "angel",
+          "investor",
+          "venture"
+        ],
+        "text": "While there’s no generally accepted method of valuing startups that are early stage and likely pre-revenue, the venture capital method serves as a reference point to value startups at their earliest stage. Our example above indicates a deal size of $500k and a post-money valuation of $2.8M, giving the investor about 18 percent of the company.\n\nJeffrey Sohl, the director at the Center for Venture Research has been tracking the angel investor market for over 35 years. Data from his 2015 report shows that the average angel deal size in 2015 was $345,390 with an average post-money valuation of $2.32M, this means angels were typically getting about a 15 percent stake in early stage companies.46\n\nEarly stage investments have been in this range for the past decade or so. Our example wasn’t too far off!"
+      }
+    ],
+    "unknown_terms": []
+  },
+  "prompt_messages": [
+    {
+      "role": "system",
+      "content": "# Research rules (ask mode)\n\nYou answer research questions using ONLY the numbered evidence passages provided\nwith the question. The passages come from the user's own sources: a book, a blog\npost, and lecture slides about venture capital.\n\nRules:\n1. Use only facts that appear in the evidence passages. Do not use outside knowledge, even if you think it is correct.\n2. After every sentence that states a fact, cite the passage(s) it came from with the passage number in square brackets, for example [S2] or [S1][S4].\n3. Include the specific numbers the passages give for what is asked (percentages, amounts, multiples), copied exactly ($40mm, 34%, 2.8x). Do not do new math unless the question asks for it, and if you do, show the steps.\n4. If the question asks for examples or \"how\" something is calculated, walk through each worked example the passages contain, step by step with its numbers, and cite each one.\n5. If a passage gives a goal, target, assumption, or hypothetical example, say so. Never present a target or an example as an actual result.\n6. If the passages do not contain the answer, reply with exactly this first line:\n   INSUFFICIENT EVIDENCE: the sources do not say <what is missing>.\n   Then, in one sentence, you may mention what related information the sources do contain, with a citation.\n7. If the passages answer only part of the question, answer that part with citations and say clearly which part the sources do not cover.\n8. Write in a neutral, direct voice: no greeting, no personality, no suggestions, no follow-up questions. Keep it under 220 words."
+    },
+    {
+      "role": "user",
+      "content": "EVIDENCE PASSAGES:\n\n[S1] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Glossary\nValuation Divergence\n\nPopularized by the late angel investor, Luis Villalobos, the phenomena of a venture’s value increasing and its early stage private shares increasing at a much lower rate. Early stage investors will experience a cash-on-cash ROI decrease or valuation divergence of as much as 3-5x.\n\nVenture Capital Method\n\nDetermining what a firm thinks a company will be worth at exit (anticipated post-money valuation) through market conditions and industry multiples, then dividing this number by the anticipated return on investment (ROI) to arrive at a current post-money valuation. After subtracting the investment amount requested, the investor can arrive at an appropriate pre-money valuation.\n\nVenture Capitalists\n\nA group of investors who receive their money from several different sources who do not share in direct ownership of the portfolio companies. Venture capitalists invest in early- to mid-stage private companies in order to earn large returns on the investment.\n\nVenture Debt\n\n[S2] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 2: Early Stage Investing › Venture Capital and Angel Investing\nYou will notice throughout the book that I use the term venture capital quite loosely. This reflects how the term is used in the industry as well. However, there is a structural difference between venture capital and angel investing, and I’d like to clear this up before moving forward.\n\nAngel investors are individuals investing their own money. If Mercedes struck out on her own and left CynMerc Ventures, she would be considered an angel investor if she continued to invest in early stage companies. The big difference here is angels invest their own money while venture capitalists primarily invest other people’s money. Traditionally, angel investors are also one of the earliest investors, often before a sellable product exists (hence, “angel”).\n\n[S3] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Introduction\nI was scrounging through the internet, scraping articles and blog posts from across the web and trying to work these ideas into strong pitches that would impress investors.\n\nEventually, I came up with a blueprint to learn how to talk to VCs and land an offer at a top venture capital firm. This book is that blueprint.\n\nI’ll teach you about the different types of investors out there and why every venture capitalist doesn’t invest in every deal. Put your dusty old 400-page accounting textbook back on the shelf, I’ll guide you through all the accounting and finance you’ll ever need to know in order to understand the industry and really start thinking like an investor.\n\nBy the end of this book you’ll know how to talk about companies that excite you, pitch companies to venture capitalists and evaluate businesses through the lens of an investor.\n\n[S4] Source: Haas Venture Valuation Slides (raw/Haas VCPE 295B - Venture Valuation.pdf), pp. 40–44\nEquity \nInvestment\nLiquidity \nEvent Charity=-\n\n6) Type of Investor Varies Perception of \nValue\n• Are they a \nhomogeneous group?\n• At least \n– Three flavors\n– Three sizes\n– Lots of variety\n• Same valuation \nmethods apply to all?\n• Angel Investors\n– Individuals\n– Investing their own $\n• Institutional VCs\n– Financial investors\n• e.g. the traditional VC\n– Investing other peoples’ \nmoney\n• Strategic Investors\n– “Corporates” \nWho are the “Venture \nCapitalists”?\n\nMethods of VC Valuation\n? ?\n? ?\nStage of Growth\nProjection \nReflection\nInvestment\nType\nLate\nVC\nTraditional\nEarly\n51\nComparables\nScenario Analysis\nVenture Capital \nMethod\n\nVC Method\nThe Venture Capital Method\nMethod frequently encountered in venture, buyout \nand related fields\nInvestor return expectations drive Company valuations\nDerives amount of ownership required.\n\nVC Method\nUsing the Venture Capital Method\n4 essential activities:\n1) Figure out how much $ is needed today\n2) Estimate final “enterprise value” if all goes well.\n[Comparables]\n3) Use high discount rate for investor’s return \nexpectation (investor’s necessary IRR)\n4) Adjust for later rounds of financing\n\n[S5] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Brandon Greer › Do you think venture capitalists are looking for any particular type of person? For instance, someone with product, business development, finance or entrepreneurial experience? … Are there any common mistakes people make when recruiting for venture capital?\n[Do you think venture capitalists are looking for any particular type of person? For instance, someone with product, business development, finance or entrepreneurial experience?]\nI can only really speak to OpenView, but every junior VC on the team has a vastly different background, which I predict is by design. We all think differently and that’s why it’s best to be yourself when you are recruiting in VC, because your personality may balance another and your skillset may compensate where there is a missing link.\n\n[Are there any common mistakes people make when recruiting for venture capital?]\nOf course! You’ll notice a theme in my interview, but in many cases, these mistakes stem from people not being themselves. No person out of college can be expected to know the full industry landscape of vertical software or that of machine learning-enabled chat bots. Perhaps you are an expert, but if you’re not, it’s ok to convey interest over expertise.62\n\n[S6] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 12: Returns and Valuation\nWhile there’s no generally accepted method of valuing startups that are early stage and likely pre-revenue, the venture capital method serves as a reference point to value startups at their earliest stage. Our example above indicates a deal size of $500k and a post-money valuation of $2.8M, giving the investor about 18 percent of the company.\n\nJeffrey Sohl, the director at the Center for Venture Research has been tracking the angel investor market for over 35 years. Data from his 2015 report shows that the average angel deal size in 2015 was $345,390 with an average post-money valuation of $2.32M, this means angels were typically getting about a 15 percent stake in early stage companies.46\n\nEarly stage investments have been in this range for the past decade or so. Our example wasn’t too far off!\n\nQUESTION: How is an angel investor different from a venture capitalist?\n\nAnswer using only the evidence passages, citing them like [S1]."
+    }
+  ],
+  "answer": "Angel investors invest their own money, whereas venture capitalists primarily invest other people's money [S2]. Traditionally, angel investors are also among the earliest investors, often before a sellable product exists [S2]. Venture capitalists invest in early- to mid-stage private companies in order to earn large returns on the investment [S1].",
+  "citations": {
+    "cited": [
+      1,
+      2
+    ],
+    "invalid": [],
+    "unsupported_numbers": [],
+    "uncited_sentences": [],
+    "insufficient": false,
+    "pass": true
+  },
+  "generation": {
+    "text": "Angel investors invest their own money, whereas venture capitalists primarily invest other people's money [S2]. Traditionally, angel investors are also among the earliest investors, often before a sellable product exists [S2]. Venture capitalists invest in early- to mid-stage private companies in order to earn large returns on the investment [S1].",
+    "prompt_tokens": 1845,
+    "generated_tokens": 69,
+    "seconds": 6.9219970703125,
+    "tokens_per_second": 24.86750171617237,
+    "peak_memory_gb": 3.382376086,
+    "process_rss_gb": 2.190753792
+  },
+  "model_load_seconds": null
+}

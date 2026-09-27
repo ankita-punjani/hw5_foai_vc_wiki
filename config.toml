@@ -1,0 +1,31 @@
+# Harness settings. Every run log records the values that were in effect.
+
+[model]
+# Official Gemma 4 E2B instruction-tuned weights, converted to MLX and quantized
+# to 4 bits by mlx-community. Downloaded once while online into the Hugging Face
+# cache (~/.cache/huggingface/hub); local mode never touches the network.
+id = "mlx-community/gemma-4-e2b-it-4bit"
+runtime = "mlx-lm"
+
+[generation]
+ask_max_tokens = 450
+ask_temperature = 0.0      # greedy: factual answers should be repeatable
+chat_max_tokens = 600
+chat_temperature = 0.6     # a little variety for brainstorming and drafting
+ingest_max_tokens = 700
+ingest_temperature = 0.0
+
+[retrieval]
+passage_words = 180        # target passage size (words); one slide page is always its own passage
+passage_overlap_words = 30
+ask_top_k = 6              # passages sent to Gemma in ask mode (~1.5k tokens of evidence)
+chat_top_k = 4
+search_top_k = 5
+ingest_top_k = 8           # passages per wiki topic
+# Chat only looks up notes when the best passage covers at least this share of
+# the message's (IDF-weighted) content words. See README "When chat retrieves".
+chat_min_coverage = 0.5
+
+[chat]
+history_turns = 6          # user+assistant pairs kept verbatim
+history_chars = 7000       # hard cap on the history block sent to Gemma

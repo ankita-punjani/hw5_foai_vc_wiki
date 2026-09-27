@@ -1,0 +1,79 @@
+{
+  "env": {
+    "timestamp": "2026-09-25T22:49:59",
+    "execution": "local",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
+    "device": "arm64 · macOS 15.6.1",
+    "network": "online"
+  },
+  "sources": [
+    {
+      "id": "breakintovc-book",
+      "file": "raw/Break Into VC - Bradley Miles.epub",
+      "sha256": "b4dd30fb6dfa6e3615680237e50bd6885943f42412f6bc1887dbdca412a869df",
+      "sections": 264,
+      "passages": 301,
+      "words": 42548,
+      "indexed_at": "2026-09-25T22:50:00"
+    },
+    {
+      "id": "haas-venture-valuation",
+      "file": "raw/Haas VCPE 295B - Venture Valuation.pdf",
+      "sha256": "e1bccd89f6c88411a17e51390a8dddab3e3dcf4479af0c9903f91c4a22117fce",
+      "sections": 86,
+      "passages": 31,
+      "words": 4582,
+      "indexed_at": "2026-09-25T22:50:01"
+    },
+    {
+      "id": "harlem-return-the-fund",
+      "file": "raw/Harlem Capital - Return the Fund.pdf",
+      "sha256": "1650f2620aef38ce7533c13a1463a85655ee01a726aa3d55d56cd66ddd8e083d",
+      "sections": 7,
+      "passages": 8,
+      "words": 1536,
+      "indexed_at": "2026-09-25T22:50:02"
+    }
+  ],
+  "notes": [],
+  "command": {
+    "paths": [
+      "vault/raw"
+    ],
+    "force": false,
+    "redraft": false,
+    "no_llm": true
+  },
+  "log": [
+    "indexed  raw/Break Into VC - Bradley Miles.epub: 264 sections -> 301 passages (42,548 words) sha256 b4dd30fb6dfa…",
+    "indexed  raw/Haas VCPE 295B - Venture Valuation.pdf: 86 sections -> 31 passages (4,582 words) sha256 e1bccd89f6c8…",
+    "indexed  raw/Harlem Capital - Return the Fund.pdf: 7 sections -> 8 passages (1,536 words) sha256 1650f2620aef…",
+    "index    340 passages from 3 sources (2.2s)",
+    "skipped  Venture Fund Structure (--no-llm)",
+    "skipped  Management Fees and Carried Interest (--no-llm)",
+    "skipped  Check Size and Reserves (--no-llm)",
+    "skipped  Return the Fund (--no-llm)",
+    "skipped  Power Law of Venture Returns (--no-llm)",
+    "skipped  IRR and Return Multiples (--no-llm)",
+    "skipped  Dilution (--no-llm)",
+    "skipped  Valuation Fundamentals (--no-llm)",
+    "skipped  Pre-Money and Post-Money Valuation (--no-llm)",
+    "skipped  Ownership Targets (--no-llm)",
+    "skipped  Venture Capital Method (--no-llm)",
+    "skipped  Comparables Valuation (--no-llm)",
+    "skipped  Scenario Analysis (--no-llm)",
+    "skipped  Projection Reflection (--no-llm)",
+    "skipped  Pre-Revenue Valuation Methods (--no-llm)",
+    "skipped  SaaS Metrics (--no-llm)",
+    "skipped  Financial Statements Basics (--no-llm)",
+    "skipped  Growth Equity (--no-llm)",
+    "skipped  Venture Debt (--no-llm)",
+    "skipped  Breaking Into VC (--no-llm)",
+    "skipped  VC Interview Prep (--no-llm)",
+    "source   wiki/Sources/Harlem Capital Return the Fund Post.md",
+    "source   wiki/Sources/Haas Venture Valuation Slides.md",
+    "source   wiki/Sources/Break Into VC Book.md",
+    "index.md rebuilt: 0 topic notes, 3 source notes"
+  ]
+}

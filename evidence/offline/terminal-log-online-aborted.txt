@@ -1,0 +1,93 @@
+
+
+########## 0. Proof the internet is unreachable ##########
+$ date; networksetup -getairportpower en0; ping / curl
+Sat Sep 26 14:08:25 PDT 2026
+Wi-Fi Power (en0): On
+ping 1.1.1.1: REACHABLE (still online!)
+curl huggingface.co: REACHABLE (still online!)
+
+
+########## 1. Help ##########
+$ ./wiki --help
+usage: wiki [-h] COMMAND ...
+
+Personal VC-math wiki powered by a local Gemma model (offline by default).
+
+commands:
+  ingest [PATH ...]   read originals in vault/raw/, index passages, draft/update wiki notes, rebuild index.md
+  search "QUERY"      show matching ORIGINAL passages + source paths (no language model)
+  ask "QUESTION"      standalone factual answer from retrieved evidence, with citations
+  chat                talk with Carry, a study-partner persona that uses the conversation and looks up notes when useful
+  eval                run the four ask-mode tests in tests/questions.yml and write evidence cards
+  status              show model, index, vault, and network status
+  help [COMMAND]      show help (same as --help)
+
+execution:
+  --mode local        (default) Gemma 4 E2B via MLX from the local Hugging Face cache; never uses the network
+  --mode online       not configured in this project; local is the required, complete path
+
+inputs:
+  vault/raw/          unchanged original sources (.pdf .epub .md .txt), each registered in sources.yml
+  instructions/       wiki-instructions.md (ask rules), persona.md (chat), ingest-instructions.md, topics.yml
+  config.toml         model id, generation settings, passage size, top-k
+
+examples:
+  wiki ingest vault/raw
+  wiki search "return the fund"
+  wiki ask "What check size range does Harlem Capital write?"
+  wiki chat
+
+positional arguments:
+  COMMAND
+    ingest    index sources and build wiki notes
+    search    retrieval only: matching original passages, no generated answer
+    ask       standalone, cited answer from the original sources
+    chat      personal assistant with conversation context
+    eval      run the ask-mode test set and write evidence cards
+    status    model, index, vault, and network status
+    help      show help
+
+options:
+  -h, --help  show this help message and exit
+
+
+########## 2. Status (model cached locally, index, wiki, links) ##########
+$ ./wiki status
+model      mlx-community/gemma-4-e2b-it-4bit
+           cached locally (3.6 GB) at /Users/ankitapunjani/.cache/huggingface/hub/models--mlx-community--gemma-4-e2b-it-4bit/snapshots/238767527555cb75a05732a84dff5d6ba0dd6809
+runtime    mlx-lm 0.31.3 / mlx 0.32.2
+device     arm64 · macOS 15.6.1
+network    online  (local mode does not use it)
+sources
+  raw/Harlem Capital - Return the Fund.pdf         8 passages, indexed 2026-09-26T08:00:16
+  raw/Haas VCPE 295B - Venture Valuation.pdf       31 passages, indexed 2026-09-25T23:06:59
+  raw/Break Into VC - Bradley Miles.epub           301 passages, indexed 2026-09-25T23:06:57
+wiki       21 topic notes (21 reviewed, 0 draft), 3 source notes · index.md present
+links      418 wikilinks checked · 0 missing or ambiguous
+project    /Users/ankitapunjani/vc-wiki
+
+
+########## 3. Ingest one source offline (re-index + Gemma redrafts into data/drafts/, reviewed notes untouched) ##########
+$ ./wiki ingest 'vault/raw/Harlem Capital - Return the Fund.pdf' --redraft
+wiki notes before: 24
+· loading mlx-community/gemma-4-e2b-it-4bit (local, MLX) ...
+time: command terminated abnormally
+       62.42 real        28.73 user         9.77 sys
+           961576960  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              259412  page reclaims
+                 984  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                2933  voluntary context switches
+              257247  involuntary context switches
+         86413941024  instructions retired
+         59584916763  cycles elapsed
+          3914976688  peak memory footprint

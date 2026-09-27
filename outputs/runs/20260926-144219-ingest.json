@@ -1,0 +1,158 @@
+{
+  "env": {
+    "timestamp": "2026-09-26T14:38:49",
+    "execution": "local",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
+    "device": "arm64 · macOS 15.6.1",
+    "network": "offline (no route to internet)"
+  },
+  "sources": [
+    {
+      "id": "harlem-return-the-fund",
+      "file": "raw/Harlem Capital - Return the Fund.pdf",
+      "sha256": "1650f2620aef38ce7533c13a1463a85655ee01a726aa3d55d56cd66ddd8e083d",
+      "sections": 7,
+      "passages": 8,
+      "words": 1536,
+      "indexed_at": "2026-09-26T14:38:50"
+    }
+  ],
+  "notes": [
+    {
+      "note": "data/drafts/How Venture Capital Works.md",
+      "action": "redrafted -> data/drafts (reviewed note untouched)",
+      "generation": {
+        "text": "## Summary\nVenture capital (VC) involves firms investing in early-stage companies with a high risk profile in the hope of achieving significant returns. This process involves various stages of financing, risk assessment, and determining an exit strategy for the investors. Understanding VC requires knowing who invests, the expected returns, and how the entire process is structured.\n\n## Key points\n* The average fund size for venture capital stages is about $400M and the average venture capital deal size is $18M [S1].\n* The larger a firm’s stake in a company, the larger CynMerc’s returns are when the company exits through an IPO or M&A activity [S1].\n* Management fees are charged by partners to limited partners to cover salaries for themselves, associates, and support staff [S1].\n* Venture capital firms typically expect a target cash-on-cash return on investment (ROI) of 8-10x for early stage venture capital investors [S2].\n* A portion of the portfolio is allocated to alternative investments like venture capital because it is risky, with VC firms returning 25 percent on average compared to the stock market's 8 percent annual return [S4].\n* The risk factor summation method maps out 12 risks to assess the overall risk profile of a company [S5].\n* Angel investors were typically getting about a 15 percent stake in early stage companies based on average deal size and post-money valuation [S8].\n\n## Worked example\nNo worked example in the sources.",
+        "prompt_tokens": 2394,
+        "generated_tokens": 323,
+        "seconds": 17.80345129966736,
+        "tokens_per_second": 24.449184352222453,
+        "peak_memory_gb": 3.328682058,
+        "process_rss_gb": 1.022951424
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "data/drafts/VC Glossary.md",
+      "action": "redrafted -> data/drafts (reviewed note untouched)",
+      "generation": {
+        "text": "## Summary\nThis glossary defines various terms used in venture capital, covering concepts related to valuation, investment methods, and investor returns. It explains how different investment stages and market conditions affect the returns investors receive.\n\n## Key points\n* Valuation divergence is the phenomenon where a venture's value increases at a much slower rate than its private shares [S7].\n* Early stage investors might experience a cash-on-cash ROI decrease of as much as 3-5x [S1].\n* Venture capitalists invest in early- to mid-stage private companies to earn large returns on their investments [S1].\n* Venture capitalists receive money from several different sources and do not share direct ownership of the portfolio companies [S1].\n* The Venture Capital Method involves determining a company's anticipated post-money valuation through market conditions and industry multiples, then dividing this by the anticipated return on investment (ROI) to find the current post-money valuation [S4].\n* Interest payable represents a company's obligation to pay interest that is owed within a specific period [S2].\n* Liabilities are what a company owes, which can include accounts, salaries, and interest payable, and can be found on the balance sheet [S2].\n\n## Worked example\nNo worked example in the sources.",
+        "prompt_tokens": 2167,
+        "generated_tokens": 266,
+        "seconds": 20.031491994857788,
+        "tokens_per_second": 17.00567450339861,
+        "peak_memory_gb": 3.328687098,
+        "process_rss_gb": 1.022951424
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "data/drafts/VC Math Practice Problems.md",
+      "action": "redrafted -> data/drafts (reviewed note untouched)",
+      "generation": {
+        "text": "## Summary\nThis topic covers mathematical calculations used in venture capital, focusing on Internal Rate of Return (IRR), ownership percentages, and various valuation methods. Understanding these calculations is crucial for understanding investment returns and equity stakes in a company.\n\n## Key points\n*   Investors typically anticipate an Internal Rate of Return (IRR) between 20 to 30 percent over a 5-year investment horizon, which corresponds to a return multiplier between 2.5x and 4.0x [S4].\n*   A 1.5x return is associated with approximately a 10 percent IRR, a 2x return with a 15 percent IRR, a 3x return with a 25 percent IRR, a 4x return with about 30 percent IRR, and a 5x return with 40 percent IRR [S1].\n*   The pre-money valuation is defined as the company's value before the investment, while the post-money valuation is the value after the investment [S3].\n*   If a company has a $500k post-money valuation and investors invest $250k, they own 50 percent of the company [S3].\n*   If a company has a $500k pre-money valuation and investors invest $250k, they own approximately 33.3 percent of the company, resulting in a total company value of $750k [S3].\n*   If the pre-money investment represents 20 percent (or 1/5th), the post-money investment should represent 25 percent (or 1/4th) of the total [S5].\n*   Investors typically aim for IRRs between 25 to 75 percent over a 4-8 year period, which can yield an ROI in the ballpark of 5-10x the invested capital [S7].\n\n## Worked example\n1.  Determine the return for a 25 percent IRR over a 5-year period: If invested, the return is about 2.5x, resulting in $2.5M [S2].\n2.  Determine the return for a 30 percent IRR over a 5-year period: If invested, the return is a little more than 4x, resulting in a little more than $10M [S2].\n3.  Determine the return for a 30 percent IRR over the next five years: If invested, the return is a little more than 4x, resulting in a little more than $10M [S2].\n4.  Determine the return for a 30 percent IRR over the next five years: If invested, the return is a little more than 4x, resulting in a little more than $10M [S2].\n5.  Determine the ownership when a company has a $500k post-money valuation and investors invest $250k: Investors own 50 percent [S3].\n6.  Determine the ownership when a company has a $500k pre-money valuation and investors invest $250k: The company is valued at $750k, and investors own ~33.3 percent [S3].",
+        "prompt_tokens": 2195,
+        "generated_tokens": 700,
+        "seconds": 33.58429503440857,
+        "tokens_per_second": 23.8516945246258,
+        "peak_memory_gb": 3.328687098,
+        "process_rss_gb": 1.022951424
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "data/drafts/Check Size and Reserves.md",
+      "action": "redrafted -> data/drafts (reviewed note untouched)",
+      "generation": {
+        "text": "## Summary\nThis topic covers the typical size of checks investors make and the practice of holding back capital for future investment rounds. Investors determine check sizes based on the fund's size and strategy, and they often reserve a portion of their fund for follow-on investments to protect their ownership stake.\n\n## Key points\n*   A typical check size range depends on the fund's size and strategy (diversified vs concentrated) [S1].\n*   Seed valuations are determined by ownership targets rather than revenue multiples [S1].\n*   Larger funds ($100mm+) generally target 10% to 20% ownership, while microfunds ($25mm – $100mm) target 5% to 10% ownership [S1].\n*   Investors typically reserve 30% to 40% of their fund for follow-on investments to maintain their pro-rata in winners [S2].\n*   Assuming a Seed round is 25% dilution, investors usually assume 25% to 30% dilution by exit, with the Series A pro-rata check [S2].\n*   A fund may not need unicorns to return the fund, but it may need billions in value creation to meet 3x-5x return goals [S5].\n*   A fund is generally not expected to invest less than 1% of the fund in any company [S5].\n\n## Worked example\nNo worked example in the sources.",
+        "prompt_tokens": 2640,
+        "generated_tokens": 313,
+        "seconds": 17.590847969055176,
+        "tokens_per_second": 24.939969358297482,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.022951424
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "data/drafts/Return the Fund.md",
+      "action": "redrafted -> data/drafts (reviewed note untouched)",
+      "generation": {
+        "text": "## Summary\nThe \"Fund Returner\" concept determines if an investment will successfully return the total capital invested by the fund. This calculation heavily depends on the size of the exit, as a larger exit is required to compensate for the risk and achieve the target return multiple. Fund size significantly impacts the required exit value, which in turn affects the potential return for the fund.\n\n## Key points\n*   The fund size is a major factor in determining what is required for an investment to return the fund [S1].\n*   A $700mm exit was needed to return a $40mm fund, whereas a $350mm exit would be needed to return a $20mm fund, resulting in a 50% haircut [S1].\n*   A $750k investment would require a $4.3bn exit for a $250mm fund, which is considered VERY UNLIKELY [S1].\n*   Most Seed funds target a 3x – 5x gross return, which implies a return range of $120mm-$200mm for Harlem Capital’s $40mm fund [S1].\n*   A fund is generally not expected to invest less than 1% of the fund in any company [S1].\n*   The required multiple for early-stage funds can be as high as 34x [S4].\n*   Total dilution by exit can be 23.5% for an investor, but this can be reduced to 12.1% dilution with a 50.0% cut on Series B and Series C rounds [S5].\n\n## Worked example\n1.  Determine the required exit value based on the fund size and the desired return multiple. For example, a $40mm fund needed a $700mm exit to return it [S1].\n2.  Calculate the impact of a smaller exit on the return. A $350mm exit would only return a $20mm fund, resulting in a 50% haircut [S1].\n3.  Consider a smaller investment check size, such as $750k, and determine the corresponding required exit for a $250mm fund [S1].\n4.  If a fund is targeting a 3x-5x return, this implies a return range of $120mm-$200mm for a $40mm fund [S1].\n5.  The required multiple for early-stage funds can be as high as 34x [S4].",
+        "prompt_tokens": 2863,
+        "generated_tokens": 546,
+        "seconds": 29.26982307434082,
+        "tokens_per_second": 23.511151571740072,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.022951424
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "data/drafts/Power Law of Venture Returns.md",
+      "action": "redrafted -> data/drafts (reviewed note untouched)",
+      "generation": {
+        "text": "## Summary\nThe Power Law of Venture Returns describes the phenomenon where a small number of successful investments must generate the majority of the fund's returns, meaning a few outliers must cover the losses incurred by the rest of the portfolio. This structure is common in venture capital, where the performance of the entire fund heavily depends on the success of a select few companies.\n\n## Key points\n*   A fund goal is often set for a 3x gross return in early-stage funds [S1, S2].\n*   When 10 companies are in a portfolio, 5 companies going bankrupt results in a cost of 0.4x [S1, S2].\n*   If 1 company provides all returns, the required multiple is 34x [S1, S2].\n*   The required multiple for returns can be 21x in certain scenarios [S1].\n*   Equal weighting suggests using half the initial investment and a 200% reserve for non-losers [S1].\n*   A fund may need billions in value creation to meet 3x-5x return goals, even if unicorns are not strictly necessary [S3].\n*   Most Seed funds target a 3x – 5x gross return, which implies a certain range for the fund size [S3].\n\n## Worked example\nNo worked example in the sources.",
+        "prompt_tokens": 2506,
+        "generated_tokens": 291,
+        "seconds": 18.561413288116455,
+        "tokens_per_second": 21.893100197468172,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.022951424
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "data/drafts/Dilution.md",
+      "action": "redrafted -> data/drafts (reviewed note untouched)",
+      "generation": {
+        "text": "## Summary\nDilution refers to the shrinking of ownership stakes in a company when new funding rounds occur, and pro-rata rights are mechanisms used to try and prevent this loss of ownership. Understanding dilution is crucial because it directly impacts the expected return on investment for investors.\n\n## Key points\n*   Dilution is the shrinking of ownership that occurs with later funding rounds [S1].\n*   Investors may experience valuation divergence, where the value of the company increases at a slower rate than their private shares [S8].\n*   Investors may not want to invest pro-rata in late-stage rounds because it might go against their investment thesis or make it difficult to maintain a higher ROI [S4].\n*   Total dilution can be significant, such as 40% or more without using a Series A pro-rata check [S1].\n*   Investors typically target a Return on Investment (ROI) of 8-10x for early-stage investors [S4].\n*   Scenario analysis involves considering the impact of dilution from future financings when estimating exit values [S6].\n*   A dilution comparison shows that cutting the Series B and Series C round’s dilution by 50.0% leads to 12.1% dilution and 6.6% ownership at exit [S1].\n\n## Worked example\nNo worked example in the sources.",
+        "prompt_tokens": 2887,
+        "generated_tokens": 287,
+        "seconds": 21.660077810287476,
+        "tokens_per_second": 20.523171210023932,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.022951424
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "data/drafts/Ownership Targets.md",
+      "action": "redrafted -> data/drafts (reviewed note untouched)",
+      "generation": {
+        "text": "## Summary\nOwnership targets determine the valuation for seed-stage investments rather than relying on revenue figures. Investors expect to take a specific percentage of ownership in exchange for their investment, and this expectation varies based on the size of the fund.\n\n## Key points\n* Seed valuations are set by the ownership targets a fund needs, not by revenue [S1].\n* Founders should expect to give up 20% to 30% ownership in the Seed round [S1].\n* Larger funds ($100mm+) typically have 10% to 20% ownership targets, while microfunds ($25mm – $100mm) target 5% to 10% [S1].\n* If investing $750k, this implies only investing in companies with a post-money valuation range of $7.5mm to $15mm to achieve ownership targets [S1].\n* The assumed Seed round dilution is typically 25% (the midpoint of 20% – 30%), with subsequent rounds stepping down 5% each round [S2].\n* Investors typically assume 25% to 30% dilution by exit, and funds that do not have follow-on reserves may require larger exits from founders [S2].\n* Co-founders after Seed rounds are sometimes expected to own around 30% each [S3].\n\n## Worked example\n1. Determine the typical check size range for a fund based on its size and strategy; for example, a $40mm fund investing in 30 companies has a check size range of $500k to $1mm [S1].\n2. Understand that seed valuations are based on ownership targets, not revenue multiples [S1].\n3. For a microfund, the target ownership is 5% to 10%, and if investing $750k, this implies a post-money valuation range of $7.5mm to $15mm [S1].\n4. The assumed Seed round dilution is 25% (midpoint of 20% – 30%), and this can step down by 5% for each subsequent round [S2].\n5. If a fund requires a 20% – 30% ownership, a $10mm valuation implies a $2mm-$3mm Seed round if the 20% – 30% ownership assumption is taken [S1].",
+        "prompt_tokens": 2646,
+        "generated_tokens": 519,
+        "seconds": 37.064558029174805,
+        "tokens_per_second": 17.178324709286297,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.022951424
+      },
+      "invalid_citations": []
+    }
+  ],
+  "command": {
+    "paths": [
+      "vault/raw/Harlem Capital - Return the Fund.pdf"
+    ],
+    "force": false,
+    "redraft": true,
+    "no_llm": false
+  },
+  "log": [
+    "indexed  raw/Harlem Capital - Return the Fund.pdf: 7 sections -> 8 passages (1,536 words) sha256 1650f2620aef…",
+    "index    340 passages from 3 sources (0.4s)",
+    "redrafted -> data/drafts (reviewed note untouched) data/drafts/How Venture Capital Works.md · 17.8s · 2394 prompt + 323 generated tokens · 24 tok/s · peak MLX memory 3.33 GB",
+    "redrafted -> data/drafts (reviewed note untouched) data/drafts/VC Glossary.md · 20.0s · 2167 prompt + 266 generated tokens · 17 tok/s · peak MLX memory 3.33 GB",
+    "redrafted -> data/drafts (reviewed note untouched) data/drafts/VC Math Practice Problems.md · 33.6s · 2195 prompt + 700 generated tokens · 24 tok/s · peak MLX memory 3.33 GB",
+    "redrafted -> data/drafts (reviewed note untouched) data/drafts/Check Size and Reserves.md · 17.6s · 2640 prompt + 313 generated tokens · 25 tok/s · peak MLX memory 3.33 GB",
+    "redrafted -> data/drafts (reviewed note untouched) data/drafts/Return the Fund.md · 29.3s · 2863 prompt + 546 generated tokens · 24 tok/s · peak MLX memory 3.33 GB",
+    "redrafted -> data/drafts (reviewed note untouched) data/drafts/Power Law of Venture Returns.md · 18.6s · 2506 prompt + 291 generated tokens · 22 tok/s · peak MLX memory 3.33 GB",
+    "redrafted -> data/drafts (reviewed note untouched) data/drafts/Dilution.md · 21.7s · 2887 prompt + 287 generated tokens · 21 tok/s · peak MLX memory 3.33 GB",
+    "redrafted -> data/drafts (reviewed note untouched) data/drafts/Ownership Targets.md · 37.1s · 2646 prompt + 519 generated tokens · 17 tok/s · peak MLX memory 3.33 GB",
+    "source   wiki/Sources/Harlem Capital Return the Fund Post.md · 5.8s · 295 prompt + 47 generated tokens · 12 tok/s · peak MLX memory 2.91 GB",
+    "index.md rebuilt: 24 topic notes, 3 source notes",
+    "gemma    9 generations in 201s (+5.8s load) · peak MLX memory 3.33 GB · process max RSS 1.02 GB"
+  ]
+}

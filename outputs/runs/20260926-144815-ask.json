@@ -1,0 +1,138 @@
+{
+  "mode": "ask",
+  "execution": "local",
+  "env": {
+    "timestamp": "2026-09-26T14:48:00",
+    "execution": "local",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
+    "device": "arm64 · macOS 15.6.1",
+    "network": "online"
+  },
+  "question": "Why can't traditional valuation methods be used for a VC-funded company?",
+  "retrieval": {
+    "top_k": 6,
+    "seconds": 0.05400872230529785,
+    "hits": [
+      {
+        "id": "haas-venture-valuation:007",
+        "source_note": "Haas Venture Valuation Slides",
+        "file": "raw/Haas VCPE 295B - Venture Valuation.pdf",
+        "locator": "pp. 21–25",
+        "score": 12.373,
+        "coverage": 0.474,
+        "matched_terms": [
+          "traditional",
+          "valuation",
+          "method",
+          "company"
+        ],
+        "text": "VC Valuation\n– Art, not science\n– There are no right answers\n– Methods are “precise” , but not “accurate”\n– Assumptions are key, can overwhelm the math\n\nCASH (future) \nWith Traditional Valuation, We Learn That . . . \nVALUE (today) = Risk\n\nRegular Company\n• Markets\n• Ongoing operations\n• Cash flows\n• Capital structure\n– Debt\n– Equity\n– Common\nStandard Data Needed for Traditional Methods\n\nRegular Company\n• Markets\n• Ongoing operations\n• Cash flows\n• Capital structure\n– Debt\n– Equity\n– Common\nStandard Data Needed for Traditional Methods\nVC Funded Company\n• Emerging market\n• Changing business models\n• Negative cash flows\n• Capital structure\n– No borrowing capacity\n– Equity\n– Preferred Stock (Liquidation \nPreferences)\n– Common Stock (stock options) \n– Future rounds\n\n? ?\n? ?\nTraditional Tools\nInvestment\nType\nStage of Growth\nSame method for all situations?\nEarly Late\nVC\nTraditional\n33\nComparables, NPV, options analysis"
+      },
+      {
+        "id": "haas-venture-valuation:008",
+        "source_note": "Haas Venture Valuation Slides",
+        "file": "raw/Haas VCPE 295B - Venture Valuation.pdf",
+        "locator": "pp. 26–30",
+        "score": 11.092,
+        "coverage": 0.446,
+        "matched_terms": [
+          "traditional",
+          "valuation",
+          "method"
+        ],
+        "text": "? ?\n? ?\nValuation in VC\nInvestment\nType\nStage of Growth\nSame method for all situations?\nEarly Late\nVC\nTraditional\n34\nComparables, NPV, options analysis\nLess Data,\nMore \nAssumptions\n\nValuation in VC\n? ?\n? ?\nStage of Growth\nInvestment\nType\nLate\nVC\nTraditional\nEarly\n\nMethods of VC Valuation\n? ?\n? ?\nStage of Growth\nInvestment\nType\nLate\nVC\nTraditional\nEarly\n36\nComparables\n\nComparables\n• Look at similar private deals, and/or . . .\n• Look at ratios of similar public firms:\n– Market value/sales\n– Market value/profits (P/E) \n– Market value of equity/book value\n• Use [discounted] multiples to generate projected \nmarket value\n\nComparables\n• Advantages\n– Easy to implement\n– Market based\n– Frequently used\n– The “real estate” method\n– “The house down the street sold for $1m, and this house \nhas an extra bathroom!”"
+      },
+      {
+        "id": "haas-venture-valuation:012",
+        "source_note": "Haas Venture Valuation Slides",
+        "file": "raw/Haas VCPE 295B - Venture Valuation.pdf",
+        "locator": "pp. 40–44",
+        "score": 10.542,
+        "coverage": 0.474,
+        "matched_terms": [
+          "traditional",
+          "valuation",
+          "method",
+          "company"
+        ],
+        "text": "Equity \nInvestment\nLiquidity \nEvent Charity=-\n\n6) Type of Investor Varies Perception of \nValue\n• Are they a \nhomogeneous group?\n• At least \n– Three flavors\n– Three sizes\n– Lots of variety\n• Same valuation \nmethods apply to all?\n• Angel Investors\n– Individuals\n– Investing their own $\n• Institutional VCs\n– Financial investors\n• e.g. the traditional VC\n– Investing other peoples’ \nmoney\n• Strategic Investors\n– “Corporates” \nWho are the “Venture \nCapitalists”?\n\nMethods of VC Valuation\n? ?\n? ?\nStage of Growth\nProjection \nReflection\nInvestment\nType\nLate\nVC\nTraditional\nEarly\n51\nComparables\nScenario Analysis\nVenture Capital \nMethod\n\nVC Method\nThe Venture Capital Method\nMethod frequently encountered in venture, buyout \nand related fields\nInvestor return expectations drive Company valuations\nDerives amount of ownership required.\n\nVC Method\nUsing the Venture Capital Method\n4 essential activities:\n1) Figure out how much $ is needed today\n2) Estimate final “enterprise value” if all goes well.\n[Comparables]\n3) Use high discount rate for investor’s return \nexpectation (investor’s necessary IRR)\n4) Adjust for later rounds of financing"
+      },
+      {
+        "id": "haas-venture-valuation:017",
+        "source_note": "Haas Venture Valuation Slides",
+        "file": "raw/Haas VCPE 295B - Venture Valuation.pdf",
+        "locator": "pp. 53–56",
+        "score": 8.311,
+        "coverage": 0.474,
+        "matched_terms": [
+          "traditional",
+          "valuation",
+          "method",
+          "company"
+        ],
+        "text": "? ?\n? ?\nComparables\nScenario Analysis\nMethods of VC Valuation\nStage of Growth\nInvestment\nType\nLate\nVC\nTraditional\nEarly\n64\nVenture Capital \nMethod\nProjection \nReflection\n\nProjection/\nReflection\n• If you are self-sufficient, operate business to achieve best \nbusiness results\n• If not, operate business to maximize the probability and value \nof raising money\n• Value changes in “step-functions”, not linearly\n• Optimal financings take place following major step functions\n• Want “shared understanding” and “shared expectations” \nbetween investors and management\nConcepts\n\nProjection/\nReflection\n• Valuation/Yield Short-Hand\nStart-Up Early Stage Expansion Late/\nMezzanine \nConcept Execute Grow LiquidityBuild\n2.5x 2.0x 1.75x 1.5x\n\nAssumptions\n• Next round likely to be \n$30m pre-money (Playme)\n• Company is at “seed” \nstage (2.5x discount to next round) \nCalculations\n• $30m / 2.5= $12m post money valuation\n• $12m post - $5m = $7m pre-money valuation\nMekasutra Games – \nProjection Reflection\nRoom to negotiate – Below $7m is better for investor\nIs company seed stage or early stage?"
+      },
+      {
+        "id": "haas-venture-valuation:028",
+        "source_note": "Haas Venture Valuation Slides",
+        "file": "raw/Haas VCPE 295B - Venture Valuation.pdf",
+        "locator": "pp. 80–82",
+        "score": 8.304,
+        "coverage": 0.446,
+        "matched_terms": [
+          "traditional",
+          "valuation",
+          "method"
+        ],
+        "text": "NanoChon\npremoney $ 100 \nmoney $ 20.0 \npost money 120\nownership 27%\nTotal\nOwner- Ownership Probable probable\nExits Rounds ship value Multiple Time IRR Probability value value\n$ 500 3 10% $ 52 13.0 10 29% 10.0% $ 5.18 26.67 \n$ 500 2 16% $ 80 19.9 6 65% 10% $ 7.97 \n$ 500 1 27% $ 135 33.8 3 223% 10% $ 13.51 Multiple\n$ - 1 27% - - 2 70% $ - 6.67 \nProductive.ai\n\n? ?\n? ?\nMethods of VC Valuation\nStage of Growth\nInvestment\nType\nLate\nVC\nTraditional\nEarly\n94\nVenture Capital \nMethod\nProjection \nReflection\nComparables\nScenario Analysis\n\nVC Valuation\n• To repeat:\n– Art, not science\n– There are no right answers\n– Methods are “precise” , but not “accurate”\n– Assumptions are key, can “overwhelm” the math"
+      },
+      {
+        "id": "haas-venture-valuation:019",
+        "source_note": "Haas Venture Valuation Slides",
+        "file": "raw/Haas VCPE 295B - Venture Valuation.pdf",
+        "locator": "pp. 61–65",
+        "score": 7.493,
+        "coverage": 0.446,
+        "matched_terms": [
+          "traditional",
+          "valuation",
+          "method"
+        ],
+        "text": "Projection/\nReflection\n• Scenario 4\n– Get real creative with much less cash ($1M)\n(post “Seed”)\ncash needed\npre money value\n\n25% to VC’s\n75% to Founders \nA “do-able deal” at \nventure creation stage\n\n$10.M\n÷ 2.5\n$ 4.0M\n- $ 1.0M\n$ 3.0M\n\n\n\n\n? ?\n? ?\nMethods of VC Valuation\nStage of Growth\nInvestment\nType\nLate\nVC\nTraditional\nEarly\n73\nVenture Capital \nMethod\nProjection \nReflection\nComparables\nScenario Analysis\nScenario Analysis\n\nGoals:\n– Create an estimate for valuation\n– Understand impact of key assumptions\n– Consider the “shape of the risk”\n– Provide a language for partnership discussion\nScenario Analysis\n\nMany Variables to Estimate\n• Premoney and money\n• Exit scenarios\n– Potential outcomes and growth\n– Probabilities of those outcomes\n• Dilution from future financings\n• Time\n76\nThis risk disaggregation fits with partner meeting \nlanguage\n\nScenario Analysis - Steps\n1. Pick end state scenarios\n2. Consider dilution of later rounds\n3. Determine probabilities and time\n4. Analyze the valuation, risk profile\n77\n“Anchor” assumptions with data and discussion"
+      }
+    ],
+    "unknown_terms": []
+  },
+  "prompt_messages": [
+    {
+      "role": "system",
+      "content": "# Research rules (ask mode)\n\nYou answer research questions using ONLY the numbered evidence passages provided\nwith the question. The passages come from the user's own sources: a book, a blog\npost, and lecture slides about venture capital.\n\nRules:\n1. Use only facts that appear in the evidence passages. Do not use outside knowledge, even if you think it is correct.\n2. After every sentence that states a fact, cite the passage(s) it came from with the passage number in square brackets, for example [S2] or [S1][S4].\n3. Include the specific numbers the passages give for what is asked (percentages, amounts, multiples), copied exactly ($40mm, 34%, 2.8x). Do not do new math unless the question asks for it, and if you do, show the steps.\n4. If the question asks for examples or \"how\" something is calculated, walk through each worked example the passages contain, step by step with its numbers, and cite each one.\n5. If a passage gives a goal, target, assumption, or hypothetical example, say so. Never present a target or an example as an actual result.\n6. If the passages do not contain the answer, reply with exactly this first line:\n   INSUFFICIENT EVIDENCE: the sources do not say <what is missing>.\n   Then, in one sentence, you may mention what related information the sources do contain, with a citation.\n7. If the passages answer only part of the question, answer that part with citations and say clearly which part the sources do not cover.\n8. Write in a neutral, direct voice: no greeting, no personality, no suggestions, no follow-up questions. Keep it under 220 words."
+    },
+    {
+      "role": "user",
+      "content": "EVIDENCE PASSAGES:\n\n[S1] Source: Haas Venture Valuation Slides (raw/Haas VCPE 295B - Venture Valuation.pdf), pp. 21–25\nVC Valuation\n– Art, not science\n– There are no right answers\n– Methods are “precise” , but not “accurate”\n– Assumptions are key, can overwhelm the math\n\nCASH (future) \nWith Traditional Valuation, We Learn That . . . \nVALUE (today) = Risk\n\nRegular Company\n• Markets\n• Ongoing operations\n• Cash flows\n• Capital structure\n– Debt\n– Equity\n– Common\nStandard Data Needed for Traditional Methods\n\nRegular Company\n• Markets\n• Ongoing operations\n• Cash flows\n• Capital structure\n– Debt\n– Equity\n– Common\nStandard Data Needed for Traditional Methods\nVC Funded Company\n• Emerging market\n• Changing business models\n• Negative cash flows\n• Capital structure\n– No borrowing capacity\n– Equity\n– Preferred Stock (Liquidation \nPreferences)\n– Common Stock (stock options) \n– Future rounds\n\n? ?\n? ?\nTraditional Tools\nInvestment\nType\nStage of Growth\nSame method for all situations?\nEarly Late\nVC\nTraditional\n33\nComparables, NPV, options analysis\n\n[S2] Source: Haas Venture Valuation Slides (raw/Haas VCPE 295B - Venture Valuation.pdf), pp. 26–30\n? ?\n? ?\nValuation in VC\nInvestment\nType\nStage of Growth\nSame method for all situations?\nEarly Late\nVC\nTraditional\n34\nComparables, NPV, options analysis\nLess Data,\nMore \nAssumptions\n\nValuation in VC\n? ?\n? ?\nStage of Growth\nInvestment\nType\nLate\nVC\nTraditional\nEarly\n\nMethods of VC Valuation\n? ?\n? ?\nStage of Growth\nInvestment\nType\nLate\nVC\nTraditional\nEarly\n36\nComparables\n\nComparables\n• Look at similar private deals, and/or . . .\n• Look at ratios of similar public firms:\n– Market value/sales\n– Market value/profits (P/E) \n– Market value of equity/book value\n• Use [discounted] multiples to generate projected \nmarket value\n\nComparables\n• Advantages\n– Easy to implement\n– Market based\n– Frequently used\n– The “real estate” method\n– “The house down the street sold for $1m, and this house \nhas an extra bathroom!”\n\n[S3] Source: Haas Venture Valuation Slides (raw/Haas VCPE 295B - Venture Valuation.pdf), pp. 40–44\nEquity \nInvestment\nLiquidity \nEvent Charity=-\n\n6) Type of Investor Varies Perception of \nValue\n• Are they a \nhomogeneous group?\n• At least \n– Three flavors\n– Three sizes\n– Lots of variety\n• Same valuation \nmethods apply to all?\n• Angel Investors\n– Individuals\n– Investing their own $\n• Institutional VCs\n– Financial investors\n• e.g. the traditional VC\n– Investing other peoples’ \nmoney\n• Strategic Investors\n– “Corporates” \nWho are the “Venture \nCapitalists”?\n\nMethods of VC Valuation\n? ?\n? ?\nStage of Growth\nProjection \nReflection\nInvestment\nType\nLate\nVC\nTraditional\nEarly\n51\nComparables\nScenario Analysis\nVenture Capital \nMethod\n\nVC Method\nThe Venture Capital Method\nMethod frequently encountered in venture, buyout \nand related fields\nInvestor return expectations drive Company valuations\nDerives amount of ownership required.\n\nVC Method\nUsing the Venture Capital Method\n4 essential activities:\n1) Figure out how much $ is needed today\n2) Estimate final “enterprise value” if all goes well.\n[Comparables]\n3) Use high discount rate for investor’s return \nexpectation (investor’s necessary IRR)\n4) Adjust for later rounds of financing\n\n[S4] Source: Haas Venture Valuation Slides (raw/Haas VCPE 295B - Venture Valuation.pdf), pp. 53–56\n? ?\n? ?\nComparables\nScenario Analysis\nMethods of VC Valuation\nStage of Growth\nInvestment\nType\nLate\nVC\nTraditional\nEarly\n64\nVenture Capital \nMethod\nProjection \nReflection\n\nProjection/\nReflection\n• If you are self-sufficient, operate business to achieve best \nbusiness results\n• If not, operate business to maximize the probability and value \nof raising money\n• Value changes in “step-functions”, not linearly\n• Optimal financings take place following major step functions\n• Want “shared understanding” and “shared expectations” \nbetween investors and management\nConcepts\n\nProjection/\nReflection\n• Valuation/Yield Short-Hand\nStart-Up Early Stage Expansion Late/\nMezzanine \nConcept Execute Grow LiquidityBuild\n2.5x 2.0x 1.75x 1.5x\n\nAssumptions\n• Next round likely to be \n$30m pre-money (Playme)\n• Company is at “seed” \nstage (2.5x discount to next round) \nCalculations\n• $30m / 2.5= $12m post money valuation\n• $12m post - $5m = $7m pre-money valuation\nMekasutra Games – \nProjection Reflection\nRoom to negotiate – Below $7m is better for investor\nIs company seed stage or early stage?\n\n[S5] Source: Haas Venture Valuation Slides (raw/Haas VCPE 295B - Venture Valuation.pdf), pp. 80–82\nNanoChon\npremoney $ 100 \nmoney $ 20.0 \npost money 120\nownership 27%\nTotal\nOwner- Ownership Probable probable\nExits Rounds ship value Multiple Time IRR Probability value value\n$ 500 3 10% $ 52 13.0 10 29% 10.0% $ 5.18 26.67 \n$ 500 2 16% $ 80 19.9 6 65% 10% $ 7.97 \n$ 500 1 27% $ 135 33.8 3 223% 10% $ 13.51 Multiple\n$ - 1 27% - - 2 70% $ - 6.67 \nProductive.ai\n\n? ?\n? ?\nMethods of VC Valuation\nStage of Growth\nInvestment\nType\nLate\nVC\nTraditional\nEarly\n94\nVenture Capital \nMethod\nProjection \nReflection\nComparables\nScenario Analysis\n\nVC Valuation\n• To repeat:\n– Art, not science\n– There are no right answers\n– Methods are “precise” , but not “accurate”\n– Assumptions are key, can “overwhelm” the math\n\n[S6] Source: Haas Venture Valuation Slides (raw/Haas VCPE 295B - Venture Valuation.pdf), pp. 61–65\nProjection/\nReflection\n• Scenario 4\n– Get real creative with much less cash ($1M)\n(post “Seed”)\ncash needed\npre money value\n\n25% to VC’s\n75% to Founders \nA “do-able deal” at \nventure creation stage\n\n$10.M\n÷ 2.5\n$ 4.0M\n- $ 1.0M\n$ 3.0M\n\n\n\n\n? ?\n? ?\nMethods of VC Valuation\nStage of Growth\nInvestment\nType\nLate\nVC\nTraditional\nEarly\n73\nVenture Capital \nMethod\nProjection \nReflection\nComparables\nScenario Analysis\nScenario Analysis\n\nGoals:\n– Create an estimate for valuation\n– Understand impact of key assumptions\n– Consider the “shape of the risk”\n– Provide a language for partnership discussion\nScenario Analysis\n\nMany Variables to Estimate\n• Premoney and money\n• Exit scenarios\n– Potential outcomes and growth\n– Probabilities of those outcomes\n• Dilution from future financings\n• Time\n76\nThis risk disaggregation fits with partner meeting \nlanguage\n\nScenario Analysis - Steps\n1. Pick end state scenarios\n2. Consider dilution of later rounds\n3. Determine probabilities and time\n4. Analyze the valuation, risk profile\n77\n“Anchor” assumptions with data and discussion\n\nQUESTION: Why can't traditional valuation methods be used for a VC-funded company?\n\nAnswer using only the evidence passages, citing them like [S1]."
+    }
+  ],
+  "answer": "Traditional valuation methods are not suitable for VC-funded companies because they deal with different types of companies [S1]. Traditional methods consider aspects like markets, ongoing operations, cash flows, and capital structure, whereas VC-funded companies involve emerging markets, changing business models, negative cash flows, and specific capital structures such as no borrowing capacity, equity, preferred stock (liquidation preferences), common stock (stock options), and future rounds [S1].",
+  "citations": {
+    "cited": [
+      1
+    ],
+    "invalid": [],
+    "unsupported_numbers": [],
+    "uncited_sentences": [],
+    "insufficient": false,
+    "pass": true
+  },
+  "generation": {
+    "text": "Traditional valuation methods are not suitable for VC-funded companies because they deal with different types of companies [S1]. Traditional methods consider aspects like markets, ongoing operations, cash flows, and capital structure, whereas VC-funded companies involve emerging markets, changing business models, negative cash flows, and specific capital structures such as no borrowing capacity, equity, preferred stock (liquidation preferences), common stock (stock options), and future rounds [S1].",
+    "prompt_tokens": 2316,
+    "generated_tokens": 90,
+    "seconds": 9.02881908416748,
+    "tokens_per_second": 26.59534713385477,
+    "peak_memory_gb": 3.328681746,
+    "process_rss_gb": 2.197471232
+  },
+  "model_load_seconds": 4.397771120071411
+}

@@ -1,0 +1,140 @@
+{
+  "mode": "ask",
+  "execution": "local",
+  "env": {
+    "timestamp": "2026-09-26T14:43:50",
+    "execution": "local",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
+    "device": "arm64 · macOS 15.6.1",
+    "network": "offline (no route to internet)"
+  },
+  "question": "What management fee do venture capital partners usually charge?",
+  "retrieval": {
+    "top_k": 6,
+    "seconds": 0.053681135177612305,
+    "hits": [
+      {
+        "id": "breakintovc-book:023",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 2: Early Stage Investing › How Does It Work?",
+        "score": 18.201,
+        "coverage": 0.835,
+        "matched_terms": [
+          "management",
+          "fee",
+          "venture",
+          "capital",
+          "partner",
+          "charge"
+        ],
+        "text": "The average fund size of all venture capital stages is about $400M and the average venture capital deal size is $18M.1\n\nThe larger the firm’s stake in the company as shown in the account of all major shareholders, or capitalization table, the larger CynMerc’s returns are when the company makes an exit either through an initial public offering (IPO) or any mergers & acquisitions (M&A) activity.\n\nSince Cynthia and Mercedes are partners at CynMerc, they will charge a management fee of about 2 percent to the limited partners in order to pay their own salaries, and the salaries of the associates and the support staff (you).\n\nOnce the limited partners receive 100 percent of their money back, Cynthia and Mercedes receive 20 percent of any additional profits while the limited partners receive 80 percent. The 20 percent that Cynthia and Mercedes receive is referred to as carried interest."
+      },
+      {
+        "id": "breakintovc-book:259",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Brandon Greer › Cornell University ’16Analyst at OpenView Venture Partners",
+        "score": 8.963,
+        "coverage": 0.306,
+        "matched_terms": [
+          "management",
+          "venture",
+          "partner"
+        ],
+        "text": "Brandon is currently an investment analyst at OpenView Venture Partners. He graduated from Cornell University in 2016 with a degree in Applied Economics and Management. During his time at Cornell, before coming to OpenView, Brandon worked as an investment banking summer analyst at J.P. Morgan."
+      },
+      {
+        "id": "breakintovc-book:107",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 10: Interview Questions › Forward Your Questions for Management to the Interviewer",
+        "score": 7.987,
+        "coverage": 0.268,
+        "matched_terms": [
+          "management",
+          "partner"
+        ],
+        "text": "It is definitely your job to know some of the firm’s portfolio companies fairly well. If you’ve reached the super day stage, you will speak with partners that are on the boards of portfolio companies as well as associates with expertise in that field.\n\nIf they happen to have expertise in the space you researched, ask their thoughts on the future of the space; even better, if they’re on a board, relay your questions for the management team directly to the partner or associate. You can also simply ask what’s next for the company with regard to a particular product or expansion. They’ll really enjoy sharing what they can with you and it will create a memorable moment."
+      },
+      {
+        "id": "breakintovc-book:025",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 2: Early Stage Investing › Why People Invest in Venture Capital",
+        "score": 7.939,
+        "coverage": 0.361,
+        "matched_terms": [
+          "vc",
+          "venture",
+          "capital",
+          "partner",
+          "usually"
+        ],
+        "text": "Despite such a high risk, limited partners agree to invest in venture firms in order to diversify their assets, or what they own. Instead of allocating capital only to stocks, bonds and real estate, portfolio managers allocate a portion of funds to a category known as alternative investments, which consists of private equity and venture capital investment opportunities. Since VC is so risky, usually under 15 percent of the portfolio is allocated to alternative investments.\n\nFor instance, VC firms return 25 percent on average, while the typical stock market return in a given year is 8 percent annually. That being said, it is rare for stocks to hit 0 dollars in value while in any given early stage portfolio over half of the companies may fail in a 10-year period. As usual, great returns come with great risk."
+      },
+      {
+        "id": "breakintovc-book:275",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 18: Conclusion › Conclusion",
+        "score": 7.854,
+        "coverage": 0.233,
+        "matched_terms": [
+          "vc",
+          "venture",
+          "capital",
+          "partner"
+        ],
+        "text": "Volition Capital (Boston, MA)\n\nLead Edge Capital (New York, NY)\n\nAnthos Capital (Los Angeles, CA)\n\nAccess Partners (San Francisco, CA)\n\nKleiner Perkins Caufield & Byers (San Francisco, CA)\n\nGSV Acceleration (Chicago, IL)\n\nOpenView Venture Partners (Boston, MA)\n\nBattery Ventures (Boston, MA)\n\nMarch Capital Partners (Los Angeles, CA)\n\nVocap Partners (Atlanta, GA)\n\nRingleader Ventures (Chicago, IL)\n\nSierra Ventures (San Francisco, CA)\n\nAlsop Louie Partners (San Francisco, CA)\n\nArmory Square Ventures (New York, NY and Syracuse, NY)\n\nFF Venture Capital (New York, NY)\n\nBullpen Capital (San Francisco, CA)\n\nGeneral Catalyst (Palo Alto, CA)\n\nVista Equity Partners (San Francisco, CA)\n\nAltamont Capital Partners (Palo Alto, CA)\n\nPear VC (Palo Alto, CA)\n\nVenrock (Palo Alto, CA)\n\nPlease leave an honest review and let me know what you thought of the book!"
+      },
+      {
+        "id": "breakintovc-book:218",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 16: Start a Club › Columbia Venture Partners",
+        "score": 7.614,
+        "coverage": 0.233,
+        "matched_terms": [
+          "vc",
+          "venture",
+          "capital",
+          "partner"
+        ],
+        "text": "After doing some pro-bono consulting for VC firms and completing a couple VC fellowship opportunities, I really thought I had some valuable information to pass on to anyone that would be interested in a venture capital career.\n\nA few friends and I started what is now known as Columbia Venture Partners, a Columbia University student organization that serves as a training ground for students who are interested in venture capital. We not only train our student-analysts, we also connect them with fellowships and pro-bono consulting opportunities in order to experience what it’s like to work in the industry.\n\nColumbia Venture Partners (CVP) is something that’s very special to me. I enjoy sharing everything I have learned about venture capital with students who have a genuine passion for the industry and I learn from them every day as well.\n\nThe club is fairly new (February 2016), so we recently began the process of partnering with other firms and the results have been incredible. Our analysts have engaged in pitch offs, internships and project-based learning initiatives with firms like Stripes Group, Bowery Capital, Scout Ventures and many more."
+      }
+    ]
+  },
+  "prompt_messages": [
+    {
+      "role": "system",
+      "content": "# Research rules (ask mode)\n\nYou answer research questions using ONLY the numbered evidence passages provided\nwith the question. The passages come from the user's own sources: a book, a blog\npost, and lecture slides about venture capital.\n\nRules:\n1. Use only facts that appear in the evidence passages. Do not use outside knowledge, even if you think it is correct.\n2. After every sentence that states a fact, cite the passage(s) it came from with the passage number in square brackets, for example [S2] or [S1][S4].\n3. Include the specific numbers the passages give for what is asked (percentages, amounts, multiples), copied exactly ($40mm, 34%, 2.8x). Do not do new math unless the question asks for it, and if you do, show the steps.\n4. If the question asks for examples or \"how\" something is calculated, walk through each worked example the passages contain, step by step with its numbers, and cite each one.\n5. If a passage gives a goal, target, assumption, or hypothetical example, say so. Never present a target or an example as an actual result.\n6. If the passages do not contain the answer, reply with exactly this first line:\n   INSUFFICIENT EVIDENCE: the sources do not say <what is missing>.\n   Then, in one sentence, you may mention what related information the sources do contain, with a citation.\n7. If the passages answer only part of the question, answer that part with citations and say clearly which part the sources do not cover.\n8. Write in a neutral, direct voice: no greeting, no personality, no suggestions, no follow-up questions. Keep it under 220 words."
+    },
+    {
+      "role": "user",
+      "content": "EVIDENCE PASSAGES:\n\n[S1] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 2: Early Stage Investing › How Does It Work?\nThe average fund size of all venture capital stages is about $400M and the average venture capital deal size is $18M.1\n\nThe larger the firm’s stake in the company as shown in the account of all major shareholders, or capitalization table, the larger CynMerc’s returns are when the company makes an exit either through an initial public offering (IPO) or any mergers & acquisitions (M&A) activity.\n\nSince Cynthia and Mercedes are partners at CynMerc, they will charge a management fee of about 2 percent to the limited partners in order to pay their own salaries, and the salaries of the associates and the support staff (you).\n\nOnce the limited partners receive 100 percent of their money back, Cynthia and Mercedes receive 20 percent of any additional profits while the limited partners receive 80 percent. The 20 percent that Cynthia and Mercedes receive is referred to as carried interest.\n\n[S2] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Brandon Greer › Cornell University ’16Analyst at OpenView Venture Partners\nBrandon is currently an investment analyst at OpenView Venture Partners. He graduated from Cornell University in 2016 with a degree in Applied Economics and Management. During his time at Cornell, before coming to OpenView, Brandon worked as an investment banking summer analyst at J.P. Morgan.\n\n[S3] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 10: Interview Questions › Forward Your Questions for Management to the Interviewer\nIt is definitely your job to know some of the firm’s portfolio companies fairly well. If you’ve reached the super day stage, you will speak with partners that are on the boards of portfolio companies as well as associates with expertise in that field.\n\nIf they happen to have expertise in the space you researched, ask their thoughts on the future of the space; even better, if they’re on a board, relay your questions for the management team directly to the partner or associate. You can also simply ask what’s next for the company with regard to a particular product or expansion. They’ll really enjoy sharing what they can with you and it will create a memorable moment.\n\n[S4] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 2: Early Stage Investing › Why People Invest in Venture Capital\nDespite such a high risk, limited partners agree to invest in venture firms in order to diversify their assets, or what they own. Instead of allocating capital only to stocks, bonds and real estate, portfolio managers allocate a portion of funds to a category known as alternative investments, which consists of private equity and venture capital investment opportunities. Since VC is so risky, usually under 15 percent of the portfolio is allocated to alternative investments.\n\nFor instance, VC firms return 25 percent on average, while the typical stock market return in a given year is 8 percent annually. That being said, it is rare for stocks to hit 0 dollars in value while in any given early stage portfolio over half of the companies may fail in a 10-year period. As usual, great returns come with great risk.\n\n[S5] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 18: Conclusion › Conclusion\nVolition Capital (Boston, MA)\n\nLead Edge Capital (New York, NY)\n\nAnthos Capital (Los Angeles, CA)\n\nAccess Partners (San Francisco, CA)\n\nKleiner Perkins Caufield & Byers (San Francisco, CA)\n\nGSV Acceleration (Chicago, IL)\n\nOpenView Venture Partners (Boston, MA)\n\nBattery Ventures (Boston, MA)\n\nMarch Capital Partners (Los Angeles, CA)\n\nVocap Partners (Atlanta, GA)\n\nRingleader Ventures (Chicago, IL)\n\nSierra Ventures (San Francisco, CA)\n\nAlsop Louie Partners (San Francisco, CA)\n\nArmory Square Ventures (New York, NY and Syracuse, NY)\n\nFF Venture Capital (New York, NY)\n\nBullpen Capital (San Francisco, CA)\n\nGeneral Catalyst (Palo Alto, CA)\n\nVista Equity Partners (San Francisco, CA)\n\nAltamont Capital Partners (Palo Alto, CA)\n\nPear VC (Palo Alto, CA)\n\nVenrock (Palo Alto, CA)\n\nPlease leave an honest review and let me know what you thought of the book!\n\n[S6] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 16: Start a Club › Columbia Venture Partners\nAfter doing some pro-bono consulting for VC firms and completing a couple VC fellowship opportunities, I really thought I had some valuable information to pass on to anyone that would be interested in a venture capital career.\n\nA few friends and I started what is now known as Columbia Venture Partners, a Columbia University student organization that serves as a training ground for students who are interested in venture capital. We not only train our student-analysts, we also connect them with fellowships and pro-bono consulting opportunities in order to experience what it’s like to work in the industry.\n\nColumbia Venture Partners (CVP) is something that’s very special to me. I enjoy sharing everything I have learned about venture capital with students who have a genuine passion for the industry and I learn from them every day as well.\n\nThe club is fairly new (February 2016), so we recently began the process of partnering with other firms and the results have been incredible. Our analysts have engaged in pitch offs, internships and project-based learning initiatives with firms like Stripes Group, Bowery Capital, Scout Ventures and many more.\n\nQUESTION: What management fee do venture capital partners usually charge?\n\nAnswer using only the evidence passages, citing them like [S1]."
+    }
+  ],
+  "answer": "Venture capital partners will charge a management fee of about 2 percent to the limited partners in order to cover their own salaries and the salaries of associates and support staff [S1].",
+  "citations": {
+    "cited": [
+      1
+    ],
+    "invalid": [],
+    "unsupported_numbers": [],
+    "uncited_sentences": [],
+    "insufficient": false,
+    "pass": true
+  },
+  "generation": {
+    "text": "Venture capital partners will charge a management fee of about 2 percent to the limited partners in order to cover their own salaries and the salaries of associates and support staff [S1].",
+    "prompt_tokens": 1660,
+    "generated_tokens": 38,
+    "seconds": 4.560694694519043,
+    "tokens_per_second": 26.57491947062645,
+    "peak_memory_gb": 3.307606194,
+    "process_rss_gb": 2.424225792
+  },
+  "model_load_seconds": 4.466814994812012
+}

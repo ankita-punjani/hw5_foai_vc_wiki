@@ -1,0 +1,8 @@
+#!/bin/sh
+# Launcher: run the harness with the project's virtualenv from any directory.
+here="$(cd "$(dirname "$0")" && pwd)"
+if [ ! -x "$here/.venv/bin/python" ]; then
+  echo "wiki: error: $here/.venv is missing. Run the setup steps in README.md first." >&2
+  exit 2
+fi
+PYTHONPATH="$here${PYTHONPATH:+:$PYTHONPATH}" exec "$here/.venv/bin/python" -m wikicli "$@"

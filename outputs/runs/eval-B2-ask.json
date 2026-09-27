@@ -1,0 +1,141 @@
+{
+  "mode": "ask",
+  "execution": "local",
+  "env": {
+    "timestamp": "2026-09-26T15:01:21",
+    "execution": "local",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
+    "device": "arm64 · macOS 15.6.1",
+    "network": "offline (no route to internet)"
+  },
+  "question": "Why do venture capitalists ask whether a startup can return the fund?",
+  "retrieval": {
+    "top_k": 6,
+    "seconds": 0.0033299922943115234,
+    "hits": [
+      {
+        "id": "harlem-return-the-fund:002",
+        "source_note": "Harlem Capital Return the Fund Post",
+        "file": "raw/Harlem Capital - Return the Fund.pdf",
+        "locator": "p. 2",
+        "score": 11.511,
+        "coverage": 0.598,
+        "matched_terms": [
+          "vc",
+          "venture",
+          "ask",
+          "startup",
+          "return",
+          "fund"
+        ],
+        "text": "We will take a deep dive into venture math, particularly Harlem Capital’s, for\nfounders to better understand what VCs are looking for. It will also be helpful for\npotential investors looking to better understand the economics. Either way, if you\ndon’t like math, you should definitely read this post ;)\n5 Step Return Analysis\nThe below analysis provides some context to how we think about returns. You often\nwill hear VCs say, “Can this return the fund?” This question is VERY IMPORTANT, so\nfirst lets define “Fund Returner”.\nFund Returner Calculation\nFund Returner means to invest an amount of money and receive back 100% of my\nTOTAL fund from that investment. The above example shows a $40mm fund\ninvesting a $750k check and getting a 53.3x return to generate $40mm in return\ndollars, aka a Fund Returner. Not easy to get a 53.3x by the way, why Fund Returners\nare RARE. Although rare, they are critical in venture due to the very high startup\nfailure rate (75%-90% depending who you ask and how they define it). Now lets walk\nthrough the complete venture math in 5 steps using the below example. There are\nother terms used that will not be defined so please reference these 100 VC terms if\nany term is unclear."
+      },
+      {
+        "id": "breakintovc-book:011",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Introduction",
+        "score": 9.975,
+        "coverage": 0.58,
+        "matched_terms": [
+          "venture",
+          "capitalist",
+          "whether",
+          "fund"
+        ],
+        "text": "I promise that if you follow the techniques and strategies I outline in this book, you’ll have everything you need to win over the hearts and minds of even the most hard to reach investors tucked away in the hills of Silicon Valley.\n\nFor the entrepreneurs out there: venture capitalists invest in people. Once you understand how to pitch a company, even if investors think your idea isn’t a home run, they’ll be confident enough in you to offer some advice and you can continue to build a relationship that could last a lifetime. All from a successful pitch.\n\nRegardless of whether your goal is to become a venture capitalist or get your company funded, you need to learn how to think and communicate like an investor. This is the quickest way to thrive as you begin your journey.\n\nDon’t be the person who sits at home watching Shark Tank, secretly wishing for a seat at the investor table. The longer you sit on the sidelines, the harder it is to get in the game."
+      },
+      {
+        "id": "breakintovc-book:008",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Introduction",
+        "score": 9.046,
+        "coverage": 0.451,
+        "matched_terms": [
+          "venture",
+          "capitalist",
+          "whether"
+        ],
+        "text": "By the end of this book you’ll know how to talk about companies that excite you, pitch companies to venture capitalists and evaluate businesses through the lens of an investor.\n\nWhether you’re looking to enter the venture capital industry or start a business, the real gift of this book is gaining the mindset of a venture capitalist and being able to understand markets and companies so well that you can win over investors again and again in meetings and pitches.\n\nI’ve since tested the strategies in this helpful how-to guide with dozens of folks across the country. In between finishing the manuscript and publishing #BreakIntoVC, I gave the book to several of my friends in the industry, who then passed it on to their friends."
+      },
+      {
+        "id": "breakintovc-book:043",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 4: Early Steps: Overall Research › Events",
+        "score": 8.675,
+        "coverage": 0.387,
+        "matched_terms": [
+          "vc",
+          "venture",
+          "capitalist",
+          "startup"
+        ],
+        "text": "Events are a shortcut to connecting and networking with venture capitalists, as well as entrepreneurs, and help you to land a job in the industry. Since VCs go to events and pitch festivals to find new companies, so should you. There are always startup events to attend.\n\nStartups will often attend or sponsor tech events and a few may have interesting products or founders. If you find a company intriguing, the odds are good that a venture capitalist will as well. Always reach out to the entrepreneur to get their contact information and have a few questions ready about their startup.\n\nNetworking with entrepreneurs is a useful skill in becoming a VC. If you land an interview with a seed stage venture capital firm or an accelerator, who works with a company at the earliest stages of their lifecycle, you’ll have a great opportunity to showcase your knowledge of the space, and answer the “What’s your favorite startup?” question."
+      },
+      {
+        "id": "breakintovc-book:031",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 3: Early Steps: Reaching Out › Early Steps: Reaching Out",
+        "score": 8.295,
+        "coverage": 0.405,
+        "matched_terms": [
+          "ask",
+          "startup",
+          "fund"
+        ],
+        "text": "Now that we have an e-mail address of the entrepreneur, what do we say?\n\nFirst you need a great subject line. Something short and striking like “I Need Your Help” or “Advice” will work fine. Next, draft a short e-mail that won’t take too much time to read:\n\nMy name is _____, I go to (school) and study (subject). Congratulations on (relevant startup event), I am excited to see how this progresses.\n\nI feel I have a genuine interest in early stage companies and would love to get some advice on navigating the startup ecosystem in______.\n\nTweak this format to fit your needs, but the important thing is to show genuine interest in their company and ask for advice.\n\nSpeak with at least three entrepreneurs in your local area over the phone and ask:\n\nCan I learn a little more about your journey to become a funded company?\n\nWhat was the single greatest resource that you used as an entrepreneur to help you get funding?\n\nWhat other companies should I be aware of in ______?"
+      },
+      {
+        "id": "breakintovc-book:029",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 3: Early Steps: Reaching Out › Early Steps: Reaching Out",
+        "score": 8.279,
+        "coverage": 0.514,
+        "matched_terms": [
+          "venture",
+          "whether",
+          "startup",
+          "fund"
+        ],
+        "text": "Research Entrepreneurs in Your Area\n\nIt doesn’t matter, but it helps, if you attend or previously attended an undergraduate business school or well-known university. If you are building relationships with the entrepreneurs in your area, you are on your way to landing your first venture capital opportunity.\n\nWhether you go to school in a major city (SF, Boston, NYC, Chicago, Atlanta) or even a smaller city, you can still find venture capital opportunities.\n\nThe first step is to speak with an entrepreneur in your area, someone who has founded a startup and has been through at least an initial funding, or seed round. Most of the time, entrepreneurs and founders are genuinely friendly people and will hop on the phone with you for a 15-minute call or share some of their wisdom through e-mail."
+      }
+    ],
+    "unknown_terms": []
+  },
+  "prompt_messages": [
+    {
+      "role": "system",
+      "content": "# Research rules (ask mode)\n\nYou answer research questions using ONLY the numbered evidence passages provided\nwith the question. The passages come from the user's own sources: a book, a blog\npost, and lecture slides about venture capital.\n\nRules:\n1. Use only facts that appear in the evidence passages. Do not use outside knowledge, even if you think it is correct.\n2. After every sentence that states a fact, cite the passage(s) it came from with the passage number in square brackets, for example [S2] or [S1][S4].\n3. Include the specific numbers the passages give for what is asked (percentages, amounts, multiples), copied exactly ($40mm, 34%, 2.8x). Do not do new math unless the question asks for it, and if you do, show the steps.\n4. If the question asks for examples or \"how\" something is calculated, walk through each worked example the passages contain, step by step with its numbers, and cite each one.\n5. If a passage gives a goal, target, assumption, or hypothetical example, say so. Never present a target or an example as an actual result.\n6. If the passages do not contain the answer, reply with exactly this first line:\n   INSUFFICIENT EVIDENCE: the sources do not say <what is missing>.\n   Then, in one sentence, you may mention what related information the sources do contain, with a citation.\n7. If the passages answer only part of the question, answer that part with citations and say clearly which part the sources do not cover.\n8. Write in a neutral, direct voice: no greeting, no personality, no suggestions, no follow-up questions. Keep it under 220 words."
+    },
+    {
+      "role": "user",
+      "content": "EVIDENCE PASSAGES:\n\n[S1] Source: Harlem Capital Return the Fund Post (raw/Harlem Capital - Return the Fund.pdf), p. 2\nWe will take a deep dive into venture math, particularly Harlem Capital’s, for\nfounders to better understand what VCs are looking for. It will also be helpful for\npotential investors looking to better understand the economics. Either way, if you\ndon’t like math, you should definitely read this post ;)\n5 Step Return Analysis\nThe below analysis provides some context to how we think about returns. You often\nwill hear VCs say, “Can this return the fund?” This question is VERY IMPORTANT, so\nfirst lets define “Fund Returner”.\nFund Returner Calculation\nFund Returner means to invest an amount of money and receive back 100% of my\nTOTAL fund from that investment. The above example shows a $40mm fund\ninvesting a $750k check and getting a 53.3x return to generate $40mm in return\ndollars, aka a Fund Returner. Not easy to get a 53.3x by the way, why Fund Returners\nare RARE. Although rare, they are critical in venture due to the very high startup\nfailure rate (75%-90% depending who you ask and how they define it). Now lets walk\nthrough the complete venture math in 5 steps using the below example. There are\nother terms used that will not be defined so please reference these 100 VC terms if\nany term is unclear.\n\n[S2] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Introduction\nI promise that if you follow the techniques and strategies I outline in this book, you’ll have everything you need to win over the hearts and minds of even the most hard to reach investors tucked away in the hills of Silicon Valley.\n\nFor the entrepreneurs out there: venture capitalists invest in people. Once you understand how to pitch a company, even if investors think your idea isn’t a home run, they’ll be confident enough in you to offer some advice and you can continue to build a relationship that could last a lifetime. All from a successful pitch.\n\nRegardless of whether your goal is to become a venture capitalist or get your company funded, you need to learn how to think and communicate like an investor. This is the quickest way to thrive as you begin your journey.\n\nDon’t be the person who sits at home watching Shark Tank, secretly wishing for a seat at the investor table. The longer you sit on the sidelines, the harder it is to get in the game.\n\n[S3] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Introduction\nBy the end of this book you’ll know how to talk about companies that excite you, pitch companies to venture capitalists and evaluate businesses through the lens of an investor.\n\nWhether you’re looking to enter the venture capital industry or start a business, the real gift of this book is gaining the mindset of a venture capitalist and being able to understand markets and companies so well that you can win over investors again and again in meetings and pitches.\n\nI’ve since tested the strategies in this helpful how-to guide with dozens of folks across the country. In between finishing the manuscript and publishing #BreakIntoVC, I gave the book to several of my friends in the industry, who then passed it on to their friends.\n\n[S4] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 4: Early Steps: Overall Research › Events\nEvents are a shortcut to connecting and networking with venture capitalists, as well as entrepreneurs, and help you to land a job in the industry. Since VCs go to events and pitch festivals to find new companies, so should you. There are always startup events to attend.\n\nStartups will often attend or sponsor tech events and a few may have interesting products or founders. If you find a company intriguing, the odds are good that a venture capitalist will as well. Always reach out to the entrepreneur to get their contact information and have a few questions ready about their startup.\n\nNetworking with entrepreneurs is a useful skill in becoming a VC. If you land an interview with a seed stage venture capital firm or an accelerator, who works with a company at the earliest stages of their lifecycle, you’ll have a great opportunity to showcase your knowledge of the space, and answer the “What’s your favorite startup?” question.\n\n[S5] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 3: Early Steps: Reaching Out › Early Steps: Reaching Out\nNow that we have an e-mail address of the entrepreneur, what do we say?\n\nFirst you need a great subject line. Something short and striking like “I Need Your Help” or “Advice” will work fine. Next, draft a short e-mail that won’t take too much time to read:\n\nMy name is _____, I go to (school) and study (subject). Congratulations on (relevant startup event), I am excited to see how this progresses.\n\nI feel I have a genuine interest in early stage companies and would love to get some advice on navigating the startup ecosystem in______.\n\nTweak this format to fit your needs, but the important thing is to show genuine interest in their company and ask for advice.\n\nSpeak with at least three entrepreneurs in your local area over the phone and ask:\n\nCan I learn a little more about your journey to become a funded company?\n\nWhat was the single greatest resource that you used as an entrepreneur to help you get funding?\n\nWhat other companies should I be aware of in ______?\n\n[S6] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 3: Early Steps: Reaching Out › Early Steps: Reaching Out\nResearch Entrepreneurs in Your Area\n\nIt doesn’t matter, but it helps, if you attend or previously attended an undergraduate business school or well-known university. If you are building relationships with the entrepreneurs in your area, you are on your way to landing your first venture capital opportunity.\n\nWhether you go to school in a major city (SF, Boston, NYC, Chicago, Atlanta) or even a smaller city, you can still find venture capital opportunities.\n\nThe first step is to speak with an entrepreneur in your area, someone who has founded a startup and has been through at least an initial funding, or seed round. Most of the time, entrepreneurs and founders are genuinely friendly people and will hop on the phone with you for a 15-minute call or share some of their wisdom through e-mail.\n\nQUESTION: Why do venture capitalists ask whether a startup can return the fund?\n\nAnswer using only the evidence passages, citing them like [S1]."
+    }
+  ],
+  "answer": "Venture capitalists ask whether a startup can return the fund to determine if it is a \"Fund Returner\" [S1]. A Fund Returner is defined as investing an amount of money and receiving back 100% of the total fund from that investment [S1]. For example, a $40mm fund investing a $750k check and getting a 53.3x return to generate $40mm in return dollars is shown as a Fund Returner [S1].",
+  "citations": {
+    "cited": [
+      1
+    ],
+    "invalid": [],
+    "unsupported_numbers": [],
+    "uncited_sentences": [],
+    "insufficient": false,
+    "pass": true
+  },
+  "generation": {
+    "text": "Venture capitalists ask whether a startup can return the fund to determine if it is a \"Fund Returner\" [S1]. A Fund Returner is defined as investing an amount of money and receiving back 100% of the total fund from that investment [S1]. For example, a $40mm fund investing a $750k check and getting a 53.3x return to generate $40mm in return dollars is shown as a Fund Returner [S1].",
+    "prompt_tokens": 1835,
+    "generated_tokens": 105,
+    "seconds": 8.352374792098999,
+    "tokens_per_second": 24.061485344709475,
+    "peak_memory_gb": 3.377346198,
+    "process_rss_gb": 2.190753792
+  },
+  "model_load_seconds": null
+}

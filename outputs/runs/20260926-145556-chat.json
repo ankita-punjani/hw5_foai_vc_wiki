@@ -1,0 +1,133 @@
+{
+  "mode": "chat",
+  "env": {
+    "timestamp": "2026-09-26T14:55:56",
+    "execution": "local",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
+    "device": "arm64 · macOS 15.6.1",
+    "network": "online"
+  },
+  "turns": [
+    {
+      "user": "How much ownership does a founder usually give up in a seed round?",
+      "retrieval": "notes: searched, 4 passages — message matches the notes (best coverage 83%)",
+      "hits": [
+        {
+          "id": "harlem-return-the-fund:003",
+          "source_note": "Harlem Capital Return the Fund Post",
+          "file": "raw/Harlem Capital - Return the Fund.pdf",
+          "locator": "p. 3",
+          "score": 15.399,
+          "coverage": 0.828,
+          "matched_terms": [
+            "ownership",
+            "founder",
+            "up",
+            "seed",
+            "round"
+          ],
+          "text": "Example for Reference\nStep 1 — Check size\nEvery fund has a “typical” check size range based on the size of the fund and fund\nstrategy (diversified vs concentrated). Find this out early in conversations if\npossible.\nAs a $40mm fund that is investing in 30 companies, Harlem Capital’s check size\nrange is $500k to $1mm, with our average check being $750k (used in example\nabove).\nStep 2 — Valuation\nSeed valuations are NOT determined by revenue multiples, but instead by ownership\ntargets. Please remember this. A founder should expect to give up 20% – 30%\nownership in the Seed round. Generally, larger funds ($100mm+) have 10% – 20%\nownership targets and microfunds ($25mm – $100mm) have 5% – 10% ownership\ntargets.\nAs a microfund, we target 5% – 10% ownership. That varies depending if we co-invest\nwhere we target 5% – 7.5% versus if we lead where we target 7.5% – 10%. Assuming\nwe invest $750k, this implies we only invest in companies with a post-money\nvaluation range of $7.5mm to $15mm in order to get our ownership targets. In the\nabove example, a $10mm valuation implies a $2mm-$3mm Seed round if we take the\n20% – 30% ownership assumption."
+        },
+        {
+          "id": "harlem-return-the-fund:004",
+          "source_note": "Harlem Capital Return the Fund Post",
+          "file": "raw/Harlem Capital - Return the Fund.pdf",
+          "locator": "p. 4",
+          "score": 13.056,
+          "coverage": 0.869,
+          "matched_terms": [
+            "ownership",
+            "founder",
+            "usually",
+            "seed",
+            "round"
+          ],
+          "text": "Step 3 — Dilution\nThe dilution assumption is the first BIG guess in the return model. The previous\nexample shows 23.5% total dilution by exit, which leads to 5.7% ownership at exit.\nLet’s look at the example of cutting the Series B and Series C round’s dilution by\n50.0%, table on the right below. That leads to 12.1% dilution and 6.6% ownership at\nexit. That 0.9% ownership increase leads to an investor only needing a $605mm exit\ninstead of a $700mm exit to return the fund, that’s $95mm (AKA a lot of money).\nDilution Comparison\nSo how does Harlem Capital think about dilution? It varies by industry and company\n(every VC answer), but we typically assume the Seed round is 25% (midpoint of 20 –\n30%) and steps down 5% each round. Meaning, 20% for the Series A, 15% for the\nSeries B, 10% for the Series C and 5% is the floor for Series D+ rounds. However, we\nreserve 30 – 40% of our fund for follow-ons to take our pro-rata in our winners in the\nSeries A to prevent dilution. This is why there is 0% dilution in the Series A round\nabove. Every fund has different follow-on reserves so ask them upfront. Overall, we\nusually assume 25 – 30% dilution by exit with our Series A pro-rata check. Note this\ntotal dilution is 40%+ without the Series A pro-rata so funds that don’t follow-on will\nrequire larger exits from founders. It is important to manage your dilution."
+        },
+        {
+          "id": "harlem-return-the-fund:007",
+          "source_note": "Harlem Capital Return the Fund Post",
+          "file": "raw/Harlem Capital - Return the Fund.pdf",
+          "locator": "p. 6",
+          "score": 12.44,
+          "coverage": 0.698,
+          "matched_terms": [
+            "ownership",
+            "founder",
+            "seed",
+            "round"
+          ],
+          "text": "A fund may not need unicorns to\nreturn the fund, but it will need billions in value creation to meet the 3x-5x return\ngoals.\n\nConclusion For Founders\nSo…if you know an investors initial ownership and you make some dilution\nassumptions, you can back into what exit they are assuming for you to return the\nfund.\n\nWe encourage founders to think through some of this math because investors\nare taking a piece of your baby and you want to be aligned.\n\nWe also encourage\nfounders to run this math for THEMSELVES.\n\nYou can replace the above analysis\nwith founder equity.\n\nWe generally see co-founders after Seed rounds owning ~30%\neach.\n\nNote the Series A dilution below as founders do not have pro-rata to prevent\ndilution, this leads to 38.8% total dilution instead of 23.5% for the investor.\n\nStill not\nbad for a founder to take home $129mm though ;)"
+        },
+        {
+          "id": "breakintovc-book:046",
+          "source_note": "Break Into VC Book",
+          "file": "raw/Break Into VC - Bradley Miles.epub",
+          "locator": "Chapter 5: Growth Equity › What is Growth Equity?",
+          "score": 10.417,
+          "coverage": 0.528,
+          "matched_terms": [
+            "founder",
+            "seed",
+            "round"
+          ],
+          "text": "The most prominent accelerators in the US are Y-Combinator and Techstars.\n\nSome of the most noted angel investors are Alexis Ohanian (founder of Reddit), Marc Benioff (founder of Salesforce) and Max Levchin (founder of Paypal, Slide and Affirm) who on occasion invest in early stage and growth rounds as well. If the core product of the business begins to gain market share, and it seems the company has a lasting opportunity to scale and become an emerging leader, investors like First Round Capital and 500 Startups step in at the seed or Series A round.\n\nGrowth equity firms like Stripes Group, General Atlantic and Insight Venture Partners typically come in at the Series C or D stage when the business becomes the number one or two player in the industry and is ripe for an IPO or strategic acquisition."
+        }
+      ],
+      "reply": "Hey! To give you a quick answer, founders typically expect to give up between 20% and 30% ownership in a Seed round [N1].\n\nThat's a big chunk, so it's important to remember that depending on the fund size, the ownership target can shift—larger funds might target 10% to 20% ownership, whereas microfunds might target 5% to 10% [N1].",
+      "first_reply_before_citation_fix": null,
+      "cited": [
+        1
+      ],
+      "citation_warnings": [],
+      "generation": {
+        "text": "Hey! To give you a quick answer, founders typically expect to give up between 20% and 30% ownership in a Seed round [N1].\n\nThat's a big chunk, so it's important to remember that depending on the fund size, the ownership target can shift—larger funds might target 10% to 20% ownership, whereas microfunds might target 5% to 10% [N1].",
+        "prompt_tokens": 2041,
+        "generated_tokens": 95,
+        "seconds": 8.130204200744629,
+        "tokens_per_second": 24.641966013868895,
+        "peak_memory_gb": 3.327484566,
+        "process_rss_gb": 1.0616832
+      }
+    },
+    {
+      "user": "Remember this for later: venture capital partners usually charge a 5% management fee.",
+      "retrieval": "notes: searched, 1 passages — message matches the notes (best coverage 52%)",
+      "hits": [
+        {
+          "id": "breakintovc-book:023",
+          "source_note": "Break Into VC Book",
+          "file": "raw/Break Into VC - Bradley Miles.epub",
+          "locator": "Chapter 2: Early Stage Investing › How Does It Work?",
+          "score": 18.201,
+          "coverage": 0.519,
+          "matched_terms": [
+            "venture",
+            "capital",
+            "partner",
+            "charge",
+            "management",
+            "fee"
+          ],
+          "text": "The average fund size of all venture capital stages is about $400M and the average venture capital deal size is $18M.1\n\nThe larger the firm’s stake in the company as shown in the account of all major shareholders, or capitalization table, the larger CynMerc’s returns are when the company makes an exit either through an initial public offering (IPO) or any mergers & acquisitions (M&A) activity.\n\nSince Cynthia and Mercedes are partners at CynMerc, they will charge a management fee of about 2 percent to the limited partners in order to pay their own salaries, and the salaries of the associates and the support staff (you).\n\nOnce the limited partners receive 100 percent of their money back, Cynthia and Mercedes receive 20 percent of any additional profits while the limited partners receive 80 percent. The 20 percent that Cynthia and Mercedes receive is referred to as carried interest."
+        }
+      ],
+      "reply": "My apologies! I mixed up the fee structure. According to the notes, venture capital partners charge about a 2 percent management fee [N1].",
+      "first_reply_before_citation_fix": "VC partners generally charge a 5% management fee [N1]. This fee covers their salaries and the support staff's pay.",
+      "cited": [
+        1
+      ],
+      "citation_warnings": [],
+      "generation": {
+        "text": "My apologies! I mixed up the fee structure. According to the notes, venture capital partners charge about a 2 percent management fee [N1].",
+        "prompt_tokens": 1279,
+        "generated_tokens": 31,
+        "seconds": 3.8820316791534424,
+        "tokens_per_second": 24.850171661617026,
+        "peak_memory_gb": 3.334108856,
+        "process_rss_gb": 1.0616832
+      }
+    }
+  ]
+}

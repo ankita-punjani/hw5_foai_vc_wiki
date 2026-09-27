@@ -1,0 +1,14 @@
+# One ask-mode RAG answer, measured with /usr/bin/time -l (2026-09-26, after a restart, on AC power, Low Power Mode on, online)
+$ /usr/bin/time -l ./wiki ask "What check size range does Harlem Capital write, and what is its average check?"
+· loading mlx-community/gemma-4-e2b-it-4bit (local, MLX) ...
+Harlem Capital's check size range is from $500k to $1mm [S1]. The average check used by Harlem Capital is $750k [S1].
+generation: 5.8s · 2159 prompt + 41 generated tokens · 25 tok/s · peak MLX memory 3.33 GB (+5.2s model load) · process max RSS 1.13 GB
+       14.43 real         5.33 user         3.81 sys
+          1134034944  maximum resident set size
+          3853388848  peak memory footprint
+
+System state at the time: swap 2.8 GB used of 4 GB, memory free 43%, disk free 31 GB.
+
+# Same measurement BEFORE the restart (2026-09-26 ~08:00, on battery 32%, Low Power Mode, swap 17-20 GB used of 18-21 GB):
+load 617.9 s (model weights paged in from a nearly full disk + swap), generation 4.2 s for 54 tokens, peak 2.64 GB.
+Lesson: the model fits easily, but only if the machine is not already swapping.

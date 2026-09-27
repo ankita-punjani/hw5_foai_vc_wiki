@@ -1,0 +1,210 @@
+{
+  "env": {
+    "timestamp": "2026-09-26T14:31:51",
+    "execution": "local",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
+    "device": "arm64 · macOS 15.6.1",
+    "network": "online"
+  },
+  "sources": [
+    {
+      "id": "breakintovc-book",
+      "file": "raw/Break Into VC - Bradley Miles.epub",
+      "sha256": "b4dd30fb6dfa6e3615680237e50bd6885943f42412f6bc1887dbdca412a869df",
+      "sections": 264,
+      "passages": 301,
+      "words": 42548,
+      "indexed_at": "2026-09-26T14:31:51"
+    },
+    {
+      "id": "haas-venture-valuation",
+      "file": "raw/Haas VCPE 295B - Venture Valuation.pdf",
+      "sha256": "e1bccd89f6c88411a17e51390a8dddab3e3dcf4479af0c9903f91c4a22117fce",
+      "sections": 86,
+      "passages": 31,
+      "words": 4582,
+      "indexed_at": "2026-09-26T14:31:53"
+    },
+    {
+      "id": "harlem-return-the-fund",
+      "file": "raw/Harlem Capital - Return the Fund.pdf",
+      "sha256": "1650f2620aef38ce7533c13a1463a85655ee01a726aa3d55d56cd66ddd8e083d",
+      "sections": 7,
+      "passages": 8,
+      "words": 1536,
+      "indexed_at": "2026-09-26T14:31:53"
+    }
+  ],
+  "notes": [
+    {
+      "note": "wiki/Basics/How Venture Capital Works.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nVenture capital (VC) involves firms investing in early-stage companies with a high risk profile in the hope of achieving significant returns. This process involves various stages of financing, risk assessment, and determining an exit strategy for the investors. Understanding VC requires knowing who invests, the expected returns, and how the entire process is structured.\n\n## Key points\n* The average fund size for venture capital stages is about $400M and the average venture capital deal size is $18M [S1].\n* The larger a firm’s stake in a company, the larger CynMerc’s returns are when the company exits through an IPO or M&A activity [S1].\n* Management fees are charged by partners to limited partners to cover salaries for themselves, associates, and support staff [S1].\n* Venture capital firms typically expect a target cash-on-cash return on investment (ROI) of 8-10x for early stage venture capital investors [S2].\n* A portion of the portfolio is allocated to alternative investments like venture capital because it is risky, with VC firms returning 25 percent on average compared to the stock market's 8 percent annual return [S4].\n* The risk factor summation method maps out 12 risks to assess the overall risk profile of a company [S5].\n* Angel investors were typically getting about a 15 percent stake in early stage companies based on average deal size and post-money valuation [S8].\n\n## Worked example\nNo worked example in the sources.",
+        "prompt_tokens": 2394,
+        "generated_tokens": 323,
+        "seconds": 18.76806616783142,
+        "tokens_per_second": 23.3310779852003,
+        "peak_memory_gb": 3.328682058,
+        "process_rss_gb": 1.036468224
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Basics/VC Glossary.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nThis glossary defines various terms used in venture capital, covering concepts related to valuation, investment methods, and investor returns. It explains how different investment stages and market conditions affect the returns investors receive.\n\n## Key points\n* Valuation divergence is the phenomenon where a venture's value increases at a much slower rate than its private shares [S7].\n* Early stage investors might experience a cash-on-cash ROI decrease of as much as 3-5x [S1].\n* Venture capitalists invest in early- to mid-stage private companies to earn large returns on their investments [S1].\n* Venture capitalists receive money from several different sources and do not share direct ownership of the portfolio companies [S1].\n* The Venture Capital Method involves determining a company's anticipated post-money valuation through market conditions and industry multiples, then dividing this by the anticipated return on investment (ROI) to find the current post-money valuation [S4].\n* Interest payable represents a company's obligation to pay interest that is owed within a specific period [S2].\n* Liabilities are what a company owes, which can include accounts, salaries, and interest payable, and can be found on the balance sheet [S2].\n\n## Worked example\nNo worked example in the sources.",
+        "prompt_tokens": 2167,
+        "generated_tokens": 266,
+        "seconds": 17.590399026870728,
+        "tokens_per_second": 21.450903423244235,
+        "peak_memory_gb": 3.328687098,
+        "process_rss_gb": 1.036468224
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Basics/VC Math Practice Problems.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nThis topic covers mathematical calculations used in venture capital, focusing on Internal Rate of Return (IRR), ownership percentages, and various valuation methods. Understanding these calculations is crucial for understanding investment returns and equity stakes in a company.\n\n## Key points\n*   Investors typically anticipate an Internal Rate of Return (IRR) between 20 to 30 percent over a 5-year investment horizon, which corresponds to a return multiplier between 2.5x and 4.0x [S4].\n*   A 1.5x return is associated with approximately a 10 percent IRR, a 2x return with a 15 percent IRR, a 3x return with a 25 percent IRR, a 4x return with about 30 percent IRR, and a 5x return with 40 percent IRR [S1].\n*   The pre-money valuation is defined as the company's value before the investment, while the post-money valuation is the value after the investment [S3].\n*   If a company has a $500k post-money valuation and investors invest $250k, they own 50 percent of the company [S3].\n*   If a company has a $500k pre-money valuation and investors invest $250k, they own approximately 33.3 percent of the company, resulting in a total company value of $750k [S3].\n*   If the pre-money investment represents 20 percent (or 1/5th), the post-money investment should represent 25 percent (or 1/4th) of the total [S5].\n*   Investors typically aim for IRRs between 25 to 75 percent over a 4-8 year period, which can yield an ROI in the ballpark of 5-10x the invested capital [S7].\n\n## Worked example\n1.  Determine the return for a 25 percent IRR over a 5-year period: If invested, the return is about 2.5x, resulting in $2.5M [S2].\n2.  Determine the return for a 30 percent IRR over a 5-year period: If invested, the return is a little more than 4x, resulting in a little more than $10M [S2].\n3.  Determine the return for a 30 percent IRR over the next five years: If invested, the return is a little more than 4x, resulting in a little more than $10M [S2].\n4.  Determine the return for a 30 percent IRR over the next five years: If invested, the return is a little more than 4x, resulting in a little more than $10M [S2].\n5.  Determine the ownership when a company has a $500k post-money valuation and investors invest $250k: Investors own 50 percent [S3].\n6.  Determine the ownership when a company has a $500k pre-money valuation and investors invest $250k: The company is valued at $750k, and investors own ~33.3 percent [S3].",
+        "prompt_tokens": 2195,
+        "generated_tokens": 700,
+        "seconds": 35.84055805206299,
+        "tokens_per_second": 22.750427504477674,
+        "peak_memory_gb": 3.328687098,
+        "process_rss_gb": 1.036468224
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Fund Structure/Venture Fund Structure.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Fund Structure/Management Fees and Carried Interest.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Fund Structure/Check Size and Reserves.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Returns Math/Return the Fund.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Returns Math/Power Law of Venture Returns.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Returns Math/IRR and Return Multiples.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Returns Math/Dilution.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Valuation/Valuation Fundamentals.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Valuation/Pre-Money and Post-Money Valuation.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Valuation/Ownership Targets.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Valuation/Venture Capital Method.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Valuation/Comparables Valuation.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Valuation/Scenario Analysis.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Valuation/Projection Reflection.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Valuation/Pre-Revenue Valuation Methods.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Startup Metrics/SaaS Metrics.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Startup Metrics/Financial Statements Basics.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Financing Types/Growth Equity.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Financing Types/Venture Debt.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Careers/Breaking Into VC.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Careers/VC Interview Prep.md",
+      "action": "kept-reviewed"
+    }
+  ],
+  "command": {
+    "paths": [
+      "vault/raw"
+    ],
+    "force": false,
+    "redraft": false,
+    "no_llm": false
+  },
+  "log": [
+    "indexed  raw/Break Into VC - Bradley Miles.epub: 264 sections -> 301 passages (42,548 words) sha256 b4dd30fb6dfa…",
+    "indexed  raw/Haas VCPE 295B - Venture Valuation.pdf: 86 sections -> 31 passages (4,582 words) sha256 e1bccd89f6c8…",
+    "indexed  raw/Harlem Capital - Return the Fund.pdf: 7 sections -> 8 passages (1,536 words) sha256 1650f2620aef…",
+    "index    340 passages from 3 sources (2.5s)",
+    "created  wiki/Basics/How Venture Capital Works.md · 18.8s · 2394 prompt + 323 generated tokens · 23 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Basics/VC Glossary.md · 17.6s · 2167 prompt + 266 generated tokens · 21 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Basics/VC Math Practice Problems.md · 35.8s · 2195 prompt + 700 generated tokens · 23 tok/s · peak MLX memory 3.33 GB",
+    "kept     wiki/Fund Structure/Venture Fund Structure.md (reviewed, evidence unchanged)",
+    "kept     wiki/Fund Structure/Management Fees and Carried Interest.md (reviewed, evidence unchanged)",
+    "kept     wiki/Fund Structure/Check Size and Reserves.md (reviewed, evidence unchanged)",
+    "kept     wiki/Returns Math/Return the Fund.md (reviewed, evidence unchanged)",
+    "kept     wiki/Returns Math/Power Law of Venture Returns.md (reviewed, evidence unchanged)",
+    "kept     wiki/Returns Math/IRR and Return Multiples.md (reviewed, evidence unchanged)",
+    "kept     wiki/Returns Math/Dilution.md (reviewed, evidence unchanged)",
+    "kept     wiki/Valuation/Valuation Fundamentals.md (reviewed, evidence unchanged)",
+    "kept     wiki/Valuation/Pre-Money and Post-Money Valuation.md (reviewed, evidence unchanged)",
+    "kept     wiki/Valuation/Ownership Targets.md (reviewed, evidence unchanged)",
+    "kept     wiki/Valuation/Venture Capital Method.md (reviewed, evidence unchanged)",
+    "kept     wiki/Valuation/Comparables Valuation.md (reviewed, evidence unchanged)",
+    "kept     wiki/Valuation/Scenario Analysis.md (reviewed, evidence unchanged)",
+    "kept     wiki/Valuation/Projection Reflection.md (reviewed, evidence unchanged)",
+    "kept     wiki/Valuation/Pre-Revenue Valuation Methods.md (reviewed, evidence unchanged)",
+    "kept     wiki/Startup Metrics/SaaS Metrics.md (reviewed, evidence unchanged)",
+    "kept     wiki/Startup Metrics/Financial Statements Basics.md (reviewed, evidence unchanged)",
+    "kept     wiki/Financing Types/Growth Equity.md (reviewed, evidence unchanged)",
+    "kept     wiki/Financing Types/Venture Debt.md (reviewed, evidence unchanged)",
+    "kept     wiki/Careers/Breaking Into VC.md (reviewed, evidence unchanged)",
+    "kept     wiki/Careers/VC Interview Prep.md (reviewed, evidence unchanged)",
+    "source   wiki/Sources/Harlem Capital Return the Fund Post.md",
+    "source   wiki/Sources/Haas Venture Valuation Slides.md",
+    "source   wiki/Sources/Break Into VC Book.md",
+    "index.md rebuilt: 24 topic notes, 3 source notes",
+    "gemma    3 generations in 72s (+5.7s load) · peak MLX memory 3.33 GB · process max RSS 1.04 GB"
+  ]
+}

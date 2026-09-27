@@ -1,0 +1,132 @@
+{
+  "mode": "ask",
+  "execution": "local",
+  "env": {
+    "timestamp": "2026-09-26T15:01:29",
+    "execution": "local",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
+    "device": "arm64 · macOS 15.6.1",
+    "network": "offline (no route to internet)"
+  },
+  "question": "What is dilution, and how can an early investor limit it?",
+  "retrieval": {
+    "top_k": 6,
+    "seconds": 0.001806020736694336,
+    "hits": [
+      {
+        "id": "harlem-return-the-fund:007",
+        "source_note": "Harlem Capital Return the Fund Post",
+        "file": "raw/Harlem Capital - Return the Fund.pdf",
+        "locator": "p. 6",
+        "score": 9.178,
+        "coverage": 0.515,
+        "matched_terms": [
+          "dilution",
+          "investor"
+        ],
+        "text": "A fund may not need unicorns to\nreturn the fund, but it will need billions in value creation to meet the 3x-5x return\ngoals.\n\nConclusion For Founders\nSo…if you know an investors initial ownership and you make some dilution\nassumptions, you can back into what exit they are assuming for you to return the\nfund.\n\nWe encourage founders to think through some of this math because investors\nare taking a piece of your baby and you want to be aligned.\n\nWe also encourage\nfounders to run this math for THEMSELVES.\n\nYou can replace the above analysis\nwith founder equity.\n\nWe generally see co-founders after Seed rounds owning ~30%\neach.\n\nNote the Series A dilution below as founders do not have pro-rata to prevent\ndilution, this leads to 38.8% total dilution instead of 23.5% for the investor.\n\nStill not\nbad for a founder to take home $129mm though ;)"
+      },
+      {
+        "id": "harlem-return-the-fund:004",
+        "source_note": "Harlem Capital Return the Fund Post",
+        "file": "raw/Harlem Capital - Return the Fund.pdf",
+        "locator": "p. 4",
+        "score": 8.831,
+        "coverage": 0.515,
+        "matched_terms": [
+          "dilution",
+          "investor"
+        ],
+        "text": "Step 3 — Dilution\nThe dilution assumption is the first BIG guess in the return model. The previous\nexample shows 23.5% total dilution by exit, which leads to 5.7% ownership at exit.\nLet’s look at the example of cutting the Series B and Series C round’s dilution by\n50.0%, table on the right below. That leads to 12.1% dilution and 6.6% ownership at\nexit. That 0.9% ownership increase leads to an investor only needing a $605mm exit\ninstead of a $700mm exit to return the fund, that’s $95mm (AKA a lot of money).\nDilution Comparison\nSo how does Harlem Capital think about dilution? It varies by industry and company\n(every VC answer), but we typically assume the Seed round is 25% (midpoint of 20 –\n30%) and steps down 5% each round. Meaning, 20% for the Series A, 15% for the\nSeries B, 10% for the Series C and 5% is the floor for Series D+ rounds. However, we\nreserve 30 – 40% of our fund for follow-ons to take our pro-rata in our winners in the\nSeries A to prevent dilution. This is why there is 0% dilution in the Series A round\nabove. Every fund has different follow-on reserves so ask them upfront. Overall, we\nusually assume 25 – 30% dilution by exit with our Series A pro-rata check. Note this\ntotal dilution is 40%+ without the Series A pro-rata so funds that don’t follow-on will\nrequire larger exits from founders. It is important to manage your dilution."
+      },
+      {
+        "id": "breakintovc-book:178",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 12: Returns and Valuation › Valuation Divergence at the Early Stage",
+        "score": 8.739,
+        "coverage": 0.655,
+        "matched_terms": [
+          "dilution",
+          "early",
+          "investor"
+        ],
+        "text": "So, as early stage investors we won’t receive $15M on the Syntax Health deal, we’ll likely make somewhere between $3M and $5M or 6-10x our original investment.47\n\nDue to the fund economics of early stage investing it may not make sense to do a pro-rata, or follow-on investment with a $5M Series A in order to maintain our 20 percent. As the entrepreneur continues to raise capital, the early stage investors will continue to experience a valuation dilution or divergence in their investor shares, effectively changing their ROI from investment to exit. The 30x ROI that early stage investors are gunning for actually doesn’t account for valuation divergence; the real ROI is something like 5-10x.48\n\nHere’s a quick look at an early stage IRR table to see where angels and early stage investors need to target returns. We can see that the returns are much higher than what is typical at the growth stage because the risk profile of early stage investing is much higher as well.49"
+      },
+      {
+        "id": "breakintovc-book:023",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 2: Early Stage Investing › How Does It Work?",
+        "score": 7.014,
+        "coverage": 0.485,
+        "matched_terms": [
+          "early",
+          "limit"
+        ],
+        "text": "The average fund size of all venture capital stages is about $400M and the average venture capital deal size is $18M.1\n\nThe larger the firm’s stake in the company as shown in the account of all major shareholders, or capitalization table, the larger CynMerc’s returns are when the company makes an exit either through an initial public offering (IPO) or any mergers & acquisitions (M&A) activity.\n\nSince Cynthia and Mercedes are partners at CynMerc, they will charge a management fee of about 2 percent to the limited partners in order to pay their own salaries, and the salaries of the associates and the support staff (you).\n\nOnce the limited partners receive 100 percent of their money back, Cynthia and Mercedes receive 20 percent of any additional profits while the limited partners receive 80 percent. The 20 percent that Cynthia and Mercedes receive is referred to as carried interest."
+      },
+      {
+        "id": "breakintovc-book:037",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 4: Early Steps: Overall Research › Fabrice Grinda",
+        "score": 6.988,
+        "coverage": 0.625,
+        "matched_terms": [
+          "early",
+          "investor",
+          "limit"
+        ],
+        "text": "Fabrice Grinda is a French entrepreneur and investor with over $300M in exits and 200 investments. He often blogs about venture investing and emerging tech trends. His “Macro perspective: The startup party is far from over!” article made me realize that venture-backed startups are staying private twice as long as they did in the 1990s because the cost to stay private these days has greatly decreased as capital becomes more accessible. He goes on to say that compliance burdens limit liquidity for small companies, and have also increased the cost of going public."
+      },
+      {
+        "id": "breakintovc-book:020",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 2: Early Stage Investing › What Is Venture Capital?",
+        "score": 6.804,
+        "coverage": 0.625,
+        "matched_terms": [
+          "early",
+          "investor",
+          "limit"
+        ],
+        "text": "Let’s say you and I decided to start a gluten-free grocery delivery service. We would likely need the support and financial resources of investors with domain expertise in our field to become successful.\n\nIf those investors received their money from several different sources who did not directly own a percentage of the portfolio companies, then those individuals are venture capitalists and they are receiving money from limited partners (these are endowments, foundations, public pensions, high net worth individuals etc.). In chapter 14, I will dive into what precisely makes a venture-backable business.\n\nIn this case, we can call venture capital the money we are receiving in order to grow our early stage business. When I use the term early stage, I am referring to both private businesses at ground zero, as well as mid-level private businesses that need assistance in order to reach further milestones.\n\nThe venture capital industry invests in businesses like our little ‘startup that could’—companies with huge risk and little-to-no proven track record—as well as growing businesses like Uber and Seamless that need help in any number of areas like continued branding or international expansion."
+      }
+    ],
+    "unknown_terms": []
+  },
+  "prompt_messages": [
+    {
+      "role": "system",
+      "content": "# Research rules (ask mode)\n\nYou answer research questions using ONLY the numbered evidence passages provided\nwith the question. The passages come from the user's own sources: a book, a blog\npost, and lecture slides about venture capital.\n\nRules:\n1. Use only facts that appear in the evidence passages. Do not use outside knowledge, even if you think it is correct.\n2. After every sentence that states a fact, cite the passage(s) it came from with the passage number in square brackets, for example [S2] or [S1][S4].\n3. Include the specific numbers the passages give for what is asked (percentages, amounts, multiples), copied exactly ($40mm, 34%, 2.8x). Do not do new math unless the question asks for it, and if you do, show the steps.\n4. If the question asks for examples or \"how\" something is calculated, walk through each worked example the passages contain, step by step with its numbers, and cite each one.\n5. If a passage gives a goal, target, assumption, or hypothetical example, say so. Never present a target or an example as an actual result.\n6. If the passages do not contain the answer, reply with exactly this first line:\n   INSUFFICIENT EVIDENCE: the sources do not say <what is missing>.\n   Then, in one sentence, you may mention what related information the sources do contain, with a citation.\n7. If the passages answer only part of the question, answer that part with citations and say clearly which part the sources do not cover.\n8. Write in a neutral, direct voice: no greeting, no personality, no suggestions, no follow-up questions. Keep it under 220 words."
+    },
+    {
+      "role": "user",
+      "content": "EVIDENCE PASSAGES:\n\n[S1] Source: Harlem Capital Return the Fund Post (raw/Harlem Capital - Return the Fund.pdf), p. 6\nA fund may not need unicorns to\nreturn the fund, but it will need billions in value creation to meet the 3x-5x return\ngoals.\n\nConclusion For Founders\nSo…if you know an investors initial ownership and you make some dilution\nassumptions, you can back into what exit they are assuming for you to return the\nfund.\n\nWe encourage founders to think through some of this math because investors\nare taking a piece of your baby and you want to be aligned.\n\nWe also encourage\nfounders to run this math for THEMSELVES.\n\nYou can replace the above analysis\nwith founder equity.\n\nWe generally see co-founders after Seed rounds owning ~30%\neach.\n\nNote the Series A dilution below as founders do not have pro-rata to prevent\ndilution, this leads to 38.8% total dilution instead of 23.5% for the investor.\n\nStill not\nbad for a founder to take home $129mm though ;)\n\n[S2] Source: Harlem Capital Return the Fund Post (raw/Harlem Capital - Return the Fund.pdf), p. 4\nStep 3 — Dilution\nThe dilution assumption is the first BIG guess in the return model. The previous\nexample shows 23.5% total dilution by exit, which leads to 5.7% ownership at exit.\nLet’s look at the example of cutting the Series B and Series C round’s dilution by\n50.0%, table on the right below. That leads to 12.1% dilution and 6.6% ownership at\nexit. That 0.9% ownership increase leads to an investor only needing a $605mm exit\ninstead of a $700mm exit to return the fund, that’s $95mm (AKA a lot of money).\nDilution Comparison\nSo how does Harlem Capital think about dilution? It varies by industry and company\n(every VC answer), but we typically assume the Seed round is 25% (midpoint of 20 –\n30%) and steps down 5% each round. Meaning, 20% for the Series A, 15% for the\nSeries B, 10% for the Series C and 5% is the floor for Series D+ rounds. However, we\nreserve 30 – 40% of our fund for follow-ons to take our pro-rata in our winners in the\nSeries A to prevent dilution. This is why there is 0% dilution in the Series A round\nabove. Every fund has different follow-on reserves so ask them upfront. Overall, we\nusually assume 25 – 30% dilution by exit with our Series A pro-rata check. Note this\ntotal dilution is 40%+ without the Series A pro-rata so funds that don’t follow-on will\nrequire larger exits from founders. It is important to manage your dilution.\n\n[S3] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 12: Returns and Valuation › Valuation Divergence at the Early Stage\nSo, as early stage investors we won’t receive $15M on the Syntax Health deal, we’ll likely make somewhere between $3M and $5M or 6-10x our original investment.47\n\nDue to the fund economics of early stage investing it may not make sense to do a pro-rata, or follow-on investment with a $5M Series A in order to maintain our 20 percent. As the entrepreneur continues to raise capital, the early stage investors will continue to experience a valuation dilution or divergence in their investor shares, effectively changing their ROI from investment to exit. The 30x ROI that early stage investors are gunning for actually doesn’t account for valuation divergence; the real ROI is something like 5-10x.48\n\nHere’s a quick look at an early stage IRR table to see where angels and early stage investors need to target returns. We can see that the returns are much higher than what is typical at the growth stage because the risk profile of early stage investing is much higher as well.49\n\n[S4] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 2: Early Stage Investing › How Does It Work?\nThe average fund size of all venture capital stages is about $400M and the average venture capital deal size is $18M.1\n\nThe larger the firm’s stake in the company as shown in the account of all major shareholders, or capitalization table, the larger CynMerc’s returns are when the company makes an exit either through an initial public offering (IPO) or any mergers & acquisitions (M&A) activity.\n\nSince Cynthia and Mercedes are partners at CynMerc, they will charge a management fee of about 2 percent to the limited partners in order to pay their own salaries, and the salaries of the associates and the support staff (you).\n\nOnce the limited partners receive 100 percent of their money back, Cynthia and Mercedes receive 20 percent of any additional profits while the limited partners receive 80 percent. The 20 percent that Cynthia and Mercedes receive is referred to as carried interest.\n\n[S5] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 4: Early Steps: Overall Research › Fabrice Grinda\nFabrice Grinda is a French entrepreneur and investor with over $300M in exits and 200 investments. He often blogs about venture investing and emerging tech trends. His “Macro perspective: The startup party is far from over!” article made me realize that venture-backed startups are staying private twice as long as they did in the 1990s because the cost to stay private these days has greatly decreased as capital becomes more accessible. He goes on to say that compliance burdens limit liquidity for small companies, and have also increased the cost of going public.\n\n[S6] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 2: Early Stage Investing › What Is Venture Capital?\nLet’s say you and I decided to start a gluten-free grocery delivery service. We would likely need the support and financial resources of investors with domain expertise in our field to become successful.\n\nIf those investors received their money from several different sources who did not directly own a percentage of the portfolio companies, then those individuals are venture capitalists and they are receiving money from limited partners (these are endowments, foundations, public pensions, high net worth individuals etc.). In chapter 14, I will dive into what precisely makes a venture-backable business.\n\nIn this case, we can call venture capital the money we are receiving in order to grow our early stage business. When I use the term early stage, I am referring to both private businesses at ground zero, as well as mid-level private businesses that need assistance in order to reach further milestones.\n\nThe venture capital industry invests in businesses like our little ‘startup that could’—companies with huge risk and little-to-no proven track record—as well as growing businesses like Uber and Seamless that need help in any number of areas like continued branding or international expansion.\n\nQUESTION: What is dilution, and how can an early investor limit it?\n\nAnswer using only the evidence passages, citing them like [S1]."
+    }
+  ],
+  "answer": "Dilution is a factor in the return model, and it is the first major assumption in the return model [S2]. Dilution can be varied by industry and company [S2]. Investors may limit dilution by taking a pro-rata in their winners in the Series A to prevent dilution [S2]. Overall, investors typically assume 25 to 30% dilution by exit, and this total dilution can be 40% or more without the Series A pro-rata [S2].",
+  "citations": {
+    "cited": [
+      2
+    ],
+    "invalid": [],
+    "unsupported_numbers": [],
+    "uncited_sentences": [],
+    "insufficient": false,
+    "pass": true
+  },
+  "generation": {
+    "text": "Dilution is a factor in the return model, and it is the first major assumption in the return model [S2]. Dilution can be varied by industry and company [S2]. Investors may limit dilution by taking a pro-rata in their winners in the Series A to prevent dilution [S2]. Overall, investors typically assume 25 to 30% dilution by exit, and this total dilution can be 40% or more without the Series A pro-rata [S2].",
+    "prompt_tokens": 1999,
+    "generated_tokens": 103,
+    "seconds": 8.794327020645142,
+    "tokens_per_second": 23.201751839127372,
+    "peak_memory_gb": 3.30686223,
+    "process_rss_gb": 2.190753792
+  },
+  "model_load_seconds": null
+}

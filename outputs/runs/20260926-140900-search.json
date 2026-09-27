@@ -1,0 +1,19 @@
+{
+  "query": "return the fund",
+  "scope": "raw",
+  "hits": [
+    {
+      "id": "harlem-return-the-fund:006",
+      "source_note": "Harlem Capital Return the Fund Post",
+      "file": "raw/Harlem Capital - Return the Fund.pdf",
+      "locator": "p. 6",
+      "score": 7.095,
+      "coverage": 1.0,
+      "matched_terms": [
+        "return",
+        "fund"
+      ],
+      "text": "Step 5 — Exit Returns as Percentage of Fund\nThe fund size is a large driver to what is required for an investment to return the\nfund.\n\nThe above example needed $700mm exit to return a $40mm fund.\n\nThis implies\na $350mm exit to return a $20mm fund, a 50% haircut.\n\nThe same investment of\n$750k would require a $4.3bn exit for a $250mm fund, aka VERY UNLIKELY.\n\nHence,\nwhy a $250mm Seed fund is likely going to have a check size range of $2mm+.\n\nA\nfund is generally not going to invest less than 1% of the fund in any company.\n\nMost Seed funds are targeting a 3x – 5x gross return, which implies $120mm-$200mm\nfor Harlem Capital’s $40mm fund.\n\nIf we assume for simplicity, HCP on average has\n5% ownership at exit, this implies $2.4bn-$4.0bn of total exit value.\n\nNow it begins to\nbe clear why Unicorns are such a focus for VC.\n\nA fund may not need unicorns to\nreturn the fund, but it will need billions in value creation to meet the 3x-5x return\ngoals."
+    }
+  ]
+}

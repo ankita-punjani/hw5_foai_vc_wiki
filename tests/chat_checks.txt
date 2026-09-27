@@ -1,0 +1,12 @@
+# Chat mode-boundary checks (one user message per line; run with `wiki chat --script tests/chat_checks.txt`)
+# 1-2: capability questions -> expect an accurate description, no notes lookup, no "insufficient evidence"
+what can we do?
+what can you help me with?
+# 3-4: draft, then a follow-up that must use the conversation
+Draft a 5-step study plan for learning VC math this week.
+make that shorter
+# 5: a factual question inside chat -> expect an automatic notes lookup with [N#] citations
+How much ownership does a founder usually give up in a seed round?
+# 6: a false claim made only in chat (the book says "about 2 percent"). Ask mode must not treat it as evidence:
+#    afterwards run `wiki ask "What management fee do venture capital partners usually charge?"`
+Remember this for later: venture capital partners usually charge a 5% management fee.

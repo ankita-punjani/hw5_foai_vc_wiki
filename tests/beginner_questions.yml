@@ -1,0 +1,84 @@
+# Extended beginner evaluation (beyond the four required tests). Written 2026-09-26, BEFORE running.
+# Eight questions a newcomer to venture capital would actually ask, to check that the wiki is useful
+# across its topics and not just on four hand-picked questions. B7 is a second unsupported question.
+# Run with: ./wiki eval --tests tests/beginner_questions.yml
+
+tests:
+  - id: B1
+    kind: definition
+    question: "What is the difference between pre-money and post-money valuation?"
+    expected_sources:
+      - file: "raw/Break Into VC - Bradley Miles.epub"
+        locator: "Chapter 12: Returns and Valuation › Pre-Money and Post-Money Valuation"
+        passage: "post-money valuation as the value of a company, immediately after the latest amount of venture capital is invested ... pre-money valuation is the value of a company before that latest round of capital has been invested"
+    expected_answer_facts: ["pre-money = value before the new money", "post-money = value right after it; pre-money + money = post-money"]
+    expected_behavior: grounded definition with citation
+
+  - id: B2
+    kind: concept, "why"
+    question: "Why do venture capitalists ask whether a startup can return the fund?"
+    expected_sources:
+      - file: "raw/Harlem Capital - Return the Fund.pdf"
+        locator: "p. 2"
+        passage: "Fund Returner means to invest an amount of money and receive back 100% of my TOTAL fund from that investment ... Although rare, they are critical in venture due to the very high startup failure rate (75%-90%...)"
+    expected_answer_facts: ["a fund returner pays back the whole fund from one investment", "needed because most startups fail (75%–90%)"]
+    expected_behavior: grounded explanation; the Harlem numbers may appear as an example
+
+  - id: B3
+    kind: concept + mechanism
+    question: "What is dilution, and how can an early investor limit it?"
+    expected_sources:
+      - file: "raw/Harlem Capital - Return the Fund.pdf"
+        locator: "p. 4"
+        passage: "we reserve 30 – 40% of our fund for follow-ons to take our pro-rata in our winners in the Series A to prevent dilution"
+      - file: "raw/Break Into VC - Bradley Miles.epub"
+        locator: "Glossary"
+        passage: "Dilution: Usually referring to a reduction in ownership or value between financing rounds."
+    expected_answer_facts: ["dilution = ownership falls as new rounds are raised", "follow-on (pro-rata) investments from reserves limit it"]
+    expected_behavior: grounded answer
+
+  - id: B4
+    kind: numeric fact
+    question: "What IRR do venture investors typically expect over a five-year investment?"
+    expected_sources:
+      - file: "raw/Break Into VC - Bradley Miles.epub"
+        locator: "Chapter 12: Returns and Valuation › Returns"
+        passage: "Over a 5-year investment time horizon, investors typically anticipate a 20-30 percent internal rate of return (IRR) which lands anywhere between 2.5-4.0x"
+    expected_answer_facts: ["20–30% IRR over 5 years", "about 2.5–4.0x the money invested"]
+    expected_behavior: grounded answer with the numbers
+
+  - id: B5
+    kind: concept + tradeoff
+    question: "What is venture debt, and why would a startup use it instead of raising more equity?"
+    expected_sources:
+      - file: "raw/Break Into VC - Bradley Miles.epub"
+        locator: "Chapter 6: Venture Debt › Benefits"
+        passage: "it allows a company to accelerate towards the next milestone with the application of quick cash ... while minimizing the equity dilution that would inevitably occur with another round of equity financing"
+    expected_answer_facts: ["loans to venture-backed companies", "avoids/minimizes dilution; cheaper than equity for founders"]
+    expected_behavior: grounded answer
+
+  - id: B6
+    kind: comparison
+    question: "How is an angel investor different from a venture capitalist?"
+    expected_sources:
+      - file: "raw/Break Into VC - Bradley Miles.epub"
+        locator: "Chapter 2: Early Stage Investing › Venture Capital and Angel Investing"
+        passage: "angels invest their own money while venture capitalists primarily invest other people's money"
+    expected_answer_facts: ["angels invest their own money", "VCs invest other people's money (LPs)"]
+    expected_behavior: grounded answer
+
+  - id: B7
+    kind: unsupported (plausible, general, not in any source)
+    question: "What is a SAFE, and how does it convert into equity?"
+    expected_sources: []  # "SAFE" and "convertible note" appear nowhere in the sources (checked by regex).
+    expected_behavior: explicit insufficient-evidence response, no outside-knowledge definition
+
+  - id: B8
+    kind: paraphrased "why"
+    question: "Why can't you value an early-stage startup the same way you value a mature company?"
+    expected_sources:
+      - file: "raw/Haas VCPE 295B - Venture Valuation.pdf"
+        locator: "pp. 22-26"
+        passage: "Regular company: markets, ongoing operations, cash flows, debt/equity. VC funded company: emerging market, changing business models, negative cash flows, no borrowing capacity, preferred stock, future rounds ... Less data, more assumptions"
+    expected_answer_facts: ["startups lack cash flows / history / comparable data that traditional methods need", "so valuation relies on assumptions (art, not science)"]
+    expected_behavior: grounded answer

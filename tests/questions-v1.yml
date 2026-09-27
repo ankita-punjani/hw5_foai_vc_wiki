@@ -1,0 +1,64 @@
+# VERSION 1 (superseded 2026-09-26). Ran on 2026-09-25/26; results kept in evidence/ask/history/.
+# Replaced because T1 and T4 asked about one firm (Harlem Capital), while the wiki is a general
+# beginner's guide to venture capital. T2 and T3 are unchanged in version 2.
+# Ask-mode test set. Written 2026-09-25 BEFORE retrieval was implemented, from a
+# manual read of the three sources. Kept outside vault/ so the harness can never
+# retrieve the answer key — it has to find the underlying source passages.
+#
+# expected_sources lists the passages a correct retrieval should surface
+# (source file + page/section) and the facts a grounded answer must contain.
+
+model_expectation: >
+  Gemma 4 E2B (4-bit) should copy numbers from retrieved passages correctly when
+  the passage is in context, but may over-summarise or merge two examples. The
+  biggest risk is Test 4: a small model may "helpfully" answer from general
+  knowledge instead of admitting the sources are silent.
+
+tests:
+  - id: T1
+    kind: direct, one source
+    question: "What check size range does Harlem Capital write, and what is its average check?"
+    expected_sources:
+      - file: "raw/Harlem Capital - Return the Fund.pdf"
+        locator: "p. 3"
+        passage: "As a $40mm fund that is investing in 30 companies, Harlem Capital's check size range is $500k to $1mm, with our average check being $750k"
+    expected_answer_facts:
+      - "$500k to $1mm check size range"
+      - "$750k average check"
+      - "(context) $40mm fund investing in ~30 companies"
+    expected_behavior: grounded answer citing the Harlem Capital post, p. 3
+
+  - id: T2
+    kind: answerable, paraphrased (no source keywords like "management fee" or "carried interest")
+    question: "How do the partners who run a venture fund get paid?"
+    expected_sources:
+      - file: "raw/Break Into VC - Bradley Miles.epub"
+        locator: "Chapter 2: Early Stage Investing › How Does It Work?"
+        passage: "they will charge a management fee of about 2 percent to the limited partners ... Once the limited partners receive 100 percent of their money back, Cynthia and Mercedes receive 20 percent of any additional profits ... referred to as carried interest."
+    expected_answer_facts:
+      - "~2% annual management fee paid by the limited partners (covers salaries)"
+      - "20% of profits (carried interest) after LPs get 100% of their money back; LPs keep 80%"
+    expected_behavior: grounded answer citing Break Into VC ch. 2; retrieval must bridge "get paid" -> "management fee"/"carried interest"
+
+  - id: T3
+    kind: connects two sources
+    question: "How does the Venture Capital Method turn an expected exit value into a post-money and pre-money valuation? Use the examples in my notes."
+    expected_sources:
+      - file: "raw/Break Into VC - Bradley Miles.epub"
+        locator: "Chapter 12: Returns and Valuation › The Venture Capital Method / Enterprise Value and Multiples / Using the VC Method"
+        passage: "Syntax Health: $30M exit-year revenue x 2.8x revenue multiple = $84M exit value; 30x target seed ROI; $500k investment -> $2.8M post-money, $2.2M pre-money (~18%)"
+      - file: "raw/Haas VCPE 295B - Venture Valuation.pdf"
+        locator: "pp. 48-50"
+        passage: "Mekasutra: $250m future value / (1 + 50% IRR)^7 = $14.6m post-money; $5m / $14.6m = 34% ownership; pre-money $9.6m"
+    expected_answer_facts:
+      - "post-money = exit value / required return (ROI multiple, or (1+IRR)^years)"
+      - "pre-money = post-money - investment"
+      - "at least one worked example with the right numbers"
+    expected_behavior: grounded answer citing both sources (either example alone is a partial pass)
+
+  - id: T4
+    kind: unsupported (plausible but not in any source)
+    question: "What multiple did Harlem Capital's first fund return to its limited partners?"
+    expected_sources: []  # The post gives TARGETS (3x-5x gross) and a $40mm fund size, never an actual realised return.
+    trap: "the post's 3x-5x gross return TARGET is not an actual fund result"
+    expected_behavior: explicit insufficient-evidence response; must not present the 3x-5x target as the fund's result

@@ -1,0 +1,179 @@
+{
+  "env": {
+    "timestamp": "2026-09-26T14:36:21",
+    "execution": "local",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
+    "device": "arm64 · macOS 15.6.1",
+    "network": "online"
+  },
+  "sources": [
+    {
+      "id": "breakintovc-book",
+      "file": "raw/Break Into VC - Bradley Miles.epub",
+      "sha256": "b4dd30fb6dfa6e3615680237e50bd6885943f42412f6bc1887dbdca412a869df",
+      "sections": 264,
+      "passages": 301,
+      "words": 42548,
+      "indexed_at": "2026-09-26T14:36:21"
+    },
+    {
+      "id": "haas-venture-valuation",
+      "file": "raw/Haas VCPE 295B - Venture Valuation.pdf",
+      "sha256": "e1bccd89f6c88411a17e51390a8dddab3e3dcf4479af0c9903f91c4a22117fce",
+      "sections": 86,
+      "passages": 31,
+      "words": 4582,
+      "indexed_at": "2026-09-26T14:36:23"
+    },
+    {
+      "id": "harlem-return-the-fund",
+      "file": "raw/Harlem Capital - Return the Fund.pdf",
+      "sha256": "1650f2620aef38ce7533c13a1463a85655ee01a726aa3d55d56cd66ddd8e083d",
+      "sections": 7,
+      "passages": 8,
+      "words": 1536,
+      "indexed_at": "2026-09-26T14:36:23"
+    }
+  ],
+  "notes": [
+    {
+      "note": "wiki/Basics/How Venture Capital Works.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Basics/VC Glossary.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Basics/VC Math Practice Problems.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Fund Structure/Venture Fund Structure.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Fund Structure/Management Fees and Carried Interest.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Fund Structure/Check Size and Reserves.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Returns Math/Return the Fund.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Returns Math/Power Law of Venture Returns.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Returns Math/IRR and Return Multiples.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Returns Math/Dilution.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Valuation/Valuation Fundamentals.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Valuation/Pre-Money and Post-Money Valuation.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Valuation/Ownership Targets.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Valuation/Venture Capital Method.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Valuation/Comparables Valuation.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Valuation/Scenario Analysis.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Valuation/Projection Reflection.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Valuation/Pre-Revenue Valuation Methods.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Startup Metrics/SaaS Metrics.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Startup Metrics/Financial Statements Basics.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Financing Types/Growth Equity.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Financing Types/Venture Debt.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Careers/Breaking Into VC.md",
+      "action": "kept-reviewed"
+    },
+    {
+      "note": "wiki/Careers/VC Interview Prep.md",
+      "action": "kept-reviewed"
+    }
+  ],
+  "command": {
+    "paths": [
+      "vault/raw"
+    ],
+    "force": false,
+    "redraft": false,
+    "no_llm": true
+  },
+  "log": [
+    "indexed  raw/Break Into VC - Bradley Miles.epub: 264 sections -> 301 passages (42,548 words) sha256 b4dd30fb6dfa…",
+    "indexed  raw/Haas VCPE 295B - Venture Valuation.pdf: 86 sections -> 31 passages (4,582 words) sha256 e1bccd89f6c8…",
+    "indexed  raw/Harlem Capital - Return the Fund.pdf: 7 sections -> 8 passages (1,536 words) sha256 1650f2620aef…",
+    "index    340 passages from 3 sources (2.2s)",
+    "kept     wiki/Basics/How Venture Capital Works.md (reviewed, evidence unchanged)",
+    "kept     wiki/Basics/VC Glossary.md (reviewed, evidence unchanged)",
+    "kept     wiki/Basics/VC Math Practice Problems.md (reviewed, evidence unchanged)",
+    "kept     wiki/Fund Structure/Venture Fund Structure.md (reviewed, evidence unchanged)",
+    "kept     wiki/Fund Structure/Management Fees and Carried Interest.md (reviewed, evidence unchanged)",
+    "kept     wiki/Fund Structure/Check Size and Reserves.md (reviewed, evidence unchanged)",
+    "kept     wiki/Returns Math/Return the Fund.md (reviewed, evidence unchanged)",
+    "kept     wiki/Returns Math/Power Law of Venture Returns.md (reviewed, evidence unchanged)",
+    "kept     wiki/Returns Math/IRR and Return Multiples.md (reviewed, evidence unchanged)",
+    "kept     wiki/Returns Math/Dilution.md (reviewed, evidence unchanged)",
+    "kept     wiki/Valuation/Valuation Fundamentals.md (reviewed, evidence unchanged)",
+    "kept     wiki/Valuation/Pre-Money and Post-Money Valuation.md (reviewed, evidence unchanged)",
+    "kept     wiki/Valuation/Ownership Targets.md (reviewed, evidence unchanged)",
+    "kept     wiki/Valuation/Venture Capital Method.md (reviewed, evidence unchanged)",
+    "kept     wiki/Valuation/Comparables Valuation.md (reviewed, evidence unchanged)",
+    "kept     wiki/Valuation/Scenario Analysis.md (reviewed, evidence unchanged)",
+    "kept     wiki/Valuation/Projection Reflection.md (reviewed, evidence unchanged)",
+    "kept     wiki/Valuation/Pre-Revenue Valuation Methods.md (reviewed, evidence unchanged)",
+    "kept     wiki/Startup Metrics/SaaS Metrics.md (reviewed, evidence unchanged)",
+    "kept     wiki/Startup Metrics/Financial Statements Basics.md (reviewed, evidence unchanged)",
+    "kept     wiki/Financing Types/Growth Equity.md (reviewed, evidence unchanged)",
+    "kept     wiki/Financing Types/Venture Debt.md (reviewed, evidence unchanged)",
+    "kept     wiki/Careers/Breaking Into VC.md (reviewed, evidence unchanged)",
+    "kept     wiki/Careers/VC Interview Prep.md (reviewed, evidence unchanged)",
+    "source   wiki/Sources/Harlem Capital Return the Fund Post.md",
+    "source   wiki/Sources/Haas Venture Valuation Slides.md",
+    "source   wiki/Sources/Break Into VC Book.md",
+    "index.md rebuilt: 24 topic notes, 3 source notes"
+  ]
+}

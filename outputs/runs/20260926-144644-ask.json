@@ -1,0 +1,143 @@
+{
+  "mode": "ask",
+  "execution": "local",
+  "env": {
+    "timestamp": "2026-09-26T14:46:31",
+    "execution": "local",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
+    "device": "arm64 · macOS 15.6.1",
+    "network": "online"
+  },
+  "question": "Why can't you value an early-stage startup the same way you value a mature company?",
+  "retrieval": {
+    "top_k": 6,
+    "seconds": 0.054956674575805664,
+    "hits": [
+      {
+        "id": "breakintovc-book:221",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 17: Case Studies › Case Studies",
+        "score": 9.088,
+        "coverage": 0.35,
+        "matched_terms": [
+          "t",
+          "startup",
+          "same",
+          "way",
+          "company"
+        ],
+        "text": "Stories from Others\n\nLike many other things, there is more than one way to break into venture capital.\n\nHere are six interviews from individuals who have gained internships and full-time offers. Through these interviews you will learn that the type of person who becomes an investor isn’t necessarily someone with a banking or consulting background (although there is plenty of that). There are also those who had previous experience in operational roles at companies or focused there energy on founding a club or startup.\n\nBelow they will explain in detail how they broke in and any advice for those aspiring to do the same."
+      },
+      {
+        "id": "breakintovc-book:204",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 14: Evaluating a Startup › Evaluating Companies",
+        "score": 7.299,
+        "coverage": 0.284,
+        "matched_terms": [
+          "startup",
+          "same",
+          "way",
+          "company"
+        ],
+        "text": "There are many ways to frame the manner in which you should evaluate a company. When I say evaluating, I mean crafting a qualitative understanding of what differentiates one company from another in the same industry.\n\nThis question comes up in interviews all the time and this chapter serves as a guideline for you to understand how an investment thesis is implemented. You can also use some of these insights in your company pitch.\n\nOne of the most compelling frameworks is proposed by Bill Gurley, an extremely successful early stage investor whose investments include Uber, OpenTable, Zillow and Grubhub.\n\nI will summarize the method here and you can check out his blog for a more detailed approach.56"
+      },
+      {
+        "id": "breakintovc-book:071",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 7: Performance Metrics › Using the Term … Dollar Revenue Retention (DRR)",
+        "score": 6.309,
+        "coverage": 0.284,
+        "matched_terms": [
+          "startup",
+          "same",
+          "way",
+          "company"
+        ],
+        "text": "[Using the Term]\nSince the burn rate of a company is not typically public knowledge, you’ll often hear this term applied to an array of startups in a particular industry or sector.\n\nCompanies in the crowdsourced food and transportation space compete heavily to acquire customers. As a result of such high sales and marketing spend, the typical burn rate of companies in these industries is notoriously high. So much so, that in the past it has made sense for companies in the same industry—like Seamless and Grubhub or Didi and Kuadi, the two taxi hailing apps in China— to merge.\n\n[Dollar Revenue Retention (DRR)]\nDollar revenue retention refers to the amount of revenue you are retaining from your customers in a given period. The metric is largely used in the Software-as-a-Service (SaaS) industry and others that have tiered pricing.\n\nDRR serves as a more precise way to measure success from a revenue perspective as opposed to churn rate."
+      },
+      {
+        "id": "breakintovc-book:164",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 12: Returns and Valuation › DCF Use Case in Venture Capital",
+        "score": 6.116,
+        "coverage": 0.208,
+        "matched_terms": [
+          "same",
+          "way",
+          "company"
+        ],
+        "text": "Above is the formal way to understand DCF analysis. When the method is implemented in venture capital we need to tweak some of the parameters like WACC, the weighted average cost of capital. While 10 percent was an ample return for middle market and public companies, venture investors need a much higher return because the companies have a much larger risk profile.\n\nIt is the same analysis and same formula as above, except we will use a higher discount rate to adjust for the larger risk. The earlier we go, the higher the risk profile. An early stage firm may target a 60 percent IRR (~10x ROI). If so, they would use a 60 percent WACC to discount all future cash flows.41"
+      },
+      {
+        "id": "breakintovc-book:224",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Madeline Brooks › Did you find that you needed to network a lot to get into venture capital?",
+        "score": 6.044,
+        "coverage": 0.212,
+        "matched_terms": [
+          "t",
+          "startup",
+          "way"
+        ],
+        "text": "I definitely think networking is huge for breaking into the industry. My school specifically doesn’t have on-campus recruiting in the VC space. For me it was very much an individual process and I think networking provided me with an opportunity to learn about the different industries that you get to touch, different deal stages, firms—talking to people to figure out where you’d fit well in the VC landscape. It was also a way to showcase my passion to people in that community, and the idea that I was serious about getting into the industry.\n\nI think networking as well, it’s not just about the people in the VC world but the people who are at startups too, because they have these connections that you really don’t think about when you meet them. I think between networking with entrepreneurs, startups and VCs I was always able to show that I was interested in the space. I think that’s one of the most important qualifications for breaking in."
+      },
+      {
+        "id": "breakintovc-book:039",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 4: Early Steps: Overall Research › Kanyi Maqubela",
+        "score": 5.95,
+        "coverage": 0.217,
+        "matched_terms": [
+          "value",
+          "startup",
+          "way",
+          "company"
+        ],
+        "text": "Kanyi Maqubela was a founding employee at Doostang, and is now a partner at Collaborative Fund, an early stage firm that often prioritizes culture, creativity and value when seeking investment opportunities. In “Entrepreneurs Need a Better Way to Cash Out”, I learned about venture debt, or debt capital, as a way to scale startups with cash flow and allow them to grow until equity financing is absolutely necessary.\n\nHis “Why the Collaborative Economy is an Impact Economy” post and his speech at the Clinton Global Initiative touch upon the ways in which we can leverage our current economy—the collaborative or “shared economy” where global decentralized communication is the new norm—through mission-driven companies without compromising profit."
+      }
+    ],
+    "unknown_terms": [
+      "mature"
+    ]
+  },
+  "prompt_messages": [
+    {
+      "role": "system",
+      "content": "# Research rules (ask mode)\n\nYou answer research questions using ONLY the numbered evidence passages provided\nwith the question. The passages come from the user's own sources: a book, a blog\npost, and lecture slides about venture capital.\n\nRules:\n1. Use only facts that appear in the evidence passages. Do not use outside knowledge, even if you think it is correct.\n2. After every sentence that states a fact, cite the passage(s) it came from with the passage number in square brackets, for example [S2] or [S1][S4].\n3. Include the specific numbers the passages give for what is asked (percentages, amounts, multiples), copied exactly ($40mm, 34%, 2.8x). Do not do new math unless the question asks for it, and if you do, show the steps.\n4. If the question asks for examples or \"how\" something is calculated, walk through each worked example the passages contain, step by step with its numbers, and cite each one.\n5. If a passage gives a goal, target, assumption, or hypothetical example, say so. Never present a target or an example as an actual result.\n6. If the passages do not contain the answer, reply with exactly this first line:\n   INSUFFICIENT EVIDENCE: the sources do not say <what is missing>.\n   Then, in one sentence, you may mention what related information the sources do contain, with a citation.\n7. If the passages answer only part of the question, answer that part with citations and say clearly which part the sources do not cover.\n8. Write in a neutral, direct voice: no greeting, no personality, no suggestions, no follow-up questions. Keep it under 220 words."
+    },
+    {
+      "role": "user",
+      "content": "EVIDENCE PASSAGES:\n\n[S1] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 17: Case Studies › Case Studies\nStories from Others\n\nLike many other things, there is more than one way to break into venture capital.\n\nHere are six interviews from individuals who have gained internships and full-time offers. Through these interviews you will learn that the type of person who becomes an investor isn’t necessarily someone with a banking or consulting background (although there is plenty of that). There are also those who had previous experience in operational roles at companies or focused there energy on founding a club or startup.\n\nBelow they will explain in detail how they broke in and any advice for those aspiring to do the same.\n\n[S2] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 14: Evaluating a Startup › Evaluating Companies\nThere are many ways to frame the manner in which you should evaluate a company. When I say evaluating, I mean crafting a qualitative understanding of what differentiates one company from another in the same industry.\n\nThis question comes up in interviews all the time and this chapter serves as a guideline for you to understand how an investment thesis is implemented. You can also use some of these insights in your company pitch.\n\nOne of the most compelling frameworks is proposed by Bill Gurley, an extremely successful early stage investor whose investments include Uber, OpenTable, Zillow and Grubhub.\n\nI will summarize the method here and you can check out his blog for a more detailed approach.56\n\n[S3] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 7: Performance Metrics › Using the Term … Dollar Revenue Retention (DRR)\n[Using the Term]\nSince the burn rate of a company is not typically public knowledge, you’ll often hear this term applied to an array of startups in a particular industry or sector.\n\nCompanies in the crowdsourced food and transportation space compete heavily to acquire customers. As a result of such high sales and marketing spend, the typical burn rate of companies in these industries is notoriously high. So much so, that in the past it has made sense for companies in the same industry—like Seamless and Grubhub or Didi and Kuadi, the two taxi hailing apps in China— to merge.\n\n[Dollar Revenue Retention (DRR)]\nDollar revenue retention refers to the amount of revenue you are retaining from your customers in a given period. The metric is largely used in the Software-as-a-Service (SaaS) industry and others that have tiered pricing.\n\nDRR serves as a more precise way to measure success from a revenue perspective as opposed to churn rate.\n\n[S4] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 12: Returns and Valuation › DCF Use Case in Venture Capital\nAbove is the formal way to understand DCF analysis. When the method is implemented in venture capital we need to tweak some of the parameters like WACC, the weighted average cost of capital. While 10 percent was an ample return for middle market and public companies, venture investors need a much higher return because the companies have a much larger risk profile.\n\nIt is the same analysis and same formula as above, except we will use a higher discount rate to adjust for the larger risk. The earlier we go, the higher the risk profile. An early stage firm may target a 60 percent IRR (~10x ROI). If so, they would use a 60 percent WACC to discount all future cash flows.41\n\n[S5] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Madeline Brooks › Did you find that you needed to network a lot to get into venture capital?\nI definitely think networking is huge for breaking into the industry. My school specifically doesn’t have on-campus recruiting in the VC space. For me it was very much an individual process and I think networking provided me with an opportunity to learn about the different industries that you get to touch, different deal stages, firms—talking to people to figure out where you’d fit well in the VC landscape. It was also a way to showcase my passion to people in that community, and the idea that I was serious about getting into the industry.\n\nI think networking as well, it’s not just about the people in the VC world but the people who are at startups too, because they have these connections that you really don’t think about when you meet them. I think between networking with entrepreneurs, startups and VCs I was always able to show that I was interested in the space. I think that’s one of the most important qualifications for breaking in.\n\n[S6] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 4: Early Steps: Overall Research › Kanyi Maqubela\nKanyi Maqubela was a founding employee at Doostang, and is now a partner at Collaborative Fund, an early stage firm that often prioritizes culture, creativity and value when seeking investment opportunities. In “Entrepreneurs Need a Better Way to Cash Out”, I learned about venture debt, or debt capital, as a way to scale startups with cash flow and allow them to grow until equity financing is absolutely necessary.\n\nHis “Why the Collaborative Economy is an Impact Economy” post and his speech at the Clinton Global Initiative touch upon the ways in which we can leverage our current economy—the collaborative or “shared economy” where global decentralized communication is the new norm—through mission-driven companies without compromising profit.\n\nPROGRAM NOTE: these words from the question appear nowhere in the sources: mature. If the question asks for a fact about something the passages never mention, start with INSUFFICIENT EVIDENCE (rule 6); otherwise answer from what the passages do say.\n\nQUESTION: Why can't you value an early-stage startup the same way you value a mature company?\n\nAnswer using only the evidence passages, citing them like [S1]."
+    }
+  ],
+  "answer": "INSUFFICIENT EVIDENCE: the sources do not say why an early-stage startup cannot be valued the same way as a mature company.\nThe sources discuss ways to evaluate companies, such as using a framework proposed by Bill Gurley [S2], and mention that venture investors need a higher return due to the larger risk profile [S4].",
+  "citations": {
+    "cited": [
+      2,
+      4
+    ],
+    "invalid": [],
+    "unsupported_numbers": [],
+    "uncited_sentences": [],
+    "insufficient": true,
+    "pass": true
+  },
+  "generation": {
+    "text": "INSUFFICIENT EVIDENCE: the sources do not say why an early-stage startup cannot be valued the same way as a mature company.\nThe sources discuss ways to evaluate companies, such as using a framework proposed by Bill Gurley [S2], and mention that venture investors need a higher return due to the larger risk profile [S4].",
+    "prompt_tokens": 1660,
+    "generated_tokens": 71,
+    "seconds": 6.075614929199219,
+    "tokens_per_second": 27.898896755808593,
+    "peak_memory_gb": 3.307606194,
+    "process_rss_gb": 1.76840704
+  },
+  "model_load_seconds": 4.566665172576904
+}

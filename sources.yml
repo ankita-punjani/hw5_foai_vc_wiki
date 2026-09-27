@@ -1,0 +1,47 @@
+# Source catalog: one entry per original file in vault/raw/.
+# The raw files are never modified. They were only renamed from their download
+# names (kept below as original_filename); SHA-256 hashes prove the bytes match.
+#
+# `note` is the readable wiki page name for the source. `id` is the stable
+# machine ID used in passage IDs and frontmatter — it never appears as a filename.
+
+sources:
+  - id: harlem-return-the-fund
+    file: "Harlem Capital - Return the Fund.pdf"
+    note: "Harlem Capital Return the Fund Post"
+    title: "Can Your Start-up 'Return The Fund?'"
+    author: "Harlem Capital"
+    published: "2020-05-19"
+    kind: "blog post (Medium), saved as PDF"
+    url: "https://medium.com/@harlemcapital/can-your-startup-return-the-fund-6e233bd5c8b2"
+    original_filename: "VC Math #1.pdf"
+    exclude_pages: [8, 9, 10, 11, 12, 13, 14, 15]  # Medium footer + unrelated "recommended" articles, not the post
+    license_note: "Copyright Harlem Capital. Not redistributed; summarised and cited only."
+
+  - id: haas-venture-valuation
+    file: "Haas VCPE 295B - Venture Valuation.pdf"
+    note: "Haas Venture Valuation Slides"
+    title: "Venture Capital & Private Equity (VCPE 295B), Class 5: Venture Valuation"
+    author: "Sean Foote and Jules Maltz, Berkeley Haas"
+    published: "2026-09-23"
+    kind: "lecture slides (PDF)"
+    url: ""
+    original_filename: "VC Math #2.pdf"
+    exclude_pages: []
+    strip_patterns:  # slide header/footer repeated on every page
+      - "^Berkeley Haas\\s*$"
+      - "^VCPE 295B\\s*$"
+      - "\\d*\\s*©\\s*20\\d\\d (Sean Foote and Jules Maltz|ONSET Ventures 2020 Proprietary)"
+    license_note: "Course material (c) 2026 Sean Foote and Jules Maltz. Not redistributed; summarised and cited only."
+
+  - id: breakintovc-book
+    file: "Break Into VC - Bradley Miles.epub"
+    note: "Break Into VC Book"
+    title: "Break into VC: How to Break Into Venture Capital and Think Like an Investor"
+    author: "Bradley Miles"
+    published: "2017"
+    kind: "book (EPUB)"
+    url: "https://www.amazon.com/dp/B06XWP5N4B"  # ASIN B06XWP5N4B
+    original_filename: "Break into VC - Bradley Miles (an EPUB file that had been saved with a .pdf extension)"
+    exclude_pages: []
+    license_note: "Copyright Bradley Miles 2017. Not redistributed; summarised and cited only."

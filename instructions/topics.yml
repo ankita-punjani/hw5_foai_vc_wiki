@@ -1,0 +1,335 @@
+# Wiki topic map (human-curated). Ingest writes one note per topic, named exactly
+# `name`, in vault/wiki/<folder>/. The model writes the body; it never picks
+# filenames, so re-ingesting cannot create duplicates or machine-style names.
+#
+# id     stable machine ID (kept in note frontmatter, never used as a filename)
+# query  keywords used to retrieve this note's evidence from the original sources
+# related[].why  the reason printed next to each link in the note
+
+folders:
+  - name: Basics
+    blurb: Start here — what venture capital is, the words you need, and practice problems.
+  - name: Fund Structure
+    blurb: How a venture fund is organised and paid.
+  - name: Returns Math
+    blurb: What a fund needs from each investment, and why outliers matter.
+  - name: Valuation
+    blurb: How early-stage companies get priced.
+  - name: Startup Metrics
+    blurb: The numbers VCs read in a pitch or a model.
+  - name: Financing Types
+    blurb: Capital beyond classic early-stage equity.
+  - name: Careers
+    blurb: Getting into VC and thinking like an investor.
+
+topics:
+  # --- Basics ---------------------------------------------------------------
+  - id: how-vc-works
+    name: How Venture Capital Works
+    folder: Basics
+    description: What VC is, who puts the money in, and how everyone gets paid back.
+    query: what is venture capital how does it work investors startups equity stake exit IPO mergers acquisitions high risk return early stage
+    related:
+      - to: Venture Fund Structure
+        why: the fund behind the investor, and who its money comes from
+      - to: Management Fees and Carried Interest
+        why: how the people running the fund get paid
+      - to: Power Law of Venture Returns
+        why: why VCs chase a few huge winners instead of many safe bets
+      - to: Pre-Money and Post-Money Valuation
+        why: the first piece of math in every funding round
+      - to: VC Glossary
+        why: definitions for every term used here
+
+  - id: vc-glossary
+    name: VC Glossary
+    folder: Basics
+    description: Plain definitions of the terms every other note uses.
+    query: glossary limited partners carried interest dilution pro rata internal rate of return return on investment venture debt valuation divergence angel investor accelerator venture capital method
+    related:
+      - to: How Venture Capital Works
+        why: the big picture these terms fit into
+      - to: VC Math Practice Problems
+        why: practise the terms with numbers
+
+  - id: vc-math-practice
+    name: VC Math Practice Problems
+    folder: Basics
+    description: Worked problems with answers — ownership, IRR, return the fund, VC method.
+    query: rapid-fire questions if a company had a post-money valuation and we invested how much of the company do we own IRR 5-year period what is my return
+    related:
+      - to: Pre-Money and Post-Money Valuation
+        why: the rules behind the ownership problems
+      - to: IRR and Return Multiples
+        why: the rules behind the return problems
+      - to: Return the Fund
+        why: the rules behind the fund-returner problem
+      - to: Venture Capital Method
+        why: the rules behind the valuation problem
+
+  # --- Fund Structure ------------------------------------------------------
+  - id: venture-fund-structure
+    name: Venture Fund Structure
+    folder: Fund Structure
+    description: GPs, LPs, fund life, raising the next fund, and angels vs VCs.
+    query: venture capital firm fund limited partners endowment pension fund invest years life cycle angel investors other people's money alternative investments
+    related:
+      - to: Management Fees and Carried Interest
+        why: how the partners who run the fund are paid by its LPs
+      - to: Check Size and Reserves
+        why: how the fund's money is split into first checks and follow-ons
+      - to: Return the Fund
+        why: the LP money has to come back, which drives every investment decision
+
+  - id: fees-and-carry
+    name: Management Fees and Carried Interest
+    folder: Fund Structure
+    description: The ~2% management fee and 20% carried interest.
+    query: management fee 2 percent carried interest 20 percent additional profits limited partners money back fees
+    related:
+      - to: Venture Fund Structure
+        why: who pays the fee (LPs) and who earns the carry (GPs)
+      - to: Power Law of Venture Returns
+        why: fees take ~0.2x of the fund before any investing, raising the bar for winners
+
+  - id: check-size-and-reserves
+    name: Check Size and Reserves
+    folder: Fund Structure
+    description: Typical check sizes and holding money back for follow-on rounds.
+    query: check size range fund size strategy diversified concentrated reserve follow-on pro-rata reserve dollars initial investment
+    related:
+      - to: Ownership Targets
+        why: check size divided by the ownership target sets the valuation a fund can pay
+      - to: Dilution
+        why: reserves buy pro-rata in later rounds to limit dilution
+      - to: Return the Fund
+        why: a small check in a big fund needs an enormous exit to matter
+
+  # --- Returns Math --------------------------------------------------------
+  - id: return-the-fund
+    name: Return the Fund
+    folder: Returns Math
+    description: The fund-returner test and why fund size changes the exit a VC needs.
+    query: fund returner return the fund exit required fund size check return 53.3x exit value percentage of fund
+    related:
+      - to: Power Law of Venture Returns
+        why: most companies fail, so a few must each return the fund
+      - to: Dilution
+        why: ownership lost before exit raises the exit needed to return the fund
+      - to: Ownership Targets
+        why: entry ownership is the starting point of the calculation
+      - to: Check Size and Reserves
+        why: check size relative to fund size sets the return multiple required
+
+  - id: power-law
+    name: Power Law of Venture Returns
+    folder: Returns Math
+    description: Why one outlier has to pay for the whole portfolio.
+    query: companies go bankrupt barely return capital one company provides all returns multiple required failure rate unicorns 3x gross return
+    related:
+      - to: Return the Fund
+        why: the per-company version of the same logic
+      - to: IRR and Return Multiples
+        why: the fund-level multiple that the outlier has to deliver
+      - to: Scenario Analysis
+        why: puts probabilities on the outlier and failure outcomes for one deal
+
+  - id: irr-and-multiples
+    name: IRR and Return Multiples
+    folder: Returns Math
+    description: Cash-on-cash multiples, IRR, and return expectations by stage.
+    query: internal rate of return IRR multiple years time horizon return expectations stage annual return table
+    related:
+      - to: Venture Capital Method
+        why: the required IRR or multiple is the discount rate in the VC method
+      - to: Power Law of Venture Returns
+        why: why early-stage targets are so high
+
+  - id: dilution
+    name: Dilution
+    folder: Returns Math
+    description: How later rounds shrink ownership, and what pro-rata does about it.
+    query: dilution rounds series ownership at exit pro-rata follow-on valuation divergence cash efficiency needs more money
+    related:
+      - to: Return the Fund
+        why: less ownership at exit means a bigger exit is needed
+      - to: Check Size and Reserves
+        why: follow-on reserves are how funds defend ownership
+      - to: Scenario Analysis
+        why: scenario tables apply dilution round by round
+
+  # --- Valuation -----------------------------------------------------------
+  - id: valuation-fundamentals
+    name: Valuation Fundamentals
+    folder: Valuation
+    description: Value vs price vs valuation, and why VC valuation is an art.
+    query: value price valuation art not science assumptions regular company VC funded company traditional methods six concepts
+    related:
+      - to: Pre-Money and Post-Money Valuation
+        why: the vocabulary for the price actually paid in a round
+      - to: Venture Capital Method
+        why: the main early-stage method
+      - to: Comparables Valuation
+        why: the market-based method
+      - to: Scenario Analysis
+        why: the probability-weighted method
+
+  - id: pre-and-post-money
+    name: Pre-Money and Post-Money Valuation
+    folder: Valuation
+    description: Pre-money + money = post-money, and how ownership follows.
+    query: pre-money post-money valuation money invested ownership stake premoney postmoney
+    related:
+      - to: Ownership Targets
+        why: funds work backwards from ownership to post-money
+      - to: Venture Capital Method
+        why: produces a post-money, then subtracts the investment to get pre-money
+      - to: Dilution
+        why: each new round's post-money re-divides ownership
+
+  - id: ownership-targets
+    name: Ownership Targets
+    folder: Valuation
+    description: Seed valuations are set by the ownership a fund needs, not revenue.
+    query: ownership targets seed round founder give up ownership microfunds larger funds co-invest lead require 20% of the company
+    related:
+      - to: Pre-Money and Post-Money Valuation
+        why: ownership target plus check size implies the post-money
+      - to: Return the Fund
+        why: entry ownership feeds the return-the-fund math
+      - to: Check Size and Reserves
+        why: the other half of the ownership calculation
+
+  - id: vc-method
+    name: Venture Capital Method
+    folder: Valuation
+    description: Discount a hoped-for exit by the required return to price a round today.
+    query: venture capital method exit value target ROI discount post-money enterprise value revenue multiple necessary IRR harvest year
+    related:
+      - to: IRR and Return Multiples
+        why: supplies the required return used as the discount
+      - to: Comparables Valuation
+        why: estimates the exit value the method starts from
+      - to: Pre-Money and Post-Money Valuation
+        why: the method's output
+      - to: Projection Reflection
+        why: a shortcut that discounts the next round instead of the exit
+
+  - id: comparables
+    name: Comparables Valuation
+    folder: Valuation
+    description: Pricing a company from multiples of similar public firms or deals.
+    query: comparables multiples similar public firms private deals market value sales EV EBITDA precedent transactions price ratios
+    related:
+      - to: Venture Capital Method
+        why: comparables estimate the exit value the VC method discounts
+      - to: Scenario Analysis
+        why: comparables anchor the exit values in each scenario
+      - to: Valuation Fundamentals
+        why: why market-based methods break down for startups
+
+  - id: scenario-analysis
+    name: Scenario Analysis
+    folder: Valuation
+    description: Probability-weighted exit scenarios with dilution and time.
+    query: scenario analysis exit values probabilities dilution time probable value lottery ticket what ifs Mekasutra
+    related:
+      - to: Power Law of Venture Returns
+        why: the scenarios show the rare-outlier, frequent-zero shape
+      - to: Dilution
+        why: each scenario applies later-round dilution
+      - to: Comparables Valuation
+        why: anchors the exit values
+
+  - id: projection-reflection
+    name: Projection Reflection
+    folder: Valuation
+    description: Price today by discounting the likely next-round valuation.
+    query: projection reflection step function next round discount 2.5x seed cash needed pre money value founder
+    related:
+      - to: Venture Capital Method
+        why: the longer-horizon version of the same discounting idea
+      - to: Pre-Money and Post-Money Valuation
+        why: subtracts the cash needed to get pre-money
+
+  - id: pre-revenue-methods
+    name: Pre-Revenue Valuation Methods
+    folder: Valuation
+    description: Berkus, risk-factor summation, rule of thirds, and standard value.
+    query: pre-revenue valuation Berkus method Chicago method risk factor summation rule of thirds standard value football field
+    related:
+      - to: Venture Capital Method
+        why: the main alternative for pre-revenue companies
+      - to: Valuation Fundamentals
+        why: why rules of thumb stand in for cash-flow models early on
+
+  # --- Startup Metrics -----------------------------------------------------
+  - id: saas-metrics
+    name: SaaS Metrics
+    folder: Startup Metrics
+    description: MRR, ARR, burn, CLV, CAC, and revenue retention.
+    query: monthly recurring revenue annualized run rate churn rate burn rate customer lifetime value customer acquisition cost payback
+    related:
+      - to: Financial Statements Basics
+        why: where revenue and cash burn show up in the statements
+      - to: VC Interview Prep
+        why: interviewers expect this vocabulary
+
+  - id: financial-statements
+    name: Financial Statements Basics
+    folder: Startup Metrics
+    description: Income statement, balance sheet, and cash flow statement at interview depth.
+    query: income statement balance sheet cash flow statement gross revenue EBITDA net income assets liabilities equity depreciation
+    related:
+      - to: SaaS Metrics
+        why: startup operating metrics built on top of the statements
+      - to: Comparables Valuation
+        why: EBITDA and revenue feed valuation multiples
+
+  # --- Financing Types -----------------------------------------------------
+  - id: growth-equity
+    name: Growth Equity
+    folder: Financing Types
+    description: Later-round equity for companies heading to IPO or acquisition.
+    query: growth equity later rounds Series C D IPO acquired investment thesis target company stake cash flow
+    related:
+      - to: Venture Debt
+        why: the other non-seed financing covered in the book
+      - to: IRR and Return Multiples
+        why: lower return targets than seed investing
+
+  - id: venture-debt
+    name: Venture Debt
+    folder: Financing Types
+    description: Loans to venture-backed companies, and when they make sense.
+    query: venture debt lending loan warrants history caveats benefits right mix
+    related:
+      - to: Growth Equity
+        why: the equity alternative for later-stage capital
+      - to: Dilution
+        why: debt raises money without selling more ownership
+
+  # --- Careers -------------------------------------------------------------
+  - id: breaking-into-vc
+    name: Breaking Into VC
+    folder: Careers
+    description: Networking, standing out, clubs, and advice from analysts who broke in.
+    query: break into venture capital networking reaching out entrepreneurs semester internships start a club resume mistakes recruiting
+    related:
+      - to: VC Interview Prep
+        why: the next step after landing the conversation
+      - to: Venture Fund Structure
+        why: understand the firm before you pitch yourself to it
+
+  - id: vc-interview-prep
+    name: VC Interview Prep
+    folder: Careers
+    description: Why VC, pitching an industry and a company, mock calls, and quick math.
+    query: interview questions why VC why firm industry that excites you company pitch mock call rapid-fire questions
+    related:
+      - to: Pre-Money and Post-Money Valuation
+        why: the quick ownership math asked early in interviews
+      - to: SaaS Metrics
+        why: the metrics vocabulary interviewers listen for
+      - to: Breaking Into VC
+        why: how candidates got to the interview

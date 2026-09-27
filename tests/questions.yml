@@ -1,0 +1,61 @@
+# Ask-mode test set, VERSION 2. Written 2026-09-26, BEFORE these questions were run.
+# The wiki is a beginner's guide to venture capital, so every question is a general VC question a
+# newcomer would ask; none is about one firm. Version 1 (tests/questions-v1.yml) asked two
+# Harlem-specific questions; its results are kept in evidence/ask/history/. T2 and T3 are unchanged.
+#
+# Kept outside vault/ so the harness can never retrieve the answer key: it has to find the
+# underlying source passages. expected_sources lists what correct retrieval should surface.
+
+model_expectation: >
+  Gemma 4 E2B (4-bit) copies numbers well when the right passage is in context, but in version 1 it
+  sometimes dropped a figure (T2: "about 2%") or grabbed a nearby number from flattened slide text
+  (T3: 20% instead of 34%). The riskiest test is T4: the book states a return-of-capital rule, and a
+  small model may present it (or a textbook 8%) as a hurdle rate.
+
+tests:
+  - id: T1
+    kind: direct, one source
+    question: "How much ownership should a founder expect to give up in a seed round?"
+    expected_sources:
+      - file: "raw/Harlem Capital - Return the Fund.pdf"
+        locator: "p. 3"
+        passage: "A founder should expect to give up 20% – 30% ownership in the Seed round. Generally, larger funds ($100mm+) have 10% – 20% ownership targets and microfunds ($25mm – $100mm) have 5% – 10% ownership targets."
+    expected_answer_facts:
+      - "20%–30% of the company in the seed round"
+      - "(context) seed valuations are set by ownership targets, not revenue multiples"
+    expected_behavior: grounded answer citing the seed-fund post, p. 3
+
+  - id: T2
+    kind: answerable, paraphrased (no source keywords like "management fee" or "carried interest")
+    question: "How do the partners who run a venture fund get paid?"
+    expected_sources:
+      - file: "raw/Break Into VC - Bradley Miles.epub"
+        locator: "Chapter 2: Early Stage Investing › How Does It Work?"
+        passage: "they will charge a management fee of about 2 percent to the limited partners ... Once the limited partners receive 100 percent of their money back, Cynthia and Mercedes receive 20 percent of any additional profits ... referred to as carried interest."
+    expected_answer_facts:
+      - "~2% annual management fee paid by the limited partners (covers salaries)"
+      - "20% of profits (carried interest) after LPs get 100% of their money back; LPs keep 80%"
+    expected_behavior: grounded answer citing Break Into VC ch. 2; retrieval must bridge "get paid" -> "management fee"/"carried interest"
+
+  - id: T3
+    kind: connects two sources
+    question: "How does the Venture Capital Method turn an expected exit value into a post-money and pre-money valuation? Use the examples in my notes."
+    expected_sources:
+      - file: "raw/Break Into VC - Bradley Miles.epub"
+        locator: "Chapter 12: Returns and Valuation › The Venture Capital Method / Enterprise Value and Multiples / Using the VC Method"
+        passage: "Syntax Health: $30M exit-year revenue x 2.8x revenue multiple = $84M exit value; 30x target seed ROI; $500k investment -> $2.8M post-money, $2.2M pre-money (~18%)"
+      - file: "raw/Haas VCPE 295B - Venture Valuation.pdf"
+        locator: "pp. 48-50"
+        passage: "Mekasutra: $250m future value / (1 + 50% IRR)^7 = $14.6m post-money; $5m / $14.6m = 34% ownership; pre-money $9.6m"
+    expected_answer_facts:
+      - "post-money = exit value / required return (ROI multiple, or (1+IRR)^years)"
+      - "pre-money = post-money - investment"
+      - "at least one worked example with the right numbers"
+    expected_behavior: grounded answer citing both sources (either example alone is a partial pass)
+
+  - id: T4
+    kind: unsupported (plausible, general, but not in any source)
+    question: "What hurdle rate (preferred return) must a venture fund deliver to its limited partners before the partners can earn carried interest?"
+    expected_sources: []  # "hurdle" and "preferred return" appear nowhere in the three sources (checked by regex).
+    trap: "the book's rule that partners earn 20% only after LPs get 100% of their money back is a return-of-capital condition, not a stated hurdle rate; an 8% figure would be outside knowledge"
+    expected_behavior: explicit insufficient-evidence response; may mention the return-of-capital rule as related information, but must not state a hurdle-rate number

@@ -1,0 +1,165 @@
+{
+  "mode": "ask",
+  "execution": "local",
+  "env": {
+    "timestamp": "2026-09-26T14:59:46",
+    "execution": "local",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
+    "device": "arm64 · macOS 15.6.1",
+    "network": "offline (no route to internet)"
+  },
+  "question": "How does the Venture Capital Method turn an expected exit value into a post-money and pre-money valuation? Use the examples in my notes.",
+  "retrieval": {
+    "top_k": 6,
+    "seconds": 0.0059299468994140625,
+    "hits": [
+      {
+        "id": "breakintovc-book:191",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 12: Returns and Valuation › Rapid-Fire Questions",
+        "score": 18.193,
+        "coverage": 0.595,
+        "matched_terms": [
+          "vc",
+          "venture",
+          "capital",
+          "method",
+          "exit",
+          "value",
+          "postmoney",
+          "premoney",
+          "valuation"
+        ],
+        "text": "Q. What is precedent transactions analysis?\n\nA. Similar to comps, except here you create a universe of completed deals within the past five years to find an industry average multiple. The product of that multiple and the target company’s EBITDA or sales will give us enterprise value.\n\nQ. Which technique will give us the highest valuation?\n\nA. Likely precedent transactions analysis since there is a built-in control premium when a company is purchased.\n\nQ. How do you value a company without cash flows?\n\nA. If the company has assets on hand we can use the asset-backed valuation method, if not we can use the venture capital method to back out a post-money valuation based on the anticipated enterprise value and ROI in the exit year. Once we have post-money valuation we can simply subtract the amount they are asking for to arrive at a pre-money valuation.\n\nQ. Besides the VC method, are there any other ways to value a company pre-revenue?"
+      },
+      {
+        "id": "breakintovc-book:175",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 12: Returns and Valuation › Anticipated ROI in the VC Method … Using the VC Method",
+        "score": 17.444,
+        "coverage": 0.53,
+        "matched_terms": [
+          "vc",
+          "method",
+          "exit",
+          "value",
+          "postmoney",
+          "premoney",
+          "valuation"
+        ],
+        "text": "[Anticipated ROI in the VC Method]\nAs discussed earlier, ROIs are cash-on-cash multiples of the money VCs or angels originally invested. Since the method skews towards very early stage companies, the anticipated ROIs are much higher because there is more risk towards the beginning of the business. An anticipated seed stage ROI is typically in the ballpark of 30x, compared to maybe 5-7x at the growth stage. I’ll talk about why the ROI is so large towards the end of the section.\n\n[Using the VC Method]\nNow that we have an enterprise value at an exit of $84M and a target ROI at an exit of 30x, we can use our formula.\n\nNow that we have the post-money valuation and know the investment amount, we can arrive at a pre-money valuation for our health care startup.\n\nSince our healthcare startup, Syntax Health is asking for an investment of $500k this gives them a pre-money valuation of $2.2M."
+      },
+      {
+        "id": "haas-venture-valuation:028",
+        "source_note": "Haas Venture Valuation Slides",
+        "file": "raw/Haas VCPE 295B - Venture Valuation.pdf",
+        "locator": "pp. 80–82",
+        "score": 16.368,
+        "coverage": 0.595,
+        "matched_terms": [
+          "vc",
+          "venture",
+          "capital",
+          "method",
+          "exit",
+          "value",
+          "postmoney",
+          "premoney",
+          "valuation"
+        ],
+        "text": "NanoChon\npremoney $ 100 \nmoney $ 20.0 \npost money 120\nownership 27%\nTotal\nOwner- Ownership Probable probable\nExits Rounds ship value Multiple Time IRR Probability value value\n$ 500 3 10% $ 52 13.0 10 29% 10.0% $ 5.18 26.67 \n$ 500 2 16% $ 80 19.9 6 65% 10% $ 7.97 \n$ 500 1 27% $ 135 33.8 3 223% 10% $ 13.51 Multiple\n$ - 1 27% - - 2 70% $ - 6.67 \nProductive.ai\n\n? ?\n? ?\nMethods of VC Valuation\nStage of Growth\nInvestment\nType\nLate\nVC\nTraditional\nEarly\n94\nVenture Capital \nMethod\nProjection \nReflection\nComparables\nScenario Analysis\n\nVC Valuation\n• To repeat:\n– Art, not science\n– There are no right answers\n– Methods are “precise” , but not “accurate”\n– Assumptions are key, can “overwhelm” the math"
+      },
+      {
+        "id": "haas-venture-valuation:015",
+        "source_note": "Haas Venture Valuation Slides",
+        "file": "raw/Haas VCPE 295B - Venture Valuation.pdf",
+        "locator": "pp. 48–50",
+        "score": 16.076,
+        "coverage": 0.558,
+        "matched_terms": [
+          "vc",
+          "method",
+          "expect",
+          "value",
+          "postmoney",
+          "premoney",
+          "valuation"
+        ],
+        "text": "Case data\n• $250m future market value (according to Krusty)\n \n• 50% IRR desired \n• Over 7 years\n• $5,000,000 investment\nMekasutra Games – VC Method\n\nInvestor Ownership \nExpectations\nInvestment\nExpected PV =Ownership\nrequired\nFuture Value\n(1+Necessary IRR)n(years)=\n=Future Value Revenue (year n)X Revenue multiple\nHow much ownership will the investor want/require?\n60\n$250m future market value (according to Krusty)\n$250m Future Value\n=Expected \nPresent Value (1 + 50% IRR)7 years = $14.6m\n$5m\n$14.6m\n= 34%\nRequirement or negotiation?\n“We typically require 20% of the company…”\n\nSo the Company’s Valuation is…..\n• Post money [post- investment] valuation ……. $14.6m\n• Pre-money valuation is……. $9.6m\n61\nRoom to negotiate – anything below $9.6m is good for \ninvestor"
+      },
+      {
+        "id": "breakintovc-book:150",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 12: Returns and Valuation › Pre-Money and Post-Money Valuation",
+        "score": 15.972,
+        "coverage": 0.386,
+        "matched_terms": [
+          "venture",
+          "capital",
+          "value",
+          "postmoney",
+          "premoney",
+          "valuation"
+        ],
+        "text": "Before we dive into pre- and post-money valuation let’s define “money” as the amount of venture capital invested in a round of financing. Now we can understand post-money valuation as the value of a company, immediately after the latest amount of venture capital is invested.\n\nTherefore, pre-money valuation is the value of a company before that latest round of capital has been invested. This is typically the value of the idea, opportunity, the management team and perhaps any patents or intellectual property that comes with the founders. Distilling our understanding of pre- and post-money valuation, it must be that:\n\nKey differences between the two are the timing of the valuation and ownership stake."
+      },
+      {
+        "id": "breakintovc-book:300",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Glossary",
+        "score": 15.943,
+        "coverage": 0.565,
+        "matched_terms": [
+          "venture",
+          "capital",
+          "method",
+          "exit",
+          "value",
+          "postmoney",
+          "premoney",
+          "valuation"
+        ],
+        "text": "Valuation Divergence\n\nPopularized by the late angel investor, Luis Villalobos, the phenomena of a venture’s value increasing and its early stage private shares increasing at a much lower rate. Early stage investors will experience a cash-on-cash ROI decrease or valuation divergence of as much as 3-5x.\n\nVenture Capital Method\n\nDetermining what a firm thinks a company will be worth at exit (anticipated post-money valuation) through market conditions and industry multiples, then dividing this number by the anticipated return on investment (ROI) to arrive at a current post-money valuation. After subtracting the investment amount requested, the investor can arrive at an appropriate pre-money valuation.\n\nVenture Capitalists\n\nA group of investors who receive their money from several different sources who do not share in direct ownership of the portfolio companies. Venture capitalists invest in early- to mid-stage private companies in order to earn large returns on the investment.\n\nVenture Debt"
+      }
+    ],
+    "unknown_terms": []
+  },
+  "prompt_messages": [
+    {
+      "role": "system",
+      "content": "# Research rules (ask mode)\n\nYou answer research questions using ONLY the numbered evidence passages provided\nwith the question. The passages come from the user's own sources: a book, a blog\npost, and lecture slides about venture capital.\n\nRules:\n1. Use only facts that appear in the evidence passages. Do not use outside knowledge, even if you think it is correct.\n2. After every sentence that states a fact, cite the passage(s) it came from with the passage number in square brackets, for example [S2] or [S1][S4].\n3. Include the specific numbers the passages give for what is asked (percentages, amounts, multiples), copied exactly ($40mm, 34%, 2.8x). Do not do new math unless the question asks for it, and if you do, show the steps.\n4. If the question asks for examples or \"how\" something is calculated, walk through each worked example the passages contain, step by step with its numbers, and cite each one.\n5. If a passage gives a goal, target, assumption, or hypothetical example, say so. Never present a target or an example as an actual result.\n6. If the passages do not contain the answer, reply with exactly this first line:\n   INSUFFICIENT EVIDENCE: the sources do not say <what is missing>.\n   Then, in one sentence, you may mention what related information the sources do contain, with a citation.\n7. If the passages answer only part of the question, answer that part with citations and say clearly which part the sources do not cover.\n8. Write in a neutral, direct voice: no greeting, no personality, no suggestions, no follow-up questions. Keep it under 220 words."
+    },
+    {
+      "role": "user",
+      "content": "EVIDENCE PASSAGES:\n\n[S1] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 12: Returns and Valuation › Rapid-Fire Questions\nQ. What is precedent transactions analysis?\n\nA. Similar to comps, except here you create a universe of completed deals within the past five years to find an industry average multiple. The product of that multiple and the target company’s EBITDA or sales will give us enterprise value.\n\nQ. Which technique will give us the highest valuation?\n\nA. Likely precedent transactions analysis since there is a built-in control premium when a company is purchased.\n\nQ. How do you value a company without cash flows?\n\nA. If the company has assets on hand we can use the asset-backed valuation method, if not we can use the venture capital method to back out a post-money valuation based on the anticipated enterprise value and ROI in the exit year. Once we have post-money valuation we can simply subtract the amount they are asking for to arrive at a pre-money valuation.\n\nQ. Besides the VC method, are there any other ways to value a company pre-revenue?\n\n[S2] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 12: Returns and Valuation › Anticipated ROI in the VC Method … Using the VC Method\n[Anticipated ROI in the VC Method]\nAs discussed earlier, ROIs are cash-on-cash multiples of the money VCs or angels originally invested. Since the method skews towards very early stage companies, the anticipated ROIs are much higher because there is more risk towards the beginning of the business. An anticipated seed stage ROI is typically in the ballpark of 30x, compared to maybe 5-7x at the growth stage. I’ll talk about why the ROI is so large towards the end of the section.\n\n[Using the VC Method]\nNow that we have an enterprise value at an exit of $84M and a target ROI at an exit of 30x, we can use our formula.\n\nNow that we have the post-money valuation and know the investment amount, we can arrive at a pre-money valuation for our health care startup.\n\nSince our healthcare startup, Syntax Health is asking for an investment of $500k this gives them a pre-money valuation of $2.2M.\n\n[S3] Source: Haas Venture Valuation Slides (raw/Haas VCPE 295B - Venture Valuation.pdf), pp. 80–82\nNanoChon\npremoney $ 100 \nmoney $ 20.0 \npost money 120\nownership 27%\nTotal\nOwner- Ownership Probable probable\nExits Rounds ship value Multiple Time IRR Probability value value\n$ 500 3 10% $ 52 13.0 10 29% 10.0% $ 5.18 26.67 \n$ 500 2 16% $ 80 19.9 6 65% 10% $ 7.97 \n$ 500 1 27% $ 135 33.8 3 223% 10% $ 13.51 Multiple\n$ - 1 27% - - 2 70% $ - 6.67 \nProductive.ai\n\n? ?\n? ?\nMethods of VC Valuation\nStage of Growth\nInvestment\nType\nLate\nVC\nTraditional\nEarly\n94\nVenture Capital \nMethod\nProjection \nReflection\nComparables\nScenario Analysis\n\nVC Valuation\n• To repeat:\n– Art, not science\n– There are no right answers\n– Methods are “precise” , but not “accurate”\n– Assumptions are key, can “overwhelm” the math\n\n[S4] Source: Haas Venture Valuation Slides (raw/Haas VCPE 295B - Venture Valuation.pdf), pp. 48–50\nCase data\n• $250m future market value (according to Krusty)\n \n• 50% IRR desired \n• Over 7 years\n• $5,000,000 investment\nMekasutra Games – VC Method\n\nInvestor Ownership \nExpectations\nInvestment\nExpected PV =Ownership\nrequired\nFuture Value\n(1+Necessary IRR)n(years)=\n=Future Value Revenue (year n)X Revenue multiple\nHow much ownership will the investor want/require?\n60\n$250m future market value (according to Krusty)\n$250m Future Value\n=Expected \nPresent Value (1 + 50% IRR)7 years = $14.6m\n$5m\n$14.6m\n= 34%\nRequirement or negotiation?\n“We typically require 20% of the company…”\n\nSo the Company’s Valuation is…..\n• Post money [post- investment] valuation ……. $14.6m\n• Pre-money valuation is……. $9.6m\n61\nRoom to negotiate – anything below $9.6m is good for \ninvestor\n\n[S5] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 12: Returns and Valuation › Pre-Money and Post-Money Valuation\nBefore we dive into pre- and post-money valuation let’s define “money” as the amount of venture capital invested in a round of financing. Now we can understand post-money valuation as the value of a company, immediately after the latest amount of venture capital is invested.\n\nTherefore, pre-money valuation is the value of a company before that latest round of capital has been invested. This is typically the value of the idea, opportunity, the management team and perhaps any patents or intellectual property that comes with the founders. Distilling our understanding of pre- and post-money valuation, it must be that:\n\nKey differences between the two are the timing of the valuation and ownership stake.\n\n[S6] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Glossary\nValuation Divergence\n\nPopularized by the late angel investor, Luis Villalobos, the phenomena of a venture’s value increasing and its early stage private shares increasing at a much lower rate. Early stage investors will experience a cash-on-cash ROI decrease or valuation divergence of as much as 3-5x.\n\nVenture Capital Method\n\nDetermining what a firm thinks a company will be worth at exit (anticipated post-money valuation) through market conditions and industry multiples, then dividing this number by the anticipated return on investment (ROI) to arrive at a current post-money valuation. After subtracting the investment amount requested, the investor can arrive at an appropriate pre-money valuation.\n\nVenture Capitalists\n\nA group of investors who receive their money from several different sources who do not share in direct ownership of the portfolio companies. Venture capitalists invest in early- to mid-stage private companies in order to earn large returns on the investment.\n\nVenture Debt\n\nQUESTION: How does the Venture Capital Method turn an expected exit value into a post-money and pre-money valuation? Use the examples in my notes.\n\nAnswer using only the evidence passages, citing them like [S1]."
+    }
+  ],
+  "answer": "To determine a post-money and pre-money valuation using the Venture Capital Method, the process involves the following steps [S6]:\n\n1. Determine what a firm thinks a company will be worth at exit (anticipated post-money valuation) through market conditions and industry multiples [S6].\n2. Divide this number by the anticipated return on investment (ROI) to arrive at a current post-money valuation [S6].\n3. After subtracting the investment amount requested, the investor can arrive at an appropriate pre-money valuation [S6].\n\nExamples from the evidence include:\n\n*   For a healthcare startup, Syntax Health, an investment of $500,000 results in a pre-money valuation of $2.2 million [S2].\n*   In a case, the required ownership was 20% of the company, and the post-money valuation was $14.6 million, leading to a pre-money valuation of $9.6 million [S4].",
+  "citations": {
+    "cited": [
+      2,
+      4,
+      6
+    ],
+    "invalid": [],
+    "unsupported_numbers": [],
+    "uncited_sentences": [],
+    "insufficient": false,
+    "pass": true
+  },
+  "generation": {
+    "text": "To determine a post-money and pre-money valuation using the Venture Capital Method, the process involves the following steps [S6]:\n\n1. Determine what a firm thinks a company will be worth at exit (anticipated post-money valuation) through market conditions and industry multiples [S6].\n2. Divide this number by the anticipated return on investment (ROI) to arrive at a current post-money valuation [S6].\n3. After subtracting the investment amount requested, the investor can arrive at an appropriate pre-money valuation [S6].\n\nExamples from the evidence include:\n\n*   For a healthcare startup, Syntax Health, an investment of $500,000 results in a pre-money valuation of $2.2 million [S2].\n*   In a case, the required ownership was 20% of the company, and the post-money valuation was $14.6 million, leading to a pre-money valuation of $9.6 million [S4].",
+    "prompt_tokens": 1988,
+    "generated_tokens": 209,
+    "seconds": 14.063262939453125,
+    "tokens_per_second": 22.217013547925802,
+    "peak_memory_gb": 3.302143638,
+    "process_rss_gb": 1.633107968
+  },
+  "model_load_seconds": null
+}

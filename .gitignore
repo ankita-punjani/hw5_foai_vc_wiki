@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Original sources are copyrighted by their authors (book, Medium post, course
+# slides). They stay local in vault/raw/; sources.yml + the source notes record
+# title, author, link, and SHA-256 so anyone with the files can verify them.
+vault/raw/*
+!vault/raw/README.md
+
+# Generated machine data (rebuilt by `wiki ingest`)
+data/
+
+# Obsidian per-device workspace state
+vault/.obsidian/workspace*.json
+vault/.obsidian/cache
+
+# macOS
+.DS_Store

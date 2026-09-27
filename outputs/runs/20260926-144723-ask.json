@@ -1,0 +1,147 @@
+{
+  "mode": "ask",
+  "execution": "local",
+  "env": {
+    "timestamp": "2026-09-26T14:47:10",
+    "execution": "local",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
+    "device": "arm64 · macOS 15.6.1",
+    "network": "online"
+  },
+  "question": "What hurdle rate (preferred return) must a venture fund deliver to its limited partners before the partners can earn carried interest?",
+  "retrieval": {
+    "top_k": 6,
+    "seconds": 0.05721879005432129,
+    "hits": [
+      {
+        "id": "breakintovc-book:023",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 2: Early Stage Investing › How Does It Work?",
+        "score": 20.651,
+        "coverage": 0.339,
+        "matched_terms": [
+          "return",
+          "venture",
+          "fund",
+          "limit",
+          "partner",
+          "carri",
+          "interest"
+        ],
+        "text": "The average fund size of all venture capital stages is about $400M and the average venture capital deal size is $18M.1\n\nThe larger the firm’s stake in the company as shown in the account of all major shareholders, or capitalization table, the larger CynMerc’s returns are when the company makes an exit either through an initial public offering (IPO) or any mergers & acquisitions (M&A) activity.\n\nSince Cynthia and Mercedes are partners at CynMerc, they will charge a management fee of about 2 percent to the limited partners in order to pay their own salaries, and the salaries of the associates and the support staff (you).\n\nOnce the limited partners receive 100 percent of their money back, Cynthia and Mercedes receive 20 percent of any additional profits while the limited partners receive 80 percent. The 20 percent that Cynthia and Mercedes receive is referred to as carried interest."
+      },
+      {
+        "id": "breakintovc-book:118",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 11: Fundamentals of Accounting › Interest Expense (or Income) … Earning Before Tax (Pretax Income)",
+        "score": 12.605,
+        "coverage": 0.195,
+        "matched_terms": [
+          "rate",
+          "before",
+          "earn",
+          "interest"
+        ],
+        "text": "[Interest Expense (or Income)]\nCompanies will likely have interest expenses from borrowing money either through bonds, loans, convertible debt or any other lines of credit. Conversely, a company may also have interest income from investments. Like depreciation, this line item is considered a non-operating expense since again, it is outside of production (COGS and OPEX).\n\nSince interest expense is usually greater than interest income, this term is usually referred to as net interest expense, or interest expense less any interest income in the period.\n\n[Earning Before Tax (Pretax Income)]\nAlmost home! Let’s take a moment here to remember how far we’ve come. We started at the top line of the income statement (gross revenue), accounted for our industry take rate to arrive at net revenue, subtracted all costs of labor and raw materials (COGS) as well as the costs of production (OPEX), and accounted for non-operating expense items like D&A and interest. This leaves us at pre-tax income. All that remains is deducting the income tax."
+      },
+      {
+        "id": "breakintovc-book:290",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Glossary",
+        "score": 12.32,
+        "coverage": 0.224,
+        "matched_terms": [
+          "rate",
+          "return",
+          "limit",
+          "partner",
+          "interest"
+        ],
+        "text": "Initial Public Offering (IPO)\n\nWhen a private company issues stock to the general public on an exchange and becomes a public business entity. This is the first time a private company issues stock to the public.\n\nInterest Payable\n\nA company may owe interest, but not pay upfront. Interest payable represents their obligation to pay interest that is owed within the period.\n\nInternal Rate of Return (IRR)\n\nAn annualized growth rate that accounts for cash inflows and outflows within the period. IRRs are a performance metric to evaluate investment portfolios usually over a 5 to 10 year time horizon.\n\nLeveraged Buyout (LBO)\n\nAn acquisition tactic where private equity firms take out sizable loans to buy a company while only investing 30 or 40 percent of their cash. Firms use the high cash flow of the target company to repay the debt.\n\nLiability\n\nRepresents what a company owes. Typical liabilities are accounts, salaries and interest payable. Liabilities can be found on the balance sheet of a business.\n\nLimited Partners"
+      },
+      {
+        "id": "breakintovc-book:295",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Glossary",
+        "score": 11.209,
+        "coverage": 0.185,
+        "matched_terms": [
+          "rate",
+          "preferr",
+          "venture",
+          "before"
+        ],
+        "text": "Post-Money Valuation\n\nThe value of a company immediately after the latest amount of venture capital is invested.\n\nPre-Money Valuation\n\nThe value of a company before that latest round of capital has been invested. Most valuation methods are an attempt to find the pre-money valuation.\n\nPre-Tax Income (EBT)\n\nThe earnings of a business before corporate income taxes. After accounting for taxes the next line-item in general net income.\n\nPrecedent Transactions Analysis\n\nA valuation technique focused on similar (industry, geography, debt structure etc.) transactions that occurred usually in the past five years.\n\nPreferred Stock\n\nA share of a company’s stock that holds no voting rights but gives fixed, or recurring dividends. Preferred shareholders are paid out before common stock shareholders but after debt holders.\n\nPresent Value\n\nThe value of a company after discounting all future cash flows. The higher the discount rate, the lower the present value.\n\nPrimary Shares\n\nNew shares of stock that are issued from the company and sold to investors.\n\nPro-Rata"
+      },
+      {
+        "id": "breakintovc-book:025",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 2: Early Stage Investing › Why People Invest in Venture Capital",
+        "score": 10.828,
+        "coverage": 0.201,
+        "matched_terms": [
+          "return",
+          "venture",
+          "fund",
+          "limit",
+          "partner"
+        ],
+        "text": "Despite such a high risk, limited partners agree to invest in venture firms in order to diversify their assets, or what they own. Instead of allocating capital only to stocks, bonds and real estate, portfolio managers allocate a portion of funds to a category known as alternative investments, which consists of private equity and venture capital investment opportunities. Since VC is so risky, usually under 15 percent of the portfolio is allocated to alternative investments.\n\nFor instance, VC firms return 25 percent on average, while the typical stock market return in a given year is 8 percent annually. That being said, it is rare for stocks to hit 0 dollars in value while in any given early stage portfolio over half of the companies may fail in a 10-year period. As usual, great returns come with great risk."
+      },
+      {
+        "id": "breakintovc-book:286",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Glossary",
+        "score": 10.377,
+        "coverage": 0.21,
+        "matched_terms": [
+          "rate",
+          "venture",
+          "limit",
+          "before",
+          "interest"
+        ],
+        "text": "Dollar Revenue Retention (DRR)\n\nThe amount of revenue you are retaining from your customers or a cohort in a given period. The metric is largely used in the Software-as-a-Service (SaaS) industry and others that have tiered pricing.\n\nDownside Protection\n\nLimiting or reducing the losses on a portfolio or investments through covenants or a more constrained investment thesis.\n\nEBITDA\n\nEarnings before interest, tax, depreciation and amortization. Since many companies have different tax rates and ways to account for interest, EBITDA is a line item that investors can use to compare one company to another.\n\nEnterprise Value\n\nThe value of the entire firm. All valuation techniques are trying to arrive at an accurate enterprise value. This is how much a business should pay for a target company.\n\nEquity\n\nAn equity stake refers to the percentage ownership of a target company the venture firm will receive after investment. Equity holders are paid out after debt holders.\n\nEquity Financing\n\nWhen a company sells some number of private stock shares to a venture firm who pays in cash or its equivalent."
+      }
+    ],
+    "unknown_terms": [
+      "hurdle"
+    ]
+  },
+  "prompt_messages": [
+    {
+      "role": "system",
+      "content": "# Research rules (ask mode)\n\nYou answer research questions using ONLY the numbered evidence passages provided\nwith the question. The passages come from the user's own sources: a book, a blog\npost, and lecture slides about venture capital.\n\nRules:\n1. Use only facts that appear in the evidence passages. Do not use outside knowledge, even if you think it is correct.\n2. After every sentence that states a fact, cite the passage(s) it came from with the passage number in square brackets, for example [S2] or [S1][S4].\n3. Include the specific numbers the passages give for what is asked (percentages, amounts, multiples), copied exactly ($40mm, 34%, 2.8x). Do not do new math unless the question asks for it, and if you do, show the steps.\n4. If the question asks for examples or \"how\" something is calculated, walk through each worked example the passages contain, step by step with its numbers, and cite each one.\n5. If a passage gives a goal, target, assumption, or hypothetical example, say so. Never present a target or an example as an actual result.\n6. If the passages do not contain the answer, reply with exactly this first line:\n   INSUFFICIENT EVIDENCE: the sources do not say <what is missing>.\n   Then, in one sentence, you may mention what related information the sources do contain, with a citation.\n7. If the passages answer only part of the question, answer that part with citations and say clearly which part the sources do not cover.\n8. Write in a neutral, direct voice: no greeting, no personality, no suggestions, no follow-up questions. Keep it under 220 words."
+    },
+    {
+      "role": "user",
+      "content": "EVIDENCE PASSAGES:\n\n[S1] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 2: Early Stage Investing › How Does It Work?\nThe average fund size of all venture capital stages is about $400M and the average venture capital deal size is $18M.1\n\nThe larger the firm’s stake in the company as shown in the account of all major shareholders, or capitalization table, the larger CynMerc’s returns are when the company makes an exit either through an initial public offering (IPO) or any mergers & acquisitions (M&A) activity.\n\nSince Cynthia and Mercedes are partners at CynMerc, they will charge a management fee of about 2 percent to the limited partners in order to pay their own salaries, and the salaries of the associates and the support staff (you).\n\nOnce the limited partners receive 100 percent of their money back, Cynthia and Mercedes receive 20 percent of any additional profits while the limited partners receive 80 percent. The 20 percent that Cynthia and Mercedes receive is referred to as carried interest.\n\n[S2] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 11: Fundamentals of Accounting › Interest Expense (or Income) … Earning Before Tax (Pretax Income)\n[Interest Expense (or Income)]\nCompanies will likely have interest expenses from borrowing money either through bonds, loans, convertible debt or any other lines of credit. Conversely, a company may also have interest income from investments. Like depreciation, this line item is considered a non-operating expense since again, it is outside of production (COGS and OPEX).\n\nSince interest expense is usually greater than interest income, this term is usually referred to as net interest expense, or interest expense less any interest income in the period.\n\n[Earning Before Tax (Pretax Income)]\nAlmost home! Let’s take a moment here to remember how far we’ve come. We started at the top line of the income statement (gross revenue), accounted for our industry take rate to arrive at net revenue, subtracted all costs of labor and raw materials (COGS) as well as the costs of production (OPEX), and accounted for non-operating expense items like D&A and interest. This leaves us at pre-tax income. All that remains is deducting the income tax.\n\n[S3] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Glossary\nInitial Public Offering (IPO)\n\nWhen a private company issues stock to the general public on an exchange and becomes a public business entity. This is the first time a private company issues stock to the public.\n\nInterest Payable\n\nA company may owe interest, but not pay upfront. Interest payable represents their obligation to pay interest that is owed within the period.\n\nInternal Rate of Return (IRR)\n\nAn annualized growth rate that accounts for cash inflows and outflows within the period. IRRs are a performance metric to evaluate investment portfolios usually over a 5 to 10 year time horizon.\n\nLeveraged Buyout (LBO)\n\nAn acquisition tactic where private equity firms take out sizable loans to buy a company while only investing 30 or 40 percent of their cash. Firms use the high cash flow of the target company to repay the debt.\n\nLiability\n\nRepresents what a company owes. Typical liabilities are accounts, salaries and interest payable. Liabilities can be found on the balance sheet of a business.\n\nLimited Partners\n\n[S4] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Glossary\nPost-Money Valuation\n\nThe value of a company immediately after the latest amount of venture capital is invested.\n\nPre-Money Valuation\n\nThe value of a company before that latest round of capital has been invested. Most valuation methods are an attempt to find the pre-money valuation.\n\nPre-Tax Income (EBT)\n\nThe earnings of a business before corporate income taxes. After accounting for taxes the next line-item in general net income.\n\nPrecedent Transactions Analysis\n\nA valuation technique focused on similar (industry, geography, debt structure etc.) transactions that occurred usually in the past five years.\n\nPreferred Stock\n\nA share of a company’s stock that holds no voting rights but gives fixed, or recurring dividends. Preferred shareholders are paid out before common stock shareholders but after debt holders.\n\nPresent Value\n\nThe value of a company after discounting all future cash flows. The higher the discount rate, the lower the present value.\n\nPrimary Shares\n\nNew shares of stock that are issued from the company and sold to investors.\n\nPro-Rata\n\n[S5] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 2: Early Stage Investing › Why People Invest in Venture Capital\nDespite such a high risk, limited partners agree to invest in venture firms in order to diversify their assets, or what they own. Instead of allocating capital only to stocks, bonds and real estate, portfolio managers allocate a portion of funds to a category known as alternative investments, which consists of private equity and venture capital investment opportunities. Since VC is so risky, usually under 15 percent of the portfolio is allocated to alternative investments.\n\nFor instance, VC firms return 25 percent on average, while the typical stock market return in a given year is 8 percent annually. That being said, it is rare for stocks to hit 0 dollars in value while in any given early stage portfolio over half of the companies may fail in a 10-year period. As usual, great returns come with great risk.\n\n[S6] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Glossary\nDollar Revenue Retention (DRR)\n\nThe amount of revenue you are retaining from your customers or a cohort in a given period. The metric is largely used in the Software-as-a-Service (SaaS) industry and others that have tiered pricing.\n\nDownside Protection\n\nLimiting or reducing the losses on a portfolio or investments through covenants or a more constrained investment thesis.\n\nEBITDA\n\nEarnings before interest, tax, depreciation and amortization. Since many companies have different tax rates and ways to account for interest, EBITDA is a line item that investors can use to compare one company to another.\n\nEnterprise Value\n\nThe value of the entire firm. All valuation techniques are trying to arrive at an accurate enterprise value. This is how much a business should pay for a target company.\n\nEquity\n\nAn equity stake refers to the percentage ownership of a target company the venture firm will receive after investment. Equity holders are paid out after debt holders.\n\nEquity Financing\n\nWhen a company sells some number of private stock shares to a venture firm who pays in cash or its equivalent.\n\nPROGRAM NOTE: these words from the question appear nowhere in the sources: hurdle. An everyday word may just be a synonym for something the passages describe in other words; then answer from the passages. But if the question asks about a specific term, rule, number, or instrument that the passages never mention, start with INSUFFICIENT EVIDENCE (rule 6) and do not define or explain it.\n\nQUESTION: What hurdle rate (preferred return) must a venture fund deliver to its limited partners before the partners can earn carried interest?\n\nAnswer using only the evidence passages, citing them like [S1]."
+    }
+  ],
+  "answer": "INSUFFICIENT EVIDENCE: the sources do not say what hurdle rate (preferred return) must be delivered by a venture fund to its limited partners before partners can earn carried interest.",
+  "citations": {
+    "cited": [],
+    "invalid": [],
+    "unsupported_numbers": [],
+    "uncited_sentences": [],
+    "insufficient": true,
+    "pass": true
+  },
+  "generation": {
+    "text": "INSUFFICIENT EVIDENCE: the sources do not say what hurdle rate (preferred return) must be delivered by a venture fund to its limited partners before partners can earn carried interest.",
+    "prompt_tokens": 1931,
+    "generated_tokens": 37,
+    "seconds": 5.300467014312744,
+    "tokens_per_second": 24.849758995154353,
+    "peak_memory_gb": 3.27851147,
+    "process_rss_gb": 2.152431616
+  },
+  "model_load_seconds": 5.341328144073486
+}

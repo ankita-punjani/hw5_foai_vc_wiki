@@ -1,0 +1,79 @@
+{
+  "collapse-filter": false,
+  "search": "path:wiki/",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"wiki/Basics\"",
+      "color": {
+        "a": 1,
+        "rgb": 15158332
+      }
+    },
+    {
+      "query": "path:\"wiki/Fund Structure\"",
+      "color": {
+        "a": 1,
+        "rgb": 3900150
+      }
+    },
+    {
+      "query": "path:\"wiki/Returns Math\"",
+      "color": {
+        "a": 1,
+        "rgb": 15105570
+      }
+    },
+    {
+      "query": "path:\"wiki/Valuation\"",
+      "color": {
+        "a": 1,
+        "rgb": 10181046
+      }
+    },
+    {
+      "query": "path:\"wiki/Startup Metrics\"",
+      "color": {
+        "a": 1,
+        "rgb": 3066993
+      }
+    },
+    {
+      "query": "path:\"wiki/Financing Types\"",
+      "color": {
+        "a": 1,
+        "rgb": 15844367
+      }
+    },
+    {
+      "query": "path:\"wiki/Careers\"",
+      "color": {
+        "a": 1,
+        "rgb": 1752220
+      }
+    },
+    {
+      "query": "path:wiki/Sources",
+      "color": {
+        "a": 1,
+        "rgb": 9807270
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -1.5,
+  "nodeSizeMultiplier": 1.3,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.45,
+  "repelStrength": 14,
+  "linkStrength": 1,
+  "linkDistance": 220,
+  "scale": 0.8695192701811596,
+  "close": false
+}

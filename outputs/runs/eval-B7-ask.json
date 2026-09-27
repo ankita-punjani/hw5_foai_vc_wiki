@@ -1,0 +1,129 @@
+{
+  "mode": "ask",
+  "execution": "local",
+  "env": {
+    "timestamp": "2026-09-26T15:02:06",
+    "execution": "local",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
+    "device": "arm64 · macOS 15.6.1",
+    "network": "offline (no route to internet)"
+  },
+  "question": "What is a SAFE, and how does it convert into equity?",
+  "retrieval": {
+    "top_k": 6,
+    "seconds": 0.0022928714752197266,
+    "hits": [
+      {
+        "id": "breakintovc-book:301",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Glossary",
+        "score": 7.209,
+        "coverage": 0.47,
+        "matched_terms": [
+          "convert",
+          "equity"
+        ],
+        "text": "Venture Debt\n\nInjecting capital into an early stage business in the form of short-term loans so as not to further dilute equity that can be used for later rounds. A company may need and request venture debt to meet sales demand so equity can be saved for more substantial initiatives like national expansion.\n\nWarrants\n\nIn the context of venture capital, a clause that gives investors the right to convert debt into equity in a given time frame.\n\nWeighted Average Cost of Capital (WACC)\n\nThe return that equity owners and lenders expect from a company. WACC is the discount rate used in the discounted cash flow valuation method.\n\nWorking Capital\n\nA company’s ability to cover short-term liabilities. In order to benchmark this figure, a company takes current assets and subtracts current liabilities."
+      },
+      {
+        "id": "breakintovc-book:060",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 6: Venture Debt › Benefits",
+        "score": 6.935,
+        "coverage": 0.47,
+        "matched_terms": [
+          "convert",
+          "equity"
+        ],
+        "text": "Entrepreneurs can further understand the value of venture debt through their retained ownership of equity that otherwise would have been lost with another venture round.\n\nAs in our tree startup example, venture debt is a fairly common tool that allows a company to meet sales demand without giving away equity. Companies may also consider venture debt after they have raised a round and need a little more cash to accelerate growth.\n\nAnalysts estimate that the yearly volume of venture debt is between $2B to $4B, but these numbers are rough since most of the data is private.11\n\nVenture debt often has entitlements, or warrants, for stock that allows the debt to convert into equity within the given timeframe. Depending on the terms, this can be seen as a more viable option for firms and companies."
+      },
+      {
+        "id": "breakintovc-book:159",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 12: Returns and Valuation › Discounted Cash Flow (DCF)",
+        "score": 5.648,
+        "coverage": 0.47,
+        "matched_terms": [
+          "convert",
+          "equity"
+        ],
+        "text": "DCF stands for discounted cash flow, a technique where you take all the money that a company is estimated to make in the foreseeable future (usually five years), and convert those “future dollars” to “present day” dollars. In an interview you can refer to this as “discounting the value of all future cash flows to arrive at the present value of a company.” Since startups lack much of the fundamentals needed for the DCF approach, any question related to discounted cash flow is likely to only appear qualitatively in a growth equity interview.\n\nThere are many investment banking guides that outline the entire DCF valuation process from start to finish. However, in a late stage venture capital interview they will only ask for a big picture understanding, so I’ll only focus on the overview. First let’s highlight key terms and then answer some basic valuation questions."
+      },
+      {
+        "id": "breakintovc-book:285",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Glossary",
+        "score": 5.462,
+        "coverage": 0.47,
+        "matched_terms": [
+          "convert",
+          "equity"
+        ],
+        "text": "Depreciation and Amortization (D&A)\n\nA measurement of the cost or decay of a physical asset over its lifetime. If it is a physical asset the method is referred to as depreciation, otherwise with line items like patents or media licensing, the method is referred to as amortization.\n\nDilution\n\nUsually referring to a reduction in ownership or value between financing rounds.\n\nDiscount Rate\n\nThe rate at which company discounts the “future dollars” of a target company in order to arrive at the present value.\n\nDiscounted Cash Flow (DCF)\n\nA valuation technique where a business takes all the money that a target company is estimated to make in the foreseeable future (usually five years), and converts those “future dollars” to “present day” dollars.\n\nDividends\n\nPayments made to shareholders. A company may issue dividends in cash or additional shares.\n\nDividend Recapitalization (“Dividend Recap”)\n\nDividends paid to the private equity firm and other shareholders on behalf of the portfolio company.\n\nDollar Revenue Retention (DRR)"
+      },
+      {
+        "id": "breakintovc-book:050",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 5: Growth Equity › Target Company … Growth Equity and Private Equity",
+        "score": 3.152,
+        "coverage": 0.118,
+        "matched_terms": [
+          "equity"
+        ],
+        "text": "[Target Company]\nVenture capital firms and angel groups would like to see the most developed product possible, but at this time in a company’s history—the seed stage—typically the company has little-to-no customers, little revenue and may not have reached the minimum viable product, or MVP stage yet where they have a lean but substantial version of their product.\n\nGrowth equity firms will only target companies with a substantial revenue and customer base. Since growth equity firms are typically trying to find market leaders, certain metrics that we will dive into later will also become important.\n\n[Growth Equity and Private Equity]\nAt first glance these terms may seem similar, but just as there are clear differences between growth equity and venture capital, growth equity and private equity also have structurally different business models."
+      },
+      {
+        "id": "breakintovc-book:048",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 5: Growth Equity › Breaking In … Growth Equity and Venture Capital",
+        "score": 3.136,
+        "coverage": 0.118,
+        "matched_terms": [
+          "equity"
+        ],
+        "text": "[Breaking In]\nIn order to understand growth equity, it helps to have a foundation in accounting and basic valuation. Other than having a high-level understanding of financial analysis, it’s crucial to understand the differences between venture capital, growth equity and private equity.\n\n[Growth Equity and Venture Capital]\nAs we discussed earlier, growth equity refers to late-stage venture capital deals that will typically help the company reach the public markets (IPO) or get acquired by a strategic company or financial sponsor. Additionally, there are some core differences between venture capital and growth equity that you will need to understand before reaching out to firms."
+      }
+    ],
+    "unknown_terms": [
+      "safe"
+    ]
+  },
+  "prompt_messages": [
+    {
+      "role": "system",
+      "content": "# Research rules (ask mode)\n\nYou answer research questions using ONLY the numbered evidence passages provided\nwith the question. The passages come from the user's own sources: a book, a blog\npost, and lecture slides about venture capital.\n\nRules:\n1. Use only facts that appear in the evidence passages. Do not use outside knowledge, even if you think it is correct.\n2. After every sentence that states a fact, cite the passage(s) it came from with the passage number in square brackets, for example [S2] or [S1][S4].\n3. Include the specific numbers the passages give for what is asked (percentages, amounts, multiples), copied exactly ($40mm, 34%, 2.8x). Do not do new math unless the question asks for it, and if you do, show the steps.\n4. If the question asks for examples or \"how\" something is calculated, walk through each worked example the passages contain, step by step with its numbers, and cite each one.\n5. If a passage gives a goal, target, assumption, or hypothetical example, say so. Never present a target or an example as an actual result.\n6. If the passages do not contain the answer, reply with exactly this first line:\n   INSUFFICIENT EVIDENCE: the sources do not say <what is missing>.\n   Then, in one sentence, you may mention what related information the sources do contain, with a citation.\n7. If the passages answer only part of the question, answer that part with citations and say clearly which part the sources do not cover.\n8. Write in a neutral, direct voice: no greeting, no personality, no suggestions, no follow-up questions. Keep it under 220 words."
+    },
+    {
+      "role": "user",
+      "content": "EVIDENCE PASSAGES:\n\n[S1] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Glossary\nVenture Debt\n\nInjecting capital into an early stage business in the form of short-term loans so as not to further dilute equity that can be used for later rounds. A company may need and request venture debt to meet sales demand so equity can be saved for more substantial initiatives like national expansion.\n\nWarrants\n\nIn the context of venture capital, a clause that gives investors the right to convert debt into equity in a given time frame.\n\nWeighted Average Cost of Capital (WACC)\n\nThe return that equity owners and lenders expect from a company. WACC is the discount rate used in the discounted cash flow valuation method.\n\nWorking Capital\n\nA company’s ability to cover short-term liabilities. In order to benchmark this figure, a company takes current assets and subtracts current liabilities.\n\n[S2] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 6: Venture Debt › Benefits\nEntrepreneurs can further understand the value of venture debt through their retained ownership of equity that otherwise would have been lost with another venture round.\n\nAs in our tree startup example, venture debt is a fairly common tool that allows a company to meet sales demand without giving away equity. Companies may also consider venture debt after they have raised a round and need a little more cash to accelerate growth.\n\nAnalysts estimate that the yearly volume of venture debt is between $2B to $4B, but these numbers are rough since most of the data is private.11\n\nVenture debt often has entitlements, or warrants, for stock that allows the debt to convert into equity within the given timeframe. Depending on the terms, this can be seen as a more viable option for firms and companies.\n\n[S3] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 12: Returns and Valuation › Discounted Cash Flow (DCF)\nDCF stands for discounted cash flow, a technique where you take all the money that a company is estimated to make in the foreseeable future (usually five years), and convert those “future dollars” to “present day” dollars. In an interview you can refer to this as “discounting the value of all future cash flows to arrive at the present value of a company.” Since startups lack much of the fundamentals needed for the DCF approach, any question related to discounted cash flow is likely to only appear qualitatively in a growth equity interview.\n\nThere are many investment banking guides that outline the entire DCF valuation process from start to finish. However, in a late stage venture capital interview they will only ask for a big picture understanding, so I’ll only focus on the overview. First let’s highlight key terms and then answer some basic valuation questions.\n\n[S4] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Glossary\nDepreciation and Amortization (D&A)\n\nA measurement of the cost or decay of a physical asset over its lifetime. If it is a physical asset the method is referred to as depreciation, otherwise with line items like patents or media licensing, the method is referred to as amortization.\n\nDilution\n\nUsually referring to a reduction in ownership or value between financing rounds.\n\nDiscount Rate\n\nThe rate at which company discounts the “future dollars” of a target company in order to arrive at the present value.\n\nDiscounted Cash Flow (DCF)\n\nA valuation technique where a business takes all the money that a target company is estimated to make in the foreseeable future (usually five years), and converts those “future dollars” to “present day” dollars.\n\nDividends\n\nPayments made to shareholders. A company may issue dividends in cash or additional shares.\n\nDividend Recapitalization (“Dividend Recap”)\n\nDividends paid to the private equity firm and other shareholders on behalf of the portfolio company.\n\nDollar Revenue Retention (DRR)\n\n[S5] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 5: Growth Equity › Target Company … Growth Equity and Private Equity\n[Target Company]\nVenture capital firms and angel groups would like to see the most developed product possible, but at this time in a company’s history—the seed stage—typically the company has little-to-no customers, little revenue and may not have reached the minimum viable product, or MVP stage yet where they have a lean but substantial version of their product.\n\nGrowth equity firms will only target companies with a substantial revenue and customer base. Since growth equity firms are typically trying to find market leaders, certain metrics that we will dive into later will also become important.\n\n[Growth Equity and Private Equity]\nAt first glance these terms may seem similar, but just as there are clear differences between growth equity and venture capital, growth equity and private equity also have structurally different business models.\n\n[S6] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 5: Growth Equity › Breaking In … Growth Equity and Venture Capital\n[Breaking In]\nIn order to understand growth equity, it helps to have a foundation in accounting and basic valuation. Other than having a high-level understanding of financial analysis, it’s crucial to understand the differences between venture capital, growth equity and private equity.\n\n[Growth Equity and Venture Capital]\nAs we discussed earlier, growth equity refers to late-stage venture capital deals that will typically help the company reach the public markets (IPO) or get acquired by a strategic company or financial sponsor. Additionally, there are some core differences between venture capital and growth equity that you will need to understand before reaching out to firms.\n\nPROGRAM NOTE: these words from the question appear nowhere in the sources: safe. An everyday word may just be a synonym for something the passages describe in other words; then answer from the passages. But if the question asks about a specific term, rule, number, or instrument that the passages never mention, start with INSUFFICIENT EVIDENCE (rule 6) and do not define or explain it.\n\nQUESTION: What is a SAFE, and how does it convert into equity?\n\nAnswer using only the evidence passages, citing them like [S1]."
+    }
+  ],
+  "answer": "INSUFFICIENT EVIDENCE: the sources do not say what a SAFE is or how it converts into equity.\nThe sources mention warrants as a clause that gives investors the right to convert debt into equity within a given timeframe [S2].",
+  "citations": {
+    "cited": [
+      2
+    ],
+    "invalid": [],
+    "unsupported_numbers": [],
+    "uncited_sentences": [],
+    "insufficient": true,
+    "pass": true
+  },
+  "generation": {
+    "text": "INSUFFICIENT EVIDENCE: the sources do not say what a SAFE is or how it converts into equity.\nThe sources mention warrants as a clause that gives investors the right to convert debt into equity within a given timeframe [S2].",
+    "prompt_tokens": 1697,
+    "generated_tokens": 49,
+    "seconds": 5.908845901489258,
+    "tokens_per_second": 22.335112032518207,
+    "peak_memory_gb": 3.353605796,
+    "process_rss_gb": 2.190753792
+  },
+  "model_load_seconds": null
+}

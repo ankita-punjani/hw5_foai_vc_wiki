@@ -1,0 +1,140 @@
+{
+  "mode": "ask",
+  "execution": "local",
+  "env": {
+    "timestamp": "2026-09-26T14:13:13",
+    "execution": "local",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
+    "device": "arm64 · macOS 15.6.1",
+    "network": "offline (no route to internet)"
+  },
+  "question": "Did Harlem Capital's first fund return 5x to its LPs?",
+  "retrieval": {
+    "top_k": 6,
+    "seconds": 0.05424213409423828,
+    "hits": [
+      {
+        "id": "harlem-return-the-fund:006",
+        "source_note": "Harlem Capital Return the Fund Post",
+        "file": "raw/Harlem Capital - Return the Fund.pdf",
+        "locator": "p. 6",
+        "score": 15.027,
+        "coverage": 0.538,
+        "matched_terms": [
+          "harlem",
+          "capital",
+          "fund",
+          "return",
+          "5x"
+        ],
+        "text": "Step 5 — Exit Returns as Percentage of Fund\nThe fund size is a large driver to what is required for an investment to return the\nfund.\n\nThe above example needed $700mm exit to return a $40mm fund.\n\nThis implies\na $350mm exit to return a $20mm fund, a 50% haircut.\n\nThe same investment of\n$750k would require a $4.3bn exit for a $250mm fund, aka VERY UNLIKELY.\n\nHence,\nwhy a $250mm Seed fund is likely going to have a check size range of $2mm+.\n\nA\nfund is generally not going to invest less than 1% of the fund in any company.\n\nMost Seed funds are targeting a 3x – 5x gross return, which implies $120mm-$200mm\nfor Harlem Capital’s $40mm fund.\n\nIf we assume for simplicity, HCP on average has\n5% ownership at exit, this implies $2.4bn-$4.0bn of total exit value.\n\nNow it begins to\nbe clear why Unicorns are such a focus for VC.\n\nA fund may not need unicorns to\nreturn the fund, but it will need billions in value creation to meet the 3x-5x return\ngoals."
+      },
+      {
+        "id": "harlem-return-the-fund:001",
+        "source_note": "Harlem Capital Return the Fund Post",
+        "file": "raw/Harlem Capital - Return the Fund.pdf",
+        "locator": "p. 1",
+        "score": 12.886,
+        "coverage": 0.352,
+        "matched_terms": [
+          "harlem",
+          "capital",
+          "fund",
+          "return"
+        ],
+        "text": "Harlem Capital Venture Capital VC Investors Founders\nCan Your Start-up ‘Return The Fund?’\n7 min read · May 19, 2020\nHarlem Capital Follow\nListen Share\nAt Harlem Capital, one of our slogans is “Data Drives Decisions.” We are more data\ndriven than most would expect for an early stage investor, which certainly stems\nfrom our finance backgrounds. We are also trying to remove biases that have\nhistorically led to a lack of diversity in venture. As a result, we want to provide\ninsight to how the venture fund model works as we often feel there is a disconnect\nbetween founders and investors."
+      },
+      {
+        "id": "harlem-return-the-fund:002",
+        "source_note": "Harlem Capital Return the Fund Post",
+        "file": "raw/Harlem Capital - Return the Fund.pdf",
+        "locator": "p. 2",
+        "score": 11.871,
+        "coverage": 0.444,
+        "matched_terms": [
+          "harlem",
+          "capital",
+          "first",
+          "fund",
+          "return"
+        ],
+        "text": "We will take a deep dive into venture math, particularly Harlem Capital’s, for\nfounders to better understand what VCs are looking for. It will also be helpful for\npotential investors looking to better understand the economics. Either way, if you\ndon’t like math, you should definitely read this post ;)\n5 Step Return Analysis\nThe below analysis provides some context to how we think about returns. You often\nwill hear VCs say, “Can this return the fund?” This question is VERY IMPORTANT, so\nfirst lets define “Fund Returner”.\nFund Returner Calculation\nFund Returner means to invest an amount of money and receive back 100% of my\nTOTAL fund from that investment. The above example shows a $40mm fund\ninvesting a $750k check and getting a 53.3x return to generate $40mm in return\ndollars, aka a Fund Returner. Not easy to get a 53.3x by the way, why Fund Returners\nare RARE. Although rare, they are critical in venture due to the very high startup\nfailure rate (75%-90% depending who you ask and how they define it). Now lets walk\nthrough the complete venture math in 5 steps using the below example. There are\nother terms used that will not be defined so please reference these 100 VC terms if\nany term is unclear."
+      },
+      {
+        "id": "harlem-return-the-fund:005",
+        "source_note": "Harlem Capital Return the Fund Post",
+        "file": "raw/Harlem Capital - Return the Fund.pdf",
+        "locator": "p. 5",
+        "score": 10.967,
+        "coverage": 0.352,
+        "matched_terms": [
+          "harlem",
+          "capital",
+          "fund",
+          "return"
+        ],
+        "text": "Get Harlem Capital’s stories in your inbox\nJoin Medium for free to get updates from this writer.\nEnter your email\nSubscribe\nRemember me for faster sign in\nStep 4 — Exit Price\nExit price is the biggest and most important guess. NO ONE obviously knows, but\ninvestors will try to make an educated guess of a range of potential outcomes. For\nmany founders hearing a $250mm exit is not big enough doesn’t make ANY sense,\nbut it’s unfortunately the reality for many funds. A $250mm exit only leads to 36% of\na $40mm fund being returned in the previous example.\n% of $40mm Fund Returned based on Exit Prices\nSome funds don’t focus on the exit value because it truly is a guess. Some funds only\ninvest in companies that they envision going public. It is important for founders to\nbe aligned on exit as that can impact their relationship with investors in the long\nterm.\nHarlem Capital does not model for IPOs or Unicorns as the vast majority of exits are\nM&A and under $1bn of enterprise value. This does not mean we do not believe our\nstartups can become unicorns or IPO, but we want to believe we can return the fund\neven if they don’t. For this reason, we do acquisition and comparable analysis to\nunderstand who is likely to buy them and in what price range, which can often be\ndetermined by revenue multiples. An exit is usually far away from the Seed round,\nbut have an idea of who can acquire you or how big the business can get as a\nstandalone."
+      },
+      {
+        "id": "harlem-return-the-fund:008",
+        "source_note": "Harlem Capital Return the Fund Post",
+        "file": "raw/Harlem Capital - Return the Fund.pdf",
+        "locator": "p. 7",
+        "score": 10.646,
+        "coverage": 0.358,
+        "matched_terms": [
+          "harlem",
+          "capital",
+          "first",
+          "return"
+        ],
+        "text": "Founder Return Analysis\nVenture is as much MATH as it is GUT. Run the numbers for yourself and for your\nbusiness to set yourself up best for the long haul that venture is. Too often we see\nfounders (especially first time) with too little equity at the Seed stage and that can\nsignal investors to your lack of understanding of venture. It certainly isn’t your job to\nbe mathematicians, but some insight can really help protect the thing you are\nworking so hard on.\nConclusion For Investors\nTry to learn as much of the above as you can. Robert Smith says, “You should be a\nMASTER of your craft.” Math is a part of venture, there is no way around it as this is\nstill investing. You may have a network, empathy, “proprietary” deal flow, but have\nthe math as well.\nCheck out our previous post on our Investment Box and to stay up to date on\nHarlem Capital news, subscribe to our monthly newsletter.\nRegards,\nHarlem Capital Team\nHarlem Capital Venture Capital VC Investors\nFounders"
+      },
+      {
+        "id": "breakintovc-book:022",
+        "source_note": "Break Into VC Book",
+        "file": "raw/Break Into VC - Bradley Miles.epub",
+        "locator": "Chapter 2: Early Stage Investing › How Does It Work?",
+        "score": 10.602,
+        "coverage": 0.43,
+        "matched_terms": [
+          "capital",
+          "fund",
+          "return",
+          "lps"
+        ],
+        "text": "Throughout the life of CynMerc I, Cynthia and Mercedes will look for markets and opportunities with substantial returns. They will try to invest as early as they can for a larger share of the company at a lesser cost, and may continue to invest through future funds (CynMerc II) so their share in the investment—or their equity stake, does not reduce in ownership, or dilute over time. CynMerc II will come in when about 75 percent of CynMerc I is committed to deals, this way CynMerc Ventures will always carry a substantial amount of capital in its coffers.\n\nCynthia and Mercedes will likely raise CynMerc II about 5-7 years into the life cycle of CynMerc I so the company never reaches a point where they have no more committed capital—or cash received from LPs—whenever an investment decision is reached by the firm for follow-on investments. The average fund size of all venture capital stages is about $400M and the average venture capital deal size is $18M.1"
+      }
+    ]
+  },
+  "prompt_messages": [
+    {
+      "role": "system",
+      "content": "# Research rules (ask mode)\n\nYou answer research questions using ONLY the numbered evidence passages provided\nwith the question. The passages come from the user's own sources: a book, a blog\npost, and lecture slides about venture capital.\n\nRules:\n1. Use only facts that appear in the evidence passages. Do not use outside knowledge, even if you think it is correct.\n2. After every sentence that states a fact, cite the passage(s) it came from with the passage number in square brackets, for example [S2] or [S1][S4].\n3. Include the specific numbers the passages give for what is asked (percentages, amounts, multiples), copied exactly ($40mm, 34%, 2.8x). Do not do new math unless the question asks for it, and if you do, show the steps.\n4. If the question asks for examples or \"how\" something is calculated, walk through each worked example the passages contain, step by step with its numbers, and cite each one.\n5. If a passage gives a goal, target, assumption, or hypothetical example, say so. Never present a target or an example as an actual result.\n6. If the passages do not contain the answer, reply with exactly this first line:\n   INSUFFICIENT EVIDENCE: the sources do not say <what is missing>.\n   Then, in one sentence, you may mention what related information the sources do contain, with a citation.\n7. If the passages answer only part of the question, answer that part with citations and say clearly which part the sources do not cover.\n8. Write in a neutral, direct voice: no greeting, no personality, no suggestions, no follow-up questions. Keep it under 220 words."
+    },
+    {
+      "role": "user",
+      "content": "EVIDENCE PASSAGES:\n\n[S1] Source: Harlem Capital Return the Fund Post (raw/Harlem Capital - Return the Fund.pdf), p. 6\nStep 5 — Exit Returns as Percentage of Fund\nThe fund size is a large driver to what is required for an investment to return the\nfund.\n\nThe above example needed $700mm exit to return a $40mm fund.\n\nThis implies\na $350mm exit to return a $20mm fund, a 50% haircut.\n\nThe same investment of\n$750k would require a $4.3bn exit for a $250mm fund, aka VERY UNLIKELY.\n\nHence,\nwhy a $250mm Seed fund is likely going to have a check size range of $2mm+.\n\nA\nfund is generally not going to invest less than 1% of the fund in any company.\n\nMost Seed funds are targeting a 3x – 5x gross return, which implies $120mm-$200mm\nfor Harlem Capital’s $40mm fund.\n\nIf we assume for simplicity, HCP on average has\n5% ownership at exit, this implies $2.4bn-$4.0bn of total exit value.\n\nNow it begins to\nbe clear why Unicorns are such a focus for VC.\n\nA fund may not need unicorns to\nreturn the fund, but it will need billions in value creation to meet the 3x-5x return\ngoals.\n\n[S2] Source: Harlem Capital Return the Fund Post (raw/Harlem Capital - Return the Fund.pdf), p. 1\nHarlem Capital Venture Capital VC Investors Founders\nCan Your Start-up ‘Return The Fund?’\n7 min read · May 19, 2020\nHarlem Capital Follow\nListen Share\nAt Harlem Capital, one of our slogans is “Data Drives Decisions.” We are more data\ndriven than most would expect for an early stage investor, which certainly stems\nfrom our finance backgrounds. We are also trying to remove biases that have\nhistorically led to a lack of diversity in venture. As a result, we want to provide\ninsight to how the venture fund model works as we often feel there is a disconnect\nbetween founders and investors.\n\n[S3] Source: Harlem Capital Return the Fund Post (raw/Harlem Capital - Return the Fund.pdf), p. 2\nWe will take a deep dive into venture math, particularly Harlem Capital’s, for\nfounders to better understand what VCs are looking for. It will also be helpful for\npotential investors looking to better understand the economics. Either way, if you\ndon’t like math, you should definitely read this post ;)\n5 Step Return Analysis\nThe below analysis provides some context to how we think about returns. You often\nwill hear VCs say, “Can this return the fund?” This question is VERY IMPORTANT, so\nfirst lets define “Fund Returner”.\nFund Returner Calculation\nFund Returner means to invest an amount of money and receive back 100% of my\nTOTAL fund from that investment. The above example shows a $40mm fund\ninvesting a $750k check and getting a 53.3x return to generate $40mm in return\ndollars, aka a Fund Returner. Not easy to get a 53.3x by the way, why Fund Returners\nare RARE. Although rare, they are critical in venture due to the very high startup\nfailure rate (75%-90% depending who you ask and how they define it). Now lets walk\nthrough the complete venture math in 5 steps using the below example. There are\nother terms used that will not be defined so please reference these 100 VC terms if\nany term is unclear.\n\n[S4] Source: Harlem Capital Return the Fund Post (raw/Harlem Capital - Return the Fund.pdf), p. 5\nGet Harlem Capital’s stories in your inbox\nJoin Medium for free to get updates from this writer.\nEnter your email\nSubscribe\nRemember me for faster sign in\nStep 4 — Exit Price\nExit price is the biggest and most important guess. NO ONE obviously knows, but\ninvestors will try to make an educated guess of a range of potential outcomes. For\nmany founders hearing a $250mm exit is not big enough doesn’t make ANY sense,\nbut it’s unfortunately the reality for many funds. A $250mm exit only leads to 36% of\na $40mm fund being returned in the previous example.\n% of $40mm Fund Returned based on Exit Prices\nSome funds don’t focus on the exit value because it truly is a guess. Some funds only\ninvest in companies that they envision going public. It is important for founders to\nbe aligned on exit as that can impact their relationship with investors in the long\nterm.\nHarlem Capital does not model for IPOs or Unicorns as the vast majority of exits are\nM&A and under $1bn of enterprise value. This does not mean we do not believe our\nstartups can become unicorns or IPO, but we want to believe we can return the fund\neven if they don’t. For this reason, we do acquisition and comparable analysis to\nunderstand who is likely to buy them and in what price range, which can often be\ndetermined by revenue multiples. An exit is usually far away from the Seed round,\nbut have an idea of who can acquire you or how big the business can get as a\nstandalone.\n\n[S5] Source: Harlem Capital Return the Fund Post (raw/Harlem Capital - Return the Fund.pdf), p. 7\nFounder Return Analysis\nVenture is as much MATH as it is GUT. Run the numbers for yourself and for your\nbusiness to set yourself up best for the long haul that venture is. Too often we see\nfounders (especially first time) with too little equity at the Seed stage and that can\nsignal investors to your lack of understanding of venture. It certainly isn’t your job to\nbe mathematicians, but some insight can really help protect the thing you are\nworking so hard on.\nConclusion For Investors\nTry to learn as much of the above as you can. Robert Smith says, “You should be a\nMASTER of your craft.” Math is a part of venture, there is no way around it as this is\nstill investing. You may have a network, empathy, “proprietary” deal flow, but have\nthe math as well.\nCheck out our previous post on our Investment Box and to stay up to date on\nHarlem Capital news, subscribe to our monthly newsletter.\nRegards,\nHarlem Capital Team\nHarlem Capital Venture Capital VC Investors\nFounders\n\n[S6] Source: Break Into VC Book (raw/Break Into VC - Bradley Miles.epub), Chapter 2: Early Stage Investing › How Does It Work?\nThroughout the life of CynMerc I, Cynthia and Mercedes will look for markets and opportunities with substantial returns. They will try to invest as early as they can for a larger share of the company at a lesser cost, and may continue to invest through future funds (CynMerc II) so their share in the investment—or their equity stake, does not reduce in ownership, or dilute over time. CynMerc II will come in when about 75 percent of CynMerc I is committed to deals, this way CynMerc Ventures will always carry a substantial amount of capital in its coffers.\n\nCynthia and Mercedes will likely raise CynMerc II about 5-7 years into the life cycle of CynMerc I so the company never reaches a point where they have no more committed capital—or cash received from LPs—whenever an investment decision is reached by the firm for follow-on investments. The average fund size of all venture capital stages is about $400M and the average venture capital deal size is $18M.1\n\nQUESTION: Did Harlem Capital's first fund return 5x to its LPs?\n\nAnswer using only the evidence passages, citing them like [S1]."
+    }
+  ],
+  "answer": "INSUFFICIENT EVIDENCE: the sources do not say whether Harlem Capital's first fund returned 5x to its LPs.",
+  "citations": {
+    "cited": [],
+    "invalid": [],
+    "unsupported_numbers": [],
+    "uncited_sentences": [],
+    "insufficient": true,
+    "pass": true
+  },
+  "generation": {
+    "text": "INSUFFICIENT EVIDENCE: the sources do not say whether Harlem Capital's first fund returned 5x to its LPs.",
+    "prompt_tokens": 2122,
+    "generated_tokens": 28,
+    "seconds": 5.324151992797852,
+    "tokens_per_second": 29.10176494118345,
+    "peak_memory_gb": 3.32868097,
+    "process_rss_gb": 2.067234816
+  },
+  "model_load_seconds": 4.662035226821899
+}

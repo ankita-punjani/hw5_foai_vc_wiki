@@ -1,0 +1,375 @@
+{
+  "env": {
+    "timestamp": "2026-09-25T22:51:11",
+    "execution": "local",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
+    "device": "arm64 · macOS 15.6.1",
+    "network": "online"
+  },
+  "sources": [
+    {
+      "id": "breakintovc-book",
+      "file": "raw/Break Into VC - Bradley Miles.epub",
+      "sha256": "b4dd30fb6dfa6e3615680237e50bd6885943f42412f6bc1887dbdca412a869df",
+      "sections": 264,
+      "passages": 301,
+      "words": 42548,
+      "indexed_at": "2026-09-25T22:51:11"
+    },
+    {
+      "id": "haas-venture-valuation",
+      "file": "raw/Haas VCPE 295B - Venture Valuation.pdf",
+      "sha256": "e1bccd89f6c88411a17e51390a8dddab3e3dcf4479af0c9903f91c4a22117fce",
+      "sections": 86,
+      "passages": 31,
+      "words": 4582,
+      "indexed_at": "2026-09-25T22:51:13"
+    },
+    {
+      "id": "harlem-return-the-fund",
+      "file": "raw/Harlem Capital - Return the Fund.pdf",
+      "sha256": "1650f2620aef38ce7533c13a1463a85655ee01a726aa3d55d56cd66ddd8e083d",
+      "sections": 7,
+      "passages": 8,
+      "words": 1536,
+      "indexed_at": "2026-09-25T22:51:13"
+    }
+  ],
+  "notes": [
+    {
+      "note": "wiki/Fund Structure/Venture Fund Structure.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nVenture fund structure involves various parties such as General Partners (GPs) and Limited Partners (LPs), the lifecycle of a fund, and the distinction between venture capital and angel investing. This structure dictates how capital is raised, how investments are managed, and how returns are distributed.\n\n## Key points\n*   Limited Partners include endowments, foundations, public pensions, and high net worth individuals who fund venture capital firms [S3].\n*   Venture capital is often allocated as a portion of funds within a category of alternative investments, such as private equity and venture capital [S2].\n*   Venture capital firms may spend 3-5 years investing and 5 more years (8 to 10 years in total) to recoup money and generate a return [S1].\n*   Venture capitalists primarily invest other people's money, unlike angel investors who invest their own money [S7].\n*   The average fund size for venture capital stages is about $400M, and the average venture capital deal size is $18M [S5, S8].\n*   The larger the firm’s stake in a company, the larger the returns will be upon an exit through an IPO or M&A activity [S8].\n*   Venture capitalists charge a management fee of about 2 percent to the limited partners to cover salaries and support staff [S8].\n\n## Worked example\nThe average fund size for venture capital stages is about $400M [S5].\nThe average venture capital deal size is $18M [S8].\nThis indicates that a typical investment might involve a deal size of $18M [S8].",
+        "prompt_tokens": 2053,
+        "generated_tokens": 354,
+        "seconds": 14.35505199432373,
+        "tokens_per_second": 33.8537226139934,
+        "peak_memory_gb": 3.328680694,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Fund Structure/Management Fees and Carried Interest.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nManagement fees and carried interest are key compensation structures in venture capital funds. Management fees are charged to limited partners to cover salaries, while carried interest represents the share of profits partners receive after initial investments are returned.\n\n## Key points\n*   Partners charge a management fee of about 2 percent to limited partners to cover salaries and staff [S1].\n*   Carried interest is commonly 20 percent of future profits in venture capital [S2].\n*   Carried Interest is defined as the share of profits partners receive after the amount invested has been returned [S2].\n*   The 20 percent portion of profits received by partners is referred to as carried interest [S1].\n*   Investors receive 80 percent of profits when limited partners receive 100 percent of their money back [S1].\n*   The larger the firm’s stake in the company, the larger CynMerc’s returns are when the company exits [S1].\n\n## Worked example\nSince the passages describe the structure of fees and interest rather than a direct calculation, no worked example is provided.",
+        "prompt_tokens": 2461,
+        "generated_tokens": 231,
+        "seconds": 10.455961227416992,
+        "tokens_per_second": 30.532793277336538,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Fund Structure/Check Size and Reserves.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nThis topic covers the typical size of checks used in venture capital funds and the practice of holding back capital for follow-on investments. Fund check sizes depend on the fund's size and strategy, while reserves are crucial for maintaining ownership stakes in portfolio companies during subsequent funding rounds.\n\n## Key points\n*   A typical check size range is determined by the fund's size and strategy, such as diversified versus concentrated investing [S1].\n*   Seed valuations are determined by ownership targets rather than revenue multiples [S1].\n*   Larger funds ($100mm+) generally target 10% to 20% ownership, while microfunds ($25mm – $100mm) target 5% to 10% ownership [S1].\n*   Investors typically reserve 30% to 40% of their fund for follow-on investments to secure pro-rata rights in winners [S2].\n*   Assuming a Seed round is 25% dilution, investors usually assume 25% to 30% dilution by exit, with the Series A pro-rata check [S2].\n*   A fund may not need unicorns to return the fund, but it may need billions in value creation to meet 3x-5x return goals [S5].\n*   A fund is generally not expected to invest less than 1% of the fund in any company [S5].\n\n## Worked example\nNo worked example in the sources.",
+        "prompt_tokens": 2630,
+        "generated_tokens": 314,
+        "seconds": 12.899871110916138,
+        "tokens_per_second": 33.23666943039275,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Returns Math/Return the Fund.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nThe \"Fund Returner\" concept determines if an investment will successfully return the total capital invested by the fund. This calculation involves comparing the required exit value against the initial fund size and the expected ownership at the exit. Fund size significantly impacts the required exit value needed to achieve target returns.\n\n## Key points\n*   A $700mm exit was needed to return a $40mm fund, whereas a $350mm exit would be needed for a $20mm fund, resulting in a 50% haircut [S1].\n*   Most Seed funds target a 3x – 5x gross return, which implies a return range of $120mm-$200mm for a $40mm fund [S1].\n*   If Harlem Capital assumes 5% ownership at exit, it implies a total exit value of $2.4bn-$4.0bn [S1].\n*   A fund may need billions in value creation to meet 3x-5x return goals, even if unicorns are not required [S8].\n*   The required multiple for an early-stage fund return is 34x [S4].\n*   Assuming a 25% dilution in the Seed round, the total dilution by exit is 23.5%, leading to 5.7% ownership at exit [S5].\n*   Assuming a 25% to 30% dilution by exit, funds that do not have follow-on reserves may require larger exits from founders [S5].\n\n## Worked example\nThe example shows that a $700mm exit is needed to return a $40mm fund [S1].\nThis implies that a $350mm exit would be required to return a $20mm fund, which represents a 50% haircut [S1].\nIf an investment of $750k were made, it would require a $4.3bn exit for a $250mm fund, which is considered VERY UNLIKELY [S1].",
+        "prompt_tokens": 2853,
+        "generated_tokens": 437,
+        "seconds": 16.908073902130127,
+        "tokens_per_second": 32.97206724550517,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Returns Math/Power Law of Venture Returns.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nThe Power Law of Venture Returns describes the phenomenon where a small number of successful investments must generate the majority of the fund's returns, meaning a few outliers must cover the losses incurred by the rest of the portfolio. This structure is inherent in venture investing, where the success of the entire fund often hinges on the performance of a select few companies.\n\n## Key points\n*   A goal for an early-stage fund is often set at achieving a 3x gross return [S1, S2].\n*   When 10 companies are in a portfolio, 5 companies going bankrupt results in a cost of 0.4x [S1, S2].\n*   If 1 company provides all the returns, the required multiple is 34x [S1, S2].\n*   The same scenario (10 companies, 5 bankrupt) results in a cost of 0.2x [S2].\n*   The multiple required for the return is 21x in one scenario [S1], and 34x in another [S2].\n*   Equal weighting suggests using half the initial investment and a 200% reserve for non-losers [S1].\n*   A fund may need billions in value creation to meet 3x-5x return goals, even if unicorns are not strictly necessary [S3].\n\n## Worked example\nNo worked example in the sources.",
+        "prompt_tokens": 2496,
+        "generated_tokens": 302,
+        "seconds": 12.287209033966064,
+        "tokens_per_second": 32.88555052675343,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Returns Math/IRR and Return Multiples.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nIRR is a metric used to measure profitability over time by accounting for all cash inflows and outflows, unlike simply compounding annual growth rates. It is a key performance metric used by investors to evaluate potential returns, often over a 5 to 10-year horizon.\n\n## Key points\n*   Investors typically anticipate a 20-30 percent internal rate of return (IRR) over a 5-year investment time horizon [S1].\n*   IRR is an annualized growth rate that accounts for all cash inflows and outflows within a period [S1, S3].\n*   For a 5-year time horizon, a 1.5x return is associated with about a 10 percent IRR, 2x with 15 percent IRR, 3x with 25 percent IRR, 4x with about 30 percent IRR, 5x with 40 percent IRR, and 6x with 45 percent IRR [S2].\n*   The Venture Capital Method uses a high discount rate to reflect investor return expectations, which drives the amount of ownership required [S6].\n*   The expected time to liquidity varies by stage, for example, Seed stage expects 5 to 8 years for liquidity [S4].\n*   An acceptable annual customer churn rate is anything below 7 percent, which corresponds to about a 0.58 percent monthly churn [S8].\n\n## Worked example\nNo worked example in the sources.",
+        "prompt_tokens": 2681,
+        "generated_tokens": 314,
+        "seconds": 13.205250263214111,
+        "tokens_per_second": 31.6063553912055,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Returns Math/Dilution.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nDilution refers to the shrinking of an investor's ownership stake in a company as new funding rounds occur. Pro-rata rights are mechanisms investors use to try and maintain their original ownership percentage despite these subsequent financings.\n\n## Key points\n*   The dilution assumption is a significant guess in the return model, with examples showing total dilution by exit [S1].\n*   Investors may use pro-rata rights in future rounds to prevent dilution, especially in early-stage investments [S1].\n*   Assuming a Seed round is 25% and subsequent rounds step down 5% each round (20% for Series A, 15% for Series B, 10% for Series C, and 5% as a floor for Series D+), this shows the potential dilution structure [S1].\n*   Investors reserve 30–40% of their fund for follow-ons to use their pro-rata rights in Series A to prevent dilution [S1].\n*   Dilution can cause valuation divergence, where the actual return on investment is lower than anticipated, sometimes by 3–5x [S8].\n*   Venture capitalists invest in early- to mid-stage private companies to earn large returns, with early-stage investors targeting a 3x–5x ROI [S2].\n*   Pro-rata involves participation in future fundraising rounds to maintain the same stake in ownership [S4].\n\n## Worked example\nThe dilution comparison shows that cutting the Series B and Series C round’s dilution by 50.0% leads to 12.1% dilution and 6.6% ownership at exit [S1]. This reduction in dilution resulted in an investor only needing a $605mm exit instead of a $700mm exit to return the fund, which equates to $95mm [S1].",
+        "prompt_tokens": 2877,
+        "generated_tokens": 395,
+        "seconds": 15.57043194770813,
+        "tokens_per_second": 32.53534943229611,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Valuation/Valuation Fundamentals.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nValuation involves determining the worth of a company, which is described as both an art and a science. Venture capital valuation is particularly challenging because methods are precise but not entirely accurate, and the assumptions used can significantly impact the final result.\n\n## Key points\n*   VC valuation is considered an art, not a science, meaning there are no definitive right answers [S1].\n*   Methods used in VC valuation are described as \"precise\" but not \"accurate,\" and assumptions are a key factor that can overwhelm the mathematical calculations [S1, S2].\n*   Traditional valuation methods include Comparables, Net Present Value (NPV), and options analysis [S2].\n*   VC valuation methods must incorporate at least six concepts [S3].\n*   Comparables involve looking at similar private deals or ratios of similar public firms, such as market value/sales or market value/profits (P/E) [S5].\n*   The VC Method involves four essential activities: figuring out how much money is needed today, estimating the final \"enterprise value\" if things go well, using a high discount rate based on investor return expectations, and adjusting for later financing rounds [S8].\n\n## Worked example\nNo worked example in the sources.",
+        "prompt_tokens": 2617,
+        "generated_tokens": 261,
+        "seconds": 11.608238220214844,
+        "tokens_per_second": 32.55242825921936,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Valuation/Pre-Money and Post-Money Valuation.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nPre-money and post-money valuations define the value of a company at different points in a financing round. The pre-money valuation is the company's value before the investment, while the post-money valuation is the value after the investment has been made. These valuations are crucial for determining the ownership stake investors receive.\n\n## Key points\n*   The pre-money valuation is the value of a company before the latest round of venture capital has been invested [S1].\n*   The post-money valuation is the value of a company immediately after the latest amount of venture capital is invested [S1].\n*   The key difference between pre- and post-money valuation lies in the timing of the valuation and the resulting ownership stake [S1].\n*   If the pre- and post-money valuations are the same and the amount invested is the same, the entrepreneur has relatively less equity and the venture capitalist has relatively more equity in the post-money valuation [S2].\n*   The amount invested in a pre-money example can represent 1/npre of the total, where 1/npre equals the proportion of the company the investor owns after adding the investment [S3].\n*   If the pre-money investment represents 20 percent (1/5th), the post-money investment should represent 25 percent (1/4th) of the total [S3, S4].\n*   If a company has a $500k post-money valuation and an investment of $250k, the investor owns 50 percent of the company [S5].\n*   If a company has a $500k pre-money valuation and an investment of $250k, the investor owns approximately 33.3 percent of the company [S5].\n\n## Worked example\nIf an investment of $250k is made at a pre-money valuation of $1M, the total capital becomes $1.25M, resulting in 20 percent ownership for investors [S4].\nAlternatively, if an investment of $500k is made at a pre-money valuation of $1M, the total capital is $1.5M, and investors own about 33.3 percent of the company [S4].",
+        "prompt_tokens": 2219,
+        "generated_tokens": 487,
+        "seconds": 18.128518104553223,
+        "tokens_per_second": 33.10824467028715,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Valuation/Ownership Targets.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nOwnership targets determine the valuation for seed-stage investments rather than relying on revenue multiples. Investors expect to take a specific percentage of ownership in exchange for their investment, and this expectation varies based on the size of the fund.\n\n## Key points\n* Seed valuations are set by the ownership targets a fund needs, not by revenue [S1].\n* Founders should generally expect to give up 20% to 30% ownership in the Seed round [S1].\n* Larger funds ($100mm+) typically have 10% to 20% ownership targets, while microfunds ($25mm – $100mm) target 5% to 10% [S1].\n* If a fund invests $750k, it implies only investing in companies with a post-money valuation range of $7.5mm to $15mm to meet ownership targets [S1].\n* The assumed Seed round dilution is often 25% (the midpoint of 20% – 30%), with subsequent rounds stepping down 5% each round [S2].\n* Investors may reserve 30% to 40% of their fund for follow-ons to secure pro-rata rights in winners [S2].\n* A fund may need billions in value creation to meet 3x-5x return goals [S3].\n\n## Worked example\nNo worked example in the sources.",
+        "prompt_tokens": 2636,
+        "generated_tokens": 304,
+        "seconds": 13.022833824157715,
+        "tokens_per_second": 31.90358749959414,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Valuation/Venture Capital Method.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nThe Venture Capital (VC) method values a company by discounting a hoped-for exit value by the required return to determine a fair price for the investment today. This method relies heavily on investor return expectations to set the valuation.\n\n## Key points\n*   The VC method is rooted by experienced investors who have been investing in early-stage companies for over 20 years [S1].\n*   Precedent transactions analysis involves creating a universe of completed deals within the past five years to find an industry average multiple [S2].\n*   The VC method can be used to back out a post-money valuation based on the anticipated enterprise value and ROI in the exit year [S2].\n*   Anticipated seed stage ROI is typically in the ballpark of 30x, compared to maybe 5-7x at the growth stage [S3].\n*   The VC method includes growth, current and future cash needs, and the fundraising environment in its consideration [S6].\n*   A key activity in the VC method is to figure out how much money is needed today and estimate the final enterprise value if things go well [S8].\n*   The VC method requires using a high discount rate for the investor’s return expectation [S8].\n\n## Worked example\nThe VC method can be used to calculate a valuation based on an anticipated exit.\nIf a company has an enterprise value at an exit of $84M and a target ROI at an exit of 30x, this is used in the formula [S3].\nIf a healthcare startup is asking for an investment of $500k, this gives them a pre-money valuation of $2.2M [S3].",
+        "prompt_tokens": 2700,
+        "generated_tokens": 359,
+        "seconds": 14.391900062561035,
+        "tokens_per_second": 33.211517167242356,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Valuation/Comparables Valuation.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nComparables valuation involves pricing a company by looking at multiples derived from similar public firms or past transactions. This technique helps determine a company's value by applying established ratios to comparable companies to estimate its worth.\n\n## Key points\n* Precedent transactions analysis (PTA) uses completed deals within the past five years to find an industry average multiple [S4].\n* When using precedent transactions analysis, the product of the multiple and the target company’s EBITDA or sales will give the enterprise value [S4].\n* Precedent transactions analysis tends to result in a larger valuation because firms are usually sold at a premium, known as a control premium [S4].\n* Valuation methods must incorporate at least SIX concepts [S6].\n* Analysts use EBITDA instead of net income because it allows for a comparison of \"apples to apples\" across different companies [S5].\n* The multiple (EV/EBITDA) shows how many times the market values the company's earnings, for example, 5x means the market values every $1 this company makes as if it were $5 [S5].\n* To estimate an enterprise value using revenue, you can determine the median revenue in the exit year from similar companies and attribute it to the target company [S7].\n\n## Worked example\nIf a sample company has an enterprise value of $100 and an EBITDA of $20, the company’s multiple (EV/EBITDA) is 5x [S5].",
+        "prompt_tokens": 2520,
+        "generated_tokens": 311,
+        "seconds": 12.710564136505127,
+        "tokens_per_second": 33.012251445062056,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Valuation/Scenario Analysis.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nScenario analysis is a method used to estimate venture capital valuations by considering different potential outcomes, including probabilities, dilution from future funding rounds, and the passage of time. This technique helps in understanding the shape of the risk and provides a language for discussions within a partnership.\n\n## Key points\n* Scenario analysis involves picking end-state scenarios [S2].\n* Key variables to estimate include premoney and money, exit scenarios, potential outcomes and growth, dilution from future financings, and time [S2].\n* Scenario analysis steps include picking end state scenarios, considering dilution of later rounds, determining probabilities and time, and analyzing the valuation and risk profile [S2].\n* Assumptions are key in scenario analysis and can sometimes overwhelm the mathematical calculations [S5].\n* The analysis uses comparables to support scenarios of four exit values and probabilities: IPO, high sale, low sale, and $0 [S4].\n* Dilution from future financings is a factor considered in the analysis [S2].\n* The analysis provides a language for risk, which can be used inside or outside of a partnership [S8].\n\n## Worked example\nThe analysis involves comparing different scenarios based on different funding amounts. For example, if premoney is $4.5m and a raise is $500k, the resulting post-money values are calculated. This leads to different ownership percentages, such as 21%, 26%, and 34% [S3].",
+        "prompt_tokens": 3656,
+        "generated_tokens": 307,
+        "seconds": 13.757284164428711,
+        "tokens_per_second": 32.948269515347974,
+        "peak_memory_gb": 3.416089114,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Valuation/Projection Reflection.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nProjection Reflection is a method used in venture capital to estimate a company's valuation by discounting the likely valuation of a future funding round. This technique helps in understanding the potential impact of various assumptions on the company's worth. It is used to create a language for partnership discussions by setting shared expectations between investors and management.\n\n## Key points\n*   Optimal financings often occur following major step functions [S1].\n*   Valuation changes are described as occurring in \"step-functions\" rather than linearly [S1].\n*   When operating without shared understanding, the goal is to operate the business to maximize the probability and value of raising money [S1].\n*   Scenario analysis involves estimating various variables such as premoney and money, exit scenarios, potential outcomes and growth, probabilities of those outcomes, and dilution from future financings [S3].\n*   Scenario analysis steps include picking end state scenarios, considering the dilution of later rounds, determining probabilities and time, and analyzing the resulting valuation and risk profile [S3].\n*   Investors may require a certain ownership percentage, such as 15% ownership based on similar VC methods [S5].\n*   Founders should run calculations to understand what investors are assuming for an exit, especially when considering dilution, as investors take a piece of the company [S8].\n\n## Worked example\nIf the next round is likely to be $30m pre-money, the calculation for the post-money valuation is as follows:\n$30m / 2.5 = $12m post-money valuation [S1].\nThen, $12m post - $5m = $7m pre-money valuation [S1].",
+        "prompt_tokens": 2836,
+        "generated_tokens": 357,
+        "seconds": 14.067846059799194,
+        "tokens_per_second": 33.19416501450458,
+        "peak_memory_gb": 3.34367745,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Valuation/Pre-Revenue Valuation Methods.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nPre-revenue valuation methods provide different frameworks for assessing the worth of early-stage startups, often relying on investor expertise and risk factors. These methods include the Berkus Method, the Risk Factor Summation Method, and rules of thumb that help investors determine a fair pre-money valuation.\n\n## Key points\n*   The Berkus Method can yield a maximum pre-money valuation of $2.5M, but only $2M is considered for a pre-revenue business due to the risk of not adding value in category 5 [S6].\n*   The Risk Factor Summation Method focuses on the overall risk profile using a broad set of factors and a median pre-revenue valuation that is region-specific [S2].\n*   The Risk Factor Summation Method maps out 12 risks, which are assessed with values ranging from -2 (Very negative) to +2 (Very positive) for growing the company [S2].\n*   Using Jeffrey Sohl’s 2015 data, an average pre-money valuation for pre-revenue deals can be $2M [S3].\n*   The Risk Factor Summation Method calculates a net increment by adding $250k for every +1 risk factor and decrementing $250k for every -1 risk factor [S8].\n*   The Rule of Thirds is a screening tactic that allocates one-third of the company to pre-revenue investors, another third for founders, and the remaining third for future C-level executives and management [S4].\n*   Pre-money valuations for pre-revenue businesses are typically in the ballpark of $2M to $3M, based on the expertise of seasoned investors [S7].\n\n## Worked example\nUsing the Risk Factor Summation Method, an average pre-money valuation of $2M can be established [S3]. If this average is used, adding $500k to it results in a $2.5M pre-money valuation for a pre-revenue company [S3].",
+        "prompt_tokens": 2409,
+        "generated_tokens": 427,
+        "seconds": 16.221556901931763,
+        "tokens_per_second": 32.27852389889766,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Startup Metrics/SaaS Metrics.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nSaaS metrics are crucial measurements used to evaluate the performance and health of a subscription-based business. These metrics include revenue figures like MRR and ARR, retention measures like churn, and financial ratios such as CLV to CAC. Understanding these metrics helps determine a company's ability to generate sustainable revenue and manage customer relationships effectively.\n\n## Key points\n*   Monthly Recurring Revenue (MRR) is the sum of all contract revenue a business can rely on for the next month [S2].\n*   Annualized Run Rate (ARR) is calculated by multiplying the Monthly Recurring Revenue (MRR) by 12 [S2].\n*   The burn rate indicates how much cash a business typically spends in a given month or year [S2].\n*   The Customer Lifetime Value (CLV) represents the projected revenue a customer will bring to the company during their lifetime [S3].\n*   The CLV to CAC ratio shows how many dollars are brought in for every dollar spent on sales and marketing to acquire a customer [S5].\n*   A book-to-bill ratio less than one suggests weak demand, while a ratio greater than one shows strong demand [S4].\n*   Dollar Revenue Retention (DRR) measures the amount of revenue retained from customers in a given period [S6].\n\n## Worked example\nWhen a company has 40 annual subscriptions valued at $12,000 per contract, the monthly recurring revenue is $40,000 [S1].\nThe Annualized Run Rate (ARR) is found by multiplying the MRR by 12, resulting in $480,000.14 [S1].",
+        "prompt_tokens": 2185,
+        "generated_tokens": 355,
+        "seconds": 13.618479251861572,
+        "tokens_per_second": 33.18671763372529,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Startup Metrics/Financial Statements Basics.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nFinancial statements provide a snapshot of a company's financial health through three main statements: the income statement, the cash flow statement, and the balance sheet. Understanding how these statements connect is crucial for analyzing a company's performance.\n\n## Key points\n*   The acronym ICB stands for Income Statement $\\rightarrow$ Cash Flow Statement $\\rightarrow$ Balance Sheet [S2].\n*   The income statement starts with revenue and subtracts expenses like Cost of Goods Sold (COGS), Selling, General, and Administrative (SG&A), and Research and Development (R&D) to reach EBITDA [S8].\n*   EBITDA is calculated after subtracting depreciation and amortization from the result of subtracting COGS and OPEX [S6].\n*   Cash flow from operations (CFO) includes Net Income, changes in working capital, and adjustments for non-cash items like depreciation [S3].\n*   Depreciation is a theoretical measure of asset decay, and it is added back into CFO because it does not involve real cash movement [S3].\n*   The balance sheet shows what a company owns (Assets) and what it owes (Liabilities), with Assets equaling Liabilities plus Shareholders’ Equity [S5].\n*   Retained earnings are calculated by taking original retained earnings, adding net income, and subtracting dividends [S4].\n\n## Worked example\nIf a company bought something for $1000 and decided to sell it for $500, the depreciation calculation would be $100 dollars, assuming a five-year useful life [S6].",
+        "prompt_tokens": 2526,
+        "generated_tokens": 329,
+        "seconds": 14.249660015106201,
+        "tokens_per_second": 31.724387393569916,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Financing Types/Growth Equity.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nGrowth equity involves investing in later-stage companies, such as Series C, D, or E rounds, with the goal of helping them achieve an Initial Public Offering (IPO) or secure an acquisition. These investments focus on companies that are leaders or emerging leaders in their industry and are on the path to becoming profitable.\n\n## Key points\n* Growth equity investments can range from $10M to $500M or higher, depending on whether growth equity firms experiment with majority buyouts [S1].\n* Target companies for growth equity should have at least $5M in revenue, 20 percent revenue growth in the last few years or higher, a proven business model, and a clear pathway to becoming profitable [S1].\n* Growth equity investments are typically minority investments, meaning the venture firm takes less than 50 percent in the company, to leave equity for future financing rounds [S5].\n* Growth equity investments are usually directed toward businesses that are leaders or emerging leaders in their industry, have a few million in revenue, high gross margins, and are on their way to becoming profitable [S3].\n* Private equity firms often take a 100 percent stake in an operational company and scale it through add-on acquisitions and organic growth over 4 to 7 years before selling [S5].\n* Growth equity firms like Stripes Group, General Atlantic, and Insight Venture Partners typically enter at the Series C or D stage when a business is the number one or two player in the industry and is ready for an IPO or strategic acquisition [S4].\n* Private equity firms rely on a leveraged buyout (LBO) model where they use a large loan to purchase a company, with cash making up 30 to 40 percent of the investment [S7].\n\n## Worked example\nNo worked example in the sources.",
+        "prompt_tokens": 2108,
+        "generated_tokens": 383,
+        "seconds": 14.18442702293396,
+        "tokens_per_second": 33.55400738958697,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Financing Types/Venture Debt.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nVenture debt involves providing short-term loans to venture-backed companies as an alternative to equity financing. This allows a company to secure necessary cash flow to meet sales demands without diluting ownership equity, which can be crucial for saving equity for larger expansion initiatives.\n\n## Key points\n*   Venture debt is a method for injecting capital into an early-stage business through short-term loans to avoid further equity dilution [S2].\n*   A company might request venture debt to meet sales demand so that equity can be reserved for more substantial initiatives like national expansion [S2].\n*   Warrants are a clause in venture debt that gives investors the right to convert the debt into equity within a specified timeframe [S2].\n*   The Weighted Average Cost of Capital (WACC) is the return that equity owners and lenders expect from a company and is used as a discount rate in the discounted cash flow valuation method [S2].\n*   Debt financing can be cheaper than equity financing because the cost of obtaining cash through debt is relatively less expensive [S6].\n*   Contracts for debt financing may contain debt covenants, which are requirements a company must follow every quarter or risk defaulting on the loan [S5].\n*   Firms typically only provide venture debt for companies that have balance sheet debt under 20 percent of operating expenses [S7].\n\n## Worked example\nNo worked example in the sources.",
+        "prompt_tokens": 1776,
+        "generated_tokens": 294,
+        "seconds": 11.566675186157227,
+        "tokens_per_second": 31.672577372024136,
+        "peak_memory_gb": 3.344840342,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Careers/Breaking Into VC.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nBreaking into venture capital requires proactive effort in networking, demonstrating unique value beyond a standard resume, and showing genuine passion for the industry. Success often depends on building connections with various industry players and proving your ability to engage with entrepreneurs and portfolio companies.\n\n## Key points\n*   Focusing too much on being formal can be a mistake when recruiting for venture capital jobs [S1].\n*   To differentiate yourself, show a project or pitch deck rather than relying solely on the resume [S1].\n*   Emphasize a vertical of interest on your resume, noting what you learned from a single project to show you can break down companies better than others [S1].\n*   Highlighting experience with a company, club, or startup should be emphasized at the top of your materials [S2].\n*   Proving you can do the work of a VC involves offering suggestions for portfolio companies you believe a VC should look at [S2].\n*   Networking is crucial, as it provides opportunities to learn about different industries and deal stages by talking to people in the VC landscape [S3].\n*   Reaching out directly to people, rather than relying on job postings, is more effective for securing opportunities [S4].\n*   It is important to show you have been a leader in some capacity, such as through a club or off-campus activity [S7].\n*   Starting a student club, such as a venture group, can help separate yourself from others [S8].\n\n## Worked example\nNo worked example in the sources.",
+        "prompt_tokens": 2379,
+        "generated_tokens": 322,
+        "seconds": 12.988847970962524,
+        "tokens_per_second": 32.254440386285,
+        "peak_memory_gb": 3.32868981,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    },
+    {
+      "note": "wiki/Careers/VC Interview Prep.md",
+      "action": "created",
+      "generation": {
+        "text": "## Summary\nVC interview preparation covers several key areas, including conducting mock calls, pitching an industry and a company, and performing quick financial calculations. This preparation is designed to test your intuition and ability to evaluate opportunities from an investor's perspective.\n\n## Key points\n*   A partner may ask for a mock call during an interview to assess your ability and intuition when speaking with companies [S1].\n*   In a mock call, the VC plays the role of the investor asking questions, and the entrepreneur's answers should gauge your critical thinking and investor lens [S1].\n*   When discussing a company, you should be prepared to discuss the company within the context of the industry, including market size, recent funding, firms with the most investment, and positive trends or tailwinds [S5].\n*   The pitch should be broken down into three parts: an introduction, tying in material events and hires to make careful assessments, and overall suggestions or questions for management [S6].\n*   VCs often ask basic questions to ensure you understand the industry before moving to a company pitch [S4].\n*   When probing into a company, you should continually question the business until you have a clear understanding of their product offering, sometimes using a hypothetical use case [S7].\n*   When discussing numbers, you can challenge the entrepreneur's understanding of the numbers they are putting forward, especially regarding target numbers [S7].\n*   Exit opportunities should be discussed by considering if a big strategic company like IBM, Johnson & Johnson, or UnitedHealth might purchase the company, or if an IPO could be possible in the next few years [S8].\n\n## Worked example\nNo worked example in the sources.",
+        "prompt_tokens": 1973,
+        "generated_tokens": 353,
+        "seconds": 13.943469047546387,
+        "tokens_per_second": 31.89330866075527,
+        "peak_memory_gb": 3.295032982,
+        "process_rss_gb": 1.527431168
+      },
+      "invalid_citations": []
+    }
+  ],
+  "command": {
+    "paths": [
+      "vault/raw"
+    ],
+    "force": false,
+    "redraft": false,
+    "no_llm": false
+  },
+  "log": [
+    "indexed  raw/Break Into VC - Bradley Miles.epub: 264 sections -> 301 passages (42,548 words) sha256 b4dd30fb6dfa…",
+    "indexed  raw/Haas VCPE 295B - Venture Valuation.pdf: 86 sections -> 31 passages (4,582 words) sha256 e1bccd89f6c8…",
+    "indexed  raw/Harlem Capital - Return the Fund.pdf: 7 sections -> 8 passages (1,536 words) sha256 1650f2620aef…",
+    "index    340 passages from 3 sources (2.2s)",
+    "created  wiki/Fund Structure/Venture Fund Structure.md · 14.4s · 2053 prompt + 354 generated tokens · 34 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Fund Structure/Management Fees and Carried Interest.md · 10.5s · 2461 prompt + 231 generated tokens · 31 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Fund Structure/Check Size and Reserves.md · 12.9s · 2630 prompt + 314 generated tokens · 33 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Returns Math/Return the Fund.md · 16.9s · 2853 prompt + 437 generated tokens · 33 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Returns Math/Power Law of Venture Returns.md · 12.3s · 2496 prompt + 302 generated tokens · 33 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Returns Math/IRR and Return Multiples.md · 13.2s · 2681 prompt + 314 generated tokens · 32 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Returns Math/Dilution.md · 15.6s · 2877 prompt + 395 generated tokens · 33 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Valuation/Valuation Fundamentals.md · 11.6s · 2617 prompt + 261 generated tokens · 33 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Valuation/Pre-Money and Post-Money Valuation.md · 18.1s · 2219 prompt + 487 generated tokens · 33 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Valuation/Ownership Targets.md · 13.0s · 2636 prompt + 304 generated tokens · 32 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Valuation/Venture Capital Method.md · 14.4s · 2700 prompt + 359 generated tokens · 33 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Valuation/Comparables Valuation.md · 12.7s · 2520 prompt + 311 generated tokens · 33 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Valuation/Scenario Analysis.md · 13.8s · 3656 prompt + 307 generated tokens · 33 tok/s · peak MLX memory 3.42 GB",
+    "created  wiki/Valuation/Projection Reflection.md · 14.1s · 2836 prompt + 357 generated tokens · 33 tok/s · peak MLX memory 3.34 GB",
+    "created  wiki/Valuation/Pre-Revenue Valuation Methods.md · 16.2s · 2409 prompt + 427 generated tokens · 32 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Startup Metrics/SaaS Metrics.md · 13.6s · 2185 prompt + 355 generated tokens · 33 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Startup Metrics/Financial Statements Basics.md · 14.2s · 2526 prompt + 329 generated tokens · 32 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Financing Types/Growth Equity.md · 14.2s · 2108 prompt + 383 generated tokens · 34 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Financing Types/Venture Debt.md · 11.6s · 1776 prompt + 294 generated tokens · 32 tok/s · peak MLX memory 3.34 GB",
+    "created  wiki/Careers/Breaking Into VC.md · 13.0s · 2379 prompt + 322 generated tokens · 32 tok/s · peak MLX memory 3.33 GB",
+    "created  wiki/Careers/VC Interview Prep.md · 13.9s · 1973 prompt + 353 generated tokens · 32 tok/s · peak MLX memory 3.30 GB",
+    "source   wiki/Sources/Harlem Capital Return the Fund Post.md",
+    "source   wiki/Sources/Haas Venture Valuation Slides.md",
+    "source   wiki/Sources/Break Into VC Book.md",
+    "index.md rebuilt: 21 topic notes, 3 source notes",
+    "gemma    21 generations in 290s (+4.9s load) · peak MLX memory 3.42 GB · process max RSS 1.53 GB"
+  ]
+}
