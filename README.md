@@ -396,10 +396,10 @@ Graph filter used: `path:wiki/`, attachments off, orphans shown, one colour grou
 
 | Open note, with source footnotes and related links | Topic-organised index | Graph view (`path:wiki/`) |
 |---|---|---|
-| ![note](evidence/obsidian/note.png) | ![index](evidence/obsidian/index.png) | ![graph](evidence/obsidian/graph.png) |
+| ![note](evidence/obsidian/note.png) ![note footnotes](evidence/obsidian/note-footnotes.png) | ![index](evidence/obsidian/index.png) | ![graph](evidence/obsidian/graph.png) |
 
 What each screenshot shows:
-- **Note:** *Venture Capital Method* in Obsidian's editing view. The filename and the `# heading` match. The header links to its topic and to both source notes. Every claim carries a footnote marker; the footnote list is further down the page, off-screen. The [note file](vault/wiki/Valuation/Venture%20Capital%20Method.md) shows it in full, and each footnote opens the original PDF page or EPUB section.
+- **Note:** *Venture Capital Method* in Obsidian. [Top of the note](evidence/obsidian/note.png): the filename and the `# heading` match, the header links to its topic and to both source notes, and every claim carries a footnote marker. [Bottom of the note](evidence/obsidian/note-footnotes.png): the worked examples, the related notes with the reason for each link, and the **Sources** list, where each of the 7 numbered footnotes names its source note and opens the original PDF page (`pp. 48–50`) or book section (`Chapter 12 › Using the VC Method`) in `raw/`.
 - **Index:** `index.md`, the beginner landing page. It has a reading order from *How Venture Capital Works* to *VC Math Practice Problems*, then every topic folder with a one-line description per note. The full page spans three screenshots: [top](evidence/obsidian/index.png), [middle](evidence/obsidian/index-2.png), and [bottom, with the Sources section](evidence/obsidian/index-3.png). The file tree on the left shows the folders: Basics, Careers, Financing Types, Fund Structure, Returns Math, Sources, Startup Metrics, Valuation.
 - **Graph:** filter `path:wiki/`, Attachments off, one colour group per topic folder. The Basics notes are dark grey; a Basics colour group was added to `graph.json` after this screenshot. The three source notes are the grey hubs (the book and the slides are the largest, because the most notes cite them), each linked to the notes that cite it. *How Venture Capital Works*, *VC Glossary* and *VC Math Practice Problems* sit in the middle, linked to the topics they introduce. Each topic note links to its related notes.
 

@@ -27,7 +27,7 @@ review_notes:
 - removed off-topic precedent-transactions bullet
 - added valuation divergence and method weaknesses
 ---
-# Venture Capital Method
+	# Venture Capital Method
 
 > Discount a hoped-for exit by the required return to price a round today.
 > Topic: [[index#Valuation|Valuation]] · From: [[Break Into VC Book]], [[Haas Venture Valuation Slides]]
