@@ -2,7 +2,7 @@
   "mode": "ask",
   "execution": "local",
   "env": {
-    "timestamp": "2026-09-26T14:59:46",
+    "timestamp": "2026-09-27T11:51:58",
     "execution": "local",
     "model": "mlx-community/gemma-4-e2b-it-4bit",
     "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
@@ -12,7 +12,7 @@
   "question": "How does the Venture Capital Method turn an expected exit value into a post-money and pre-money valuation? Use the examples in my notes.",
   "retrieval": {
     "top_k": 6,
-    "seconds": 0.0059299468994140625,
+    "seconds": 0.0016269683837890625,
     "hits": [
       {
         "id": "breakintovc-book:191",
@@ -156,10 +156,10 @@
     "text": "To determine a post-money and pre-money valuation using the Venture Capital Method, the process involves the following steps [S6]:\n\n1. Determine what a firm thinks a company will be worth at exit (anticipated post-money valuation) through market conditions and industry multiples [S6].\n2. Divide this number by the anticipated return on investment (ROI) to arrive at a current post-money valuation [S6].\n3. After subtracting the investment amount requested, the investor can arrive at an appropriate pre-money valuation [S6].\n\nExamples from the evidence include:\n\n*   For a healthcare startup, Syntax Health, an investment of $500,000 results in a pre-money valuation of $2.2 million [S2].\n*   In a case, the required ownership was 20% of the company, and the post-money valuation was $14.6 million, leading to a pre-money valuation of $9.6 million [S4].",
     "prompt_tokens": 1988,
     "generated_tokens": 209,
-    "seconds": 14.063262939453125,
-    "tokens_per_second": 22.217013547925802,
+    "seconds": 8.38110613822937,
+    "tokens_per_second": 34.87020688590827,
     "peak_memory_gb": 3.302143638,
-    "process_rss_gb": 1.633107968
+    "process_rss_gb": 2.320498688
   },
   "model_load_seconds": null
 }

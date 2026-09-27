@@ -2,7 +2,7 @@
   "mode": "ask",
   "execution": "local",
   "env": {
-    "timestamp": "2026-09-26T15:01:38",
+    "timestamp": "2026-09-27T11:53:12",
     "execution": "local",
     "model": "mlx-community/gemma-4-e2b-it-4bit",
     "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
@@ -12,7 +12,7 @@
   "question": "What IRR do venture investors typically expect over a five-year investment?",
   "retrieval": {
     "top_k": 6,
-    "seconds": 0.0036280155181884766,
+    "seconds": 0.0014259815216064453,
     "hits": [
       {
         "id": "breakintovc-book:147",
@@ -146,10 +146,10 @@
     "text": "Investors typically anticipate a 20-30 percent internal rate of return (IRR) over a 5-year investment time horizon [S1]. This return range lands between 2.5-4.0x, which is described as \"two and a half to four times\" the original money invested [S1].",
     "prompt_tokens": 2216,
     "generated_tokens": 69,
-    "seconds": 7.588624000549316,
-    "tokens_per_second": 22.48094892546916,
+    "seconds": 4.493288993835449,
+    "tokens_per_second": 35.62951347502386,
     "peak_memory_gb": 3.32868981,
-    "process_rss_gb": 2.190753792
+    "process_rss_gb": 2.854879232
   },
   "model_load_seconds": null
 }

@@ -2,7 +2,7 @@
   "mode": "ask",
   "execution": "local",
   "env": {
-    "timestamp": "2026-09-26T15:01:59",
+    "timestamp": "2026-09-27T11:53:25",
     "execution": "local",
     "model": "mlx-community/gemma-4-e2b-it-4bit",
     "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
@@ -12,7 +12,7 @@
   "question": "How is an angel investor different from a venture capitalist?",
   "retrieval": {
     "top_k": 6,
-    "seconds": 0.001687765121459961,
+    "seconds": 0.001155853271484375,
     "hits": [
       {
         "id": "breakintovc-book:300",
@@ -134,10 +134,10 @@
     "text": "Angel investors invest their own money, whereas venture capitalists primarily invest other people's money [S2]. Traditionally, angel investors are also among the earliest investors, often before a sellable product exists [S2]. Venture capitalists invest in early- to mid-stage private companies in order to earn large returns on the investment [S1].",
     "prompt_tokens": 1845,
     "generated_tokens": 69,
-    "seconds": 6.9219970703125,
-    "tokens_per_second": 24.86750171617237,
+    "seconds": 4.067268133163452,
+    "tokens_per_second": 36.00367706493147,
     "peak_memory_gb": 3.382376086,
-    "process_rss_gb": 2.190753792
+    "process_rss_gb": 2.854879232
   },
   "model_load_seconds": null
 }

@@ -2,7 +2,7 @@
   "mode": "ask",
   "execution": "local",
   "env": {
-    "timestamp": "2026-09-26T14:59:22",
+    "timestamp": "2026-09-27T11:51:44",
     "execution": "local",
     "model": "mlx-community/gemma-4-e2b-it-4bit",
     "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
@@ -12,7 +12,7 @@
   "question": "How much ownership should a founder expect to give up in a seed round?",
   "retrieval": {
     "top_k": 6,
-    "seconds": 0.05281209945678711,
+    "seconds": 0.052449941635131836,
     "hits": [
       {
         "id": "harlem-return-the-fund:003",
@@ -134,10 +134,10 @@
     "text": "A founder should expect to give up between 20% and 30% ownership in the Seed round [S1].",
     "prompt_tokens": 2221,
     "generated_tokens": 27,
-    "seconds": 7.742494106292725,
-    "tokens_per_second": 23.95643478680049,
+    "seconds": 4.29717493057251,
+    "tokens_per_second": 31.286626319275552,
     "peak_memory_gb": 3.328681366,
-    "process_rss_gb": 1.633107968
+    "process_rss_gb": 2.320498688
   },
-  "model_load_seconds": 4.838824987411499
+  "model_load_seconds": 4.208953857421875
 }

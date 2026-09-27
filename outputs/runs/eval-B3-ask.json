@@ -2,7 +2,7 @@
   "mode": "ask",
   "execution": "local",
   "env": {
-    "timestamp": "2026-09-26T15:01:29",
+    "timestamp": "2026-09-27T11:53:06",
     "execution": "local",
     "model": "mlx-community/gemma-4-e2b-it-4bit",
     "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
@@ -12,7 +12,7 @@
   "question": "What is dilution, and how can an early investor limit it?",
   "retrieval": {
     "top_k": 6,
-    "seconds": 0.001806020736694336,
+    "seconds": 0.0009238719940185547,
     "hits": [
       {
         "id": "harlem-return-the-fund:007",
@@ -123,10 +123,10 @@
     "text": "Dilution is a factor in the return model, and it is the first major assumption in the return model [S2]. Dilution can be varied by industry and company [S2]. Investors may limit dilution by taking a pro-rata in their winners in the Series A to prevent dilution [S2]. Overall, investors typically assume 25 to 30% dilution by exit, and this total dilution can be 40% or more without the Series A pro-rata [S2].",
     "prompt_tokens": 1999,
     "generated_tokens": 103,
-    "seconds": 8.794327020645142,
-    "tokens_per_second": 23.201751839127372,
+    "seconds": 5.276878833770752,
+    "tokens_per_second": 34.900041664016285,
     "peak_memory_gb": 3.30686223,
-    "process_rss_gb": 2.190753792
+    "process_rss_gb": 2.854879232
   },
   "model_load_seconds": null
 }

@@ -2,7 +2,7 @@
   "mode": "ask",
   "execution": "local",
   "env": {
-    "timestamp": "2026-09-26T15:02:12",
+    "timestamp": "2026-09-27T11:53:32",
     "execution": "local",
     "model": "mlx-community/gemma-4-e2b-it-4bit",
     "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
@@ -12,7 +12,7 @@
   "question": "Why can't you value an early-stage startup the same way you value a mature company?",
   "retrieval": {
     "top_k": 6,
-    "seconds": 0.002774953842163086,
+    "seconds": 0.0012240409851074219,
     "hits": [
       {
         "id": "breakintovc-book:221",
@@ -134,10 +134,10 @@
     "text": "INSUFFICIENT EVIDENCE: the sources do not say why an early-stage startup cannot be valued the same way as a mature company.\nThe sources discuss ways to evaluate companies and different return expectations for venture investors [S2], [S4].",
     "prompt_tokens": 1690,
     "generated_tokens": 52,
-    "seconds": 5.791948080062866,
-    "tokens_per_second": 23.319669716985267,
+    "seconds": 3.4091567993164062,
+    "tokens_per_second": 35.89555704470064,
     "peak_memory_gb": 3.350247076,
-    "process_rss_gb": 2.190753792
+    "process_rss_gb": 2.854879232
   },
   "model_load_seconds": null
 }

@@ -66,4 +66,4 @@ _The three originals, unchanged, with their catalog details. The wiki's scope is
 - [[Break Into VC Book]] — book (EPUB), Bradley Miles (2017) · file: `raw/Break Into VC - Bradley Miles.epub`
 
 ---
-_Rebuilt by `wiki ingest` on 2026-09-27 11:24. Draft notes are Gemma output not yet checked against the sources._
+_Rebuilt by `wiki ingest` on 2026-09-27 11:51. Draft notes are Gemma output not yet checked against the sources._

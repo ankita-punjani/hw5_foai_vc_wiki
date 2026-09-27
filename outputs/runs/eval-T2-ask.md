@@ -2,9 +2,9 @@
 
 - **Mode:** ask (standalone research, no chat history) · **Execution:** local · **Network:** offline (no route to internet)
 - **Model:** `mlx-community/gemma-4-e2b-it-4bit` · **Runtime:** mlx-lm 0.31.3 / mlx 0.32.2 · **Device:** arm64 · macOS 15.6.1
-- **Timing:** retrieval 4 ms · generation 9.3s (1718 prompt + 69 generated tokens, 15 tok/s)
-- **Memory:** peak MLX 3.31 GB · process max RSS 1.63 GB
-- **Timestamp:** 2026-09-26T14:59:37
+- **Timing:** retrieval 1 ms · generation 4.0s (1718 prompt + 69 generated tokens, 36 tok/s)
+- **Memory:** peak MLX 3.31 GB · process max RSS 2.32 GB
+- **Timestamp:** 2026-09-27T11:51:54
 
 ## Answer (verbatim Gemma output)
 

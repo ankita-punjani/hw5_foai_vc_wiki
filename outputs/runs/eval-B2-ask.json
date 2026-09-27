@@ -2,7 +2,7 @@
   "mode": "ask",
   "execution": "local",
   "env": {
-    "timestamp": "2026-09-26T15:01:21",
+    "timestamp": "2026-09-27T11:53:01",
     "execution": "local",
     "model": "mlx-community/gemma-4-e2b-it-4bit",
     "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
@@ -12,7 +12,7 @@
   "question": "Why do venture capitalists ask whether a startup can return the fund?",
   "retrieval": {
     "top_k": 6,
-    "seconds": 0.0033299922943115234,
+    "seconds": 0.0014548301696777344,
     "hits": [
       {
         "id": "harlem-return-the-fund:002",
@@ -132,10 +132,10 @@
     "text": "Venture capitalists ask whether a startup can return the fund to determine if it is a \"Fund Returner\" [S1]. A Fund Returner is defined as investing an amount of money and receiving back 100% of the total fund from that investment [S1]. For example, a $40mm fund investing a $750k check and getting a 53.3x return to generate $40mm in return dollars is shown as a Fund Returner [S1].",
     "prompt_tokens": 1835,
     "generated_tokens": 105,
-    "seconds": 8.352374792098999,
-    "tokens_per_second": 24.061485344709475,
+    "seconds": 5.151308059692383,
+    "tokens_per_second": 35.80493675062464,
     "peak_memory_gb": 3.377346198,
-    "process_rss_gb": 2.190753792
+    "process_rss_gb": 2.854879232
   },
   "model_load_seconds": null
 }

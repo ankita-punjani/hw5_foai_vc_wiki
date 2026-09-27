@@ -2,7 +2,7 @@
   "mode": "ask",
   "execution": "local",
   "env": {
-    "timestamp": "2026-09-26T15:01:09",
+    "timestamp": "2026-09-27T11:52:52",
     "execution": "local",
     "model": "mlx-community/gemma-4-e2b-it-4bit",
     "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
@@ -12,7 +12,7 @@
   "question": "What is the difference between pre-money and post-money valuation?",
   "retrieval": {
     "top_k": 6,
-    "seconds": 0.05375194549560547,
+    "seconds": 0.05312776565551758,
     "hits": [
       {
         "id": "breakintovc-book:193",
@@ -133,10 +133,10 @@
     "text": "The pre-money valuation is the value of a company before an investment, while the post-money valuation is the value of the company after an investment [S2]. The key differences between the two are the timing of the valuation and the ownership stake [S2].",
     "prompt_tokens": 1763,
     "generated_tokens": 55,
-    "seconds": 5.8441290855407715,
-    "tokens_per_second": 22.464408587774248,
+    "seconds": 4.202595233917236,
+    "tokens_per_second": 36.265630254084705,
     "peak_memory_gb": 3.338329714,
-    "process_rss_gb": 2.190753792
+    "process_rss_gb": 2.854879232
   },
-  "model_load_seconds": 4.624690294265747
+  "model_load_seconds": 3.362480878829956
 }

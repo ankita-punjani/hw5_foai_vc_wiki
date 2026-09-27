@@ -1,0 +1,107 @@
+{
+  "mode": "chat",
+  "env": {
+    "timestamp": "2026-09-27T12:10:03",
+    "execution": "local",
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
+    "device": "arm64 · macOS 15.6.1",
+    "network": "offline (no route to internet)"
+  },
+  "turns": [
+    {
+      "user": "what is carried interest?",
+      "retrieval": "notes: searched, 2 passages — message matches the notes (best coverage 71%)",
+      "hits": [
+        {
+          "id": "breakintovc-book:023",
+          "source_note": "Break Into VC Book",
+          "file": "raw/Break Into VC - Bradley Miles.epub",
+          "locator": "Chapter 2: Early Stage Investing › How Does It Work?",
+          "score": 6.651,
+          "coverage": 0.711,
+          "matched_terms": [
+            "carri",
+            "interest"
+          ],
+          "text": "The average fund size of all venture capital stages is about $400M and the average venture capital deal size is $18M.1\n\nThe larger the firm’s stake in the company as shown in the account of all major shareholders, or capitalization table, the larger CynMerc’s returns are when the company makes an exit either through an initial public offering (IPO) or any mergers & acquisitions (M&A) activity.\n\nSince Cynthia and Mercedes are partners at CynMerc, they will charge a management fee of about 2 percent to the limited partners in order to pay their own salaries, and the salaries of the associates and the support staff (you).\n\nOnce the limited partners receive 100 percent of their money back, Cynthia and Mercedes receive 20 percent of any additional profits while the limited partners receive 80 percent. The 20 percent that Cynthia and Mercedes receive is referred to as carried interest."
+        },
+        {
+          "id": "breakintovc-book:280",
+          "source_note": "Break Into VC Book",
+          "file": "raw/Break Into VC - Bradley Miles.epub",
+          "locator": "Glossary",
+          "score": 6.023,
+          "coverage": 0.711,
+          "matched_terms": [
+            "carri",
+            "interest"
+          ],
+          "text": "Capitalization Table\n\nAn account of all shareholders in a private company broken down into their percentage of ownership and value of equity in each fundraising round.\n\nCarried Interest\n\nThe share of the profits that partners receive after the amount invested has been returned. In venture capital, this is commonly 20 percent of future profits.\n\nCash\n\nCurrency or its equivalent that can be accessed immediately or in the near short-term.\n\nCash Flow from Financing\n\nThe flow of cash between the company and its creditors. Anything that has to do with raising money or repaying shareholders will fall into CFF.\n\nCash Flow from Investing\n\nThe flow of cash from the buying and selling of long-term assets like buildings and heavy machinery.\n\nCash Flow from Operations\n\nThe flow of cash from ongoing core business activities like sales of goods or services.\n\nCash Flow Statement\n\nAllows a business to see the cash inflows and outflows in a given period.\n\nChanges in Working Capital\n\nSince working capital is current assets minus current liabilities, changes in working capital measures this difference across the periods.\n\nChicago Method"
+        }
+      ],
+      "reply": "Hey! Carried interest is basically the share of future profits that the partners take after the investors get their original money back. [N1] It's commonly around 20% of those future profits in venture capital.",
+      "first_reply_before_citation_fix": null,
+      "cited": [
+        1
+      ],
+      "citation_warnings": [],
+      "generation": {
+        "text": "Hey! Carried interest is basically the share of future profits that the partners take after the investors get their original money back. [N1] It's commonly around 20% of those future profits in venture capital.",
+        "prompt_tokens": 1272,
+        "generated_tokens": 47,
+        "seconds": 4.4250829219818115,
+        "tokens_per_second": 29.768500826149488,
+        "peak_memory_gb": 3.276897972,
+        "process_rss_gb": 1.977335808
+      }
+    },
+    {
+      "user": "explain that more simply",
+      "retrieval": "notes: reused 2 passages from the previous answer — follow-up that reworks the previous reply",
+      "hits": [
+        {
+          "id": "breakintovc-book:023",
+          "source_note": "Break Into VC Book",
+          "file": "raw/Break Into VC - Bradley Miles.epub",
+          "locator": "Chapter 2: Early Stage Investing › How Does It Work?",
+          "score": 6.651,
+          "coverage": 0.711,
+          "matched_terms": [
+            "carri",
+            "interest"
+          ],
+          "text": "The average fund size of all venture capital stages is about $400M and the average venture capital deal size is $18M.1\n\nThe larger the firm’s stake in the company as shown in the account of all major shareholders, or capitalization table, the larger CynMerc’s returns are when the company makes an exit either through an initial public offering (IPO) or any mergers & acquisitions (M&A) activity.\n\nSince Cynthia and Mercedes are partners at CynMerc, they will charge a management fee of about 2 percent to the limited partners in order to pay their own salaries, and the salaries of the associates and the support staff (you).\n\nOnce the limited partners receive 100 percent of their money back, Cynthia and Mercedes receive 20 percent of any additional profits while the limited partners receive 80 percent. The 20 percent that Cynthia and Mercedes receive is referred to as carried interest."
+        },
+        {
+          "id": "breakintovc-book:280",
+          "source_note": "Break Into VC Book",
+          "file": "raw/Break Into VC - Bradley Miles.epub",
+          "locator": "Glossary",
+          "score": 6.023,
+          "coverage": 0.711,
+          "matched_terms": [
+            "carri",
+            "interest"
+          ],
+          "text": "Capitalization Table\n\nAn account of all shareholders in a private company broken down into their percentage of ownership and value of equity in each fundraising round.\n\nCarried Interest\n\nThe share of the profits that partners receive after the amount invested has been returned. In venture capital, this is commonly 20 percent of future profits.\n\nCash\n\nCurrency or its equivalent that can be accessed immediately or in the near short-term.\n\nCash Flow from Financing\n\nThe flow of cash between the company and its creditors. Anything that has to do with raising money or repaying shareholders will fall into CFF.\n\nCash Flow from Investing\n\nThe flow of cash from the buying and selling of long-term assets like buildings and heavy machinery.\n\nCash Flow from Operations\n\nThe flow of cash from ongoing core business activities like sales of goods or services.\n\nCash Flow Statement\n\nAllows a business to see the cash inflows and outflows in a given period.\n\nChanges in Working Capital\n\nSince working capital is current assets minus current liabilities, changes in working capital measures this difference across the periods.\n\nChicago Method"
+        }
+      ],
+      "reply": "Carried interest is the portion of future profits that the partners get after the investors have gotten their initial investment back. [N2] It's typically around 20% of those profits in venture capital.",
+      "first_reply_before_citation_fix": null,
+      "cited": [
+        2
+      ],
+      "citation_warnings": [],
+      "generation": {
+        "text": "Carried interest is the portion of future profits that the partners get after the investors have gotten their initial investment back. [N2] It's typically around 20% of those profits in venture capital.",
+        "prompt_tokens": 1347,
+        "generated_tokens": 44,
+        "seconds": 3.6675069332122803,
+        "tokens_per_second": 29.085479000226993,
+        "peak_memory_gb": 3.342382834,
+        "process_rss_gb": 1.977335808
+      }
+    }
+  ]
+}

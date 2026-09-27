@@ -1,0 +1,16 @@
+wiki chat · persona: Carry · execution: local · model: mlx-community/gemma-4-e2b-it-4bit
+Hi, I'm Carry, your VC-math study partner. Ask me anything, or type /help. /exit to quit.
+
+you> what is carried interest?
+· notes: searched, 2 passages — message matches the notes (best coverage 71%)
+carry> Hey! Carried interest is basically the share of future profits that the partners take after the investors get their original money back. [N1] It's commonly around 20% of those future profits in venture capital.
+  notes cited:
+  [N1] Break Into VC Book — raw/Break Into VC - Bradley Miles.epub, Chapter 2: Early Stage Investing › How Does It Work?
+
+you> explain that more simply
+· notes: reused 2 passages from the previous answer — follow-up that reworks the previous reply
+carry> Carried interest is the portion of future profits that the partners get after the investors have gotten their initial investment back. [N2] It's typically around 20% of those profits in venture capital.
+  notes cited:
+  [N2] Break Into VC Book — raw/Break Into VC - Bradley Miles.epub, Glossary
+
+transcript saved to outputs/runs/20260927-121003-chat.md

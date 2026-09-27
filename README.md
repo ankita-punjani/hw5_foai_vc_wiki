@@ -33,8 +33,8 @@ wiki verify                                             # audit every note's num
 | T3: connects two sources | ◐ both sources, both worked examples; misstates one figure (20% vs the slide's 34%) | [T3](evidence/ask/T3.md) |
 | T4: unsupported | ✅ INSUFFICIENT EVIDENCE, after a harness fix (the first run invented a cited definition; kept as evidence) | [T4](evidence/ask/T4.md) |
 | 8 extra beginner questions | 5 ✅, 2 ◐, 1 ❌ (a false refusal on a paraphrase; the rephrased question answers correctly) | [evidence/ask/](evidence/ask/) |
-| Chat / search mode checks | ✅ all 9 boundaries hold; chat's echo of a false "5%" claim was caught and corrected by the harness | [mode-checks.md](evidence/mode-checks.md) |
-| Offline run (ingest, 12 ask questions, chat, search, verify, errors) | ✅ all network access denied by the OS for every process | [terminal log](evidence/offline/terminal-log-sandboxed.txt) |
+| Chat / search mode checks | ✅ all 9 boundaries hold; chat's echo of a false "5%" claim was caught by the harness. My own offline chat found 2 more issues; both were fixed and retested | [mode-checks.md](evidence/mode-checks.md) |
+| Offline run (ingest, 12 ask questions, chat, search, verify, errors) | ✅ **Wi-Fi off** (`Wi-Fi Power (en0): Off`), plus a second run with network denied by the OS: identical answers | [Wi-Fi-off log](evidence/offline/terminal-log.txt) · [screenshots](evidence/offline/) |
 | Retrieval checked before the model | 10 of 12 expected passages found (misses: B3's glossary definition, B8's slides); one chunking fix, one tested-and-rejected experiment | [retrieval-check.md](evidence/retrieval-check.md) |
 | Wiki: review + automatic audit | 24 notes reviewed by hand; `wiki verify`: 459 numbers, 0 unsupported | [review log](evidence/wiki-review-log.md) |
 | Re-ingest, no duplicates | same 27 files; reviewed notes untouched | [reingest-check.txt](evidence/reingest-check.txt) |
@@ -165,6 +165,7 @@ the smallest model that works for this wiki.
 | **Ingest**: 21 topic notes drafted by Gemma (~2.0–3.7k prompt tokens, ~230–490 generated each), first build | 290 s total, 10–18 s per note, 31–34 tok/s | peak MLX **3.42 GB** |
 | **Ingest**: 3 more Basics notes, added later | 72 s total (18–36 s per note, 21–23 tok/s with Low Power Mode on) | peak MLX 3.33 GB |
 | **One RAG answer** (`wiki ask`, 6 passages, 2,159 prompt tokens), whole command | **14.4 s** wall (5.2 s load + 5.8 s generation + startup) | peak MLX 3.33 GB · process peak footprint **3.85 GB** |
+| The four ask tests (`wiki eval`), whole command, Wi-Fi off | 26.2 s including the model load (~5 s per answer) | peak MLX 3.33 GB |
 | Search (no model) | 50–120 ms | — |
 
 **A measurement that went wrong, kept on purpose.** The morning after the build, with the laptop
@@ -225,7 +226,7 @@ has both measurements.
   - **Persona and context.** It loads [`instructions/persona.md`](instructions/persona.md) ("Carry", a study partner for VC beginners, with its real capabilities and commands) instead of the research rules. It keeps the last 6 exchanges (7,000-character cap) as conversation context.
   - **Retrieval decision.** **Before each message, the harness decides whether to retrieve** (`decide_retrieval`):
     - greetings and questions about the assistant → no lookup
-    - rewrite-style follow-ups when there is history ("make that shorter") → no lookup; use the conversation
+    - rewrite-style follow-ups when there is history ("make that shorter", "explain that more simply") → no new lookup; use the conversation, **and re-attach the previous answer's notes** so the rewording stays grounded
     - everything else → run BM25, and attach notes only if the best passage covers ≥ 50% of the message's IDF-weighted terms
 
     `/notes` and `/nonotes` override this, and every decision is printed (`· notes: not searched — question about the assistant itself`).
@@ -317,32 +318,40 @@ Evidence: [`evidence/reingest-check.txt`](evidence/reingest-check.txt) (a full r
 9. two error cases
 10. prove the internet is still unreachable
 
-I couldn't turn Wi-Fi off at the time, so the recorded run uses [`run-sandboxed-demo.sh`](evidence/offline/run-sandboxed-demo.sh). It wraps the whole script in macOS `sandbox-exec` with the profile `(deny network*)`, so **the kernel refuses every network call from the script and every process it starts**:
+**Run 1: Wi-Fi turned off (the primary evidence).** I ran the script in Terminal with Wi-Fi off, on 2026-09-27 at 11:49:
 
 ```
-offline mode: network denied to every process by macOS sandbox-exec profile "(deny network*)" (Wi-Fi itself still on)
+offline mode: Wi-Fi turned off by the user
+Sun Sep 27 11:49:26 PDT 2026
+Wi-Fi Power (en0): Off
 ping 1.1.1.1: unreachable
 curl: (6) Could not resolve host: huggingface.co
 curl huggingface.co: failed -> offline
 ```
 
-Every run log from that session records `network: offline (no route to internet)`. The CLI still loaded Gemma from the local cache and ran everything, which shows it needs no network. The same script also runs without the sandbox, after turning Wi-Fi off: `evidence/offline/run-offline-demo.sh`.
+→ **Full log:** [`evidence/offline/terminal-log.txt`](evidence/offline/terminal-log.txt). Every run log from the session also records `network: offline (no route to internet)`.
 
-→ **Full log:** [`evidence/offline/terminal-log-sandboxed.txt`](evidence/offline/terminal-log-sandboxed.txt). An earlier run with Wi-Fi on, which I aborted, is kept as [`terminal-log-online-aborted.txt`](evidence/offline/terminal-log-online-aborted.txt) and is **not** offline evidence.
+Screenshots from that run:
+- [end of the demo](evidence/offline/wifi-off-run-end.png): the `wiki verify` audit, the error messages, and "still offline" at 11:53
+- [my own interactive chat, typed by me while still offline](evidence/offline/wifi-off-my-own-chat.png): capabilities → "what is carried interest?" (cited) → "explain that more simply" → a general question → goodbye
 
-Offline ingest, from that log:
+Offline ingest from that log:
 
 ```
 $ /usr/bin/time -l ./wiki ingest 'vault/raw/Harlem Capital - Return the Fund.pdf' --redraft
 wiki notes before: 27
 indexed  raw/Harlem Capital - Return the Fund.pdf: 7 sections -> 8 passages (1,536 words) sha256 1650f2620aef…
-redrafted -> data/drafts (reviewed note untouched) data/drafts/How Venture Capital Works.md · 18.6s · 2394 prompt + 323 generated tokens
+redrafted -> data/drafts (reviewed note untouched) data/drafts/How Venture Capital Works.md · 14.2s · 2394 prompt + 323 generated tokens
 ...   (VC Glossary, VC Math Practice Problems, Check Size and Reserves, Return the Fund, Power Law, Dilution, Ownership Targets)
-gemma    9 generations in 179s (+5.2s load) · peak MLX memory 3.33 GB · process max RSS 1.64 GB
-      187.74 real       117.22 user        27.68 sys
-          3930000528  peak memory footprint
+gemma    9 generations in 126s (+5.0s load) · peak MLX memory 3.33 GB · process max RSS 1.00 GB
+      133.30 real        63.56 user        17.60 sys
+          3922152928  peak memory footprint
 wiki notes after:  27  (same count = no duplicates)
 ```
+
+The four ask tests (`wiki eval`, including model load) took **26.2 s** in total.
+
+**Run 2: network denied by the operating system (a corroborating run).** Before I could turn Wi-Fi off, I ran the same script through [`run-sandboxed-demo.sh`](evidence/offline/run-sandboxed-demo.sh). It wraps everything in macOS `sandbox-exec (deny network*)`, so the kernel refuses every network call from every process ([log](evidence/offline/terminal-log-sandboxed.txt)). **All 14 ask answers in the two runs are word-for-word identical** (greedy decoding), which shows the results don't depend on how the network was cut. An earlier run with Wi-Fi on, which I aborted, is kept as [`terminal-log-online-aborted.txt`](evidence/offline/terminal-log-online-aborted.txt) and is **not** offline evidence.
 
 ### 2. The four ask-mode tests (test set v2)
 
@@ -389,6 +398,7 @@ Written before running, in [`tests/beginner_questions.yml`](tests/beginner_quest
 - a factual chat question: automatic lookup and a cited answer
 - **a false claim in chat** ("VCs charge a 5% management fee"). Gemma's first reply echoed it with a citation to a note that says 2%. **The harness citation check caught it** and the corrected reply gives 2%. Asked afterwards in ask mode, the answer is "about 2 percent [S1]", so the chat claim is not evidence.
 - raw `search` results with file and page, and no generated answer
+- **my own chat, typed with Wi-Fi off** ([screenshot](evidence/offline/wifi-off-my-own-chat.png)). It found two real issues. "explain that more simply" triggered a fresh notes search instead of being treated as a follow-up. And once routed correctly, the simplified answer drifted ("carry goes to the founders and investors", when it goes to the fund's partners). Fixes: the follow-up pattern was widened, and follow-ups now re-attach the previous answer's notes. Retested offline: "the portion of future profits that the partners get … around 20% [N2: glossary]" ([check](evidence/offline/router-fix-check.txt)).
 
 ### 5. Obsidian: the wiki as a person sees it
 

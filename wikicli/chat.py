@@ -27,8 +27,9 @@ META = re.compile(
     re.I,
 )
 FOLLOW_UP = re.compile(
-    r"\b(make (it|that|this|them)|shorter|longer|shorten|simpler|simplify|rephrase|reword|rewrite|"
-    r"turn (it|that|this) into|as bullets|bullet points|more concise|tl;?dr|another version|try again|expand on (it|that|this))\b",
+    r"\b(make (it|that|this|them)|shorter|longer|shorten|simpler|simplify|more simply|in plain|plain english|eli5|"
+    r"explain (it|that|this)|say (it|that|this)|rephrase|reword|rewrite|turn (it|that|this) into|as bullets|"
+    r"bullet points|more concise|tl;?dr|another version|try again|expand on (it|that|this))\b",
     re.I,
 )
 
@@ -104,6 +105,11 @@ class Chat:
                 reason = f"no note matches this well (best coverage {best:.0%} < {need:.0%})"
 
         status = f"notes: searched, {len(hits)} passages — {reason}" if hits else f"notes: not searched — {reason}"
+        if not hits and force is None and reason.startswith("follow-up") and self.last_reply and self.last_reply["hits"]:
+            # A rewrite of the previous answer keeps that answer's evidence in view, so rewording
+            # cannot drift away from the notes (and the citation check still applies).
+            hits = self.last_reply["hits"]
+            status = f"notes: reused {len(hits)} passages from the previous answer — {reason}"
         print(f"{DIM}· {status}{RESET}")
         messages = chat_messages(self.trimmed_history(), message, hits, reason)
 

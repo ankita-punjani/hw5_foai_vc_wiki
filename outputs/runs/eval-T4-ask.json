@@ -2,7 +2,7 @@
   "mode": "ask",
   "execution": "local",
   "env": {
-    "timestamp": "2026-09-26T15:00:00",
+    "timestamp": "2026-09-27T11:52:07",
     "execution": "local",
     "model": "mlx-community/gemma-4-e2b-it-4bit",
     "runtime": "mlx-lm 0.31.3 / mlx 0.32.2",
@@ -12,7 +12,7 @@
   "question": "What hurdle rate (preferred return) must a venture fund deliver to its limited partners before the partners can earn carried interest?",
   "retrieval": {
     "top_k": 6,
-    "seconds": 0.00543212890625,
+    "seconds": 0.0015749931335449219,
     "hits": [
       {
         "id": "breakintovc-book:023",
@@ -138,10 +138,10 @@
     "text": "INSUFFICIENT EVIDENCE: the sources do not say what hurdle rate (preferred return) must be delivered by a venture fund to its limited partners before partners can earn carried interest.",
     "prompt_tokens": 1931,
     "generated_tokens": 37,
-    "seconds": 6.81073784828186,
-    "tokens_per_second": 22.21141445477856,
+    "seconds": 3.2836999893188477,
+    "tokens_per_second": 36.692380257065444,
     "peak_memory_gb": 3.270620836,
-    "process_rss_gb": 1.633107968
+    "process_rss_gb": 2.320498688
   },
   "model_load_seconds": null
 }
